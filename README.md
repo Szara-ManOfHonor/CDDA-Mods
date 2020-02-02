@@ -17,9 +17,9 @@ All credit for the original mods goes to their creators.
 # Current update status
 Check issues for the most important details. Testing performed on experimental build 10076.
 
-Recent updates to the experimentals broke a LOT of things. Almost everything is working now, but due to the sheer number of mods and lack of time I haven't playtested everything. Hit me up with issues if you come across a bug.
+This spring is a very busy season for me, I'm probably not going to be doing many updates except for critical problems brought up in issues. If I have time I'l work on it, but when I'm woking 13 hours a day 7 days a week I probably won't be pushing many updates. So of course, hit me up with issues if you come across a bug.
 
-ZSFixed_Extended Buildings and Roadwarrior (madmax) are borked and will not load. Hopefully fixed soonish.
+ZSFixed_Extended Buildings and Roadwarrior (madmax) are borked and will not load. Hopefully fixed eventually
 
 Touhou mod has had golems removed becasue they were broken. I'd like to fix and add them back in eventually.
 
@@ -38,7 +38,7 @@ Cata++ https://github.com/Noctifer-de-Mortem/nocts_cata_mod
 
 Dorf_Life https://github.com/chaosvolt/Dorf-Life-CDDA
 
-Fallout in CDDA https://github.com/Tefnut/Fallout-in-CDDA (Still in my repository for now, but this link is more updated)
+Fallout in CDDA https://github.com/Tefnut/Fallout-in-CDDA (Still in my repository for now, but this link is more updated, or not, I'm not sure, it didn't have the wheel hub update last I checked)
 
 MST_Extra https://github.com/chaosvolt/MST_Extra_Mod
 
