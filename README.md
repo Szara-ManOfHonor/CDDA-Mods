@@ -1,6 +1,6 @@
 # CDDA-Mods
 CDDA Mods that aren't mainlined.
-The other respository by RoaringJohn hasn't been updated to fix broken mods, so I'm just going to update this repository instead of making pull requests to one which seems to be abandoned.
+Created during a time when RoaringJohn wasn't updating his repository. How updated this one is will be inversely proportional to how many weeks I've been away from home.
 
 Please report issues with these mods. Suggestions for additions are welcome, except for mods which are being actively maintained elsewhere.
 
@@ -15,9 +15,9 @@ A bunch of mods have been removed from this repository because they are being up
 All credit for the original mods goes to their creators.
 
 # Current update status
-Check issues for the most important details. Testing performed on experimental build 10076.
+Check issues for the most important details. Testing in progress. Consider this repository WIP right now.
 
-This spring is a very busy season for me, I'm probably not going to be doing many updates except for critical problems brought up in issues. If I have time I'l work on it, but when I'm woking 13 hours a day 7 days a week I probably won't be pushing many updates. So of course, hit me up with issues if you come across a bug.
+Just spent a month in Romania away from my computer, and had a very busy spring. Finally going to be pushing updates now though. It difficult when I'm woking 13 hours a day 7 days a week.
 
 ZSFixed_Extended Buildings and Roadwarrior (madmax) are borked and will not load. Hopefully fixed eventually
 
