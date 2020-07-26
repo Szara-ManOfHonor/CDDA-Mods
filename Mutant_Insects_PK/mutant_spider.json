@@ -237,41 +237,6 @@
     "flags": [ "SEES", "SMELLS", "HEARS", "WEBWALK", "CLIMBS" ]
   },
   {
-    "id": "mon_spider_web",
-    "alias": "mon_giant_web_spider",
-    "type": "MONSTER",
-    "copy-from": "mon_giant_spider",
-    "name": "giant web spider",
-    "description": "A giant web-spider about the size of a cougar.  It waits for prey to become ensnared in the vast webs that it weaves between the trees.",
-    "default_faction": "spider_web",
-    "symbol": "S",
-    "color": "yellow",
-    "dodge": 6,
-    "attack_effs": [ { "id": "poison", "chance": 50, "duration": 20 } ],
-    "upgrades": { "half_life": 60, "into": "mon_mega_web_spider" },
-    "reproduction": { "baby_egg": "egg_web_spider", "baby_count": 1, "baby_timer": 10 },
-    "anger_triggers": [ "PLAYER_WEAK", "PLAYER_CLOSE" ],
-    "fear_triggers": [ "FIRE" ],
-    "flags": [ "SEES", "SMELLS", "HEARS", "WEBWALK", "CLIMBS" ]
-  },
-  {
-    "id": "mon_mega_web_spider",
-    "type": "MONSTER",
-    "copy-from": "mon_mega_spider",
-    "name": "mega web-spider",
-    "description": "A giant web-spider about the size of a horse.  It waits for prey to become ensnared in the vast webs that it weaves between the trees.",
-    "default_faction": "spider_web",
-    "symbol": "S",
-    "color": "i_yellow",
-    "dodge": 6,
-    "attack_effs": [ { "id": "poison", "chance": 50, "duration": 20 } ],
-    "reproduction": { "baby_egg": "egg_web_spider", "baby_count": 2, "baby_timer": 10 },
-    "anger_triggers": [ "PLAYER_WEAK", "PLAYER_CLOSE" ],
-    "flags": [ "SEES", "SMELLS", "HEARS", "WEBWALK", "PET_MOUNTABLE" ]
-  },
-
-
-  {
     "id": "mon_spider_widow_giant_s",
     "alias": "mon_small_blackwidow_spider",
     "type": "MONSTER",

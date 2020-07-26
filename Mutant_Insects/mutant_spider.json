@@ -189,7 +189,7 @@
     "dodge": 8,
     "attack_effs": [ { "id": "poison", "chance": 50, "duration": 10 } ],
     "reproduction": { "baby_egg": "egg_trapdoor_spider", "baby_count": 1, "baby_timer": 10 },
-    "upgrades": { "half_life": 30, "into": "mon_giant_trapdoor_spider" },
+    "upgrades": { "half_life": 30, "into": "mon_spider_trapdoor_giant" },
     "anger_triggers": [ "PLAYER_WEAK", "PLAYER_CLOSE" ],
     "fear_triggers": [ "FIRE" ],
     "flags": [ "SEES", "SMELLS", "HEARS", "GRABS", "CAN_DIG", "WEBWALK", "CLIMBS" ]
