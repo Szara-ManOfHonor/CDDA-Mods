@@ -14,8 +14,7 @@
     "color": "magenta",
     "skill": "pistol",
     "range": 28,
-    "ranged_damage": 12,
-    "pierce": 14,
+    "ranged_damage": { "damage_type": "stab", "amount": 12, "armor_penetration": 14 },
     "dispersion": 200,
     "durability": 8,
     "loudness": 7,
@@ -49,11 +48,13 @@
     "color": "magenta",
     "skill": "smg",
     "range": 28,
-    "ranged_damage": 12,
-    "pierce": 14,
+    "ranged_damage": { "damage_type": "stab", "amount": 12, "armor_penetration": 14 },
     "dispersion": 150,
     "durability": 8,
-    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "BURST", "3 rd.", 3 ] ],
+    "modes": [
+      [ "DEFAULT", "semi-auto", 1 ],
+      [ "BURST", "3 rd.", 3 ]
+    ],
     "loudness": 12,
     "ups_charges": 22,
     "reload": 0,
@@ -85,11 +86,12 @@
     "color": "magenta",
     "skill": "rifle",
     "range": 38,
-    "ranged_damage": 33,
-    "pierce": 14,
+    "ranged_damage": { "damage_type": "stab", "amount": 33, "armor_penetration": 14 },
     "dispersion": 20,
     "durability": 8,
-    "modes": [ [ "DEFAULT", "semi-auto", 1 ] ],
+    "modes": [
+      [ "DEFAULT", "semi-auto", 1 ]
+    ],
     "loudness": 12,
     "ups_charges": 55,
     "reload": 500,
@@ -121,11 +123,12 @@
     "color": "magenta",
     "skill": "shotgun",
     "range": 20,
-    "ranged_damage": 15,
-    "pierce": 14,
+    "ranged_damage": { "damage_type": "stab", "amount": 15, "armor_penetration": 14 },
     "dispersion": 500,
     "durability": 8,
-    "modes": [ [ "DEFAULT", "multi", 4 ] ],
+    "modes": [
+      [ "DEFAULT", "multi", 4 ]
+    ],
     "loudness": 12,
     "ups_charges": 22,
     "reload": 150,
@@ -142,4 +145,5 @@
     "ammo_effects": [ "LASER", "INCENDIARY" ],
     "flags": [ "NEVER_JAMS", "NO_UNLOAD" ]
   }
+  
 ]
