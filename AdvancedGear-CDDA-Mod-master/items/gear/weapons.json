@@ -62,6 +62,7 @@
     "color": "light_gray",
     "price": 500000,
     "material": "nanite",
+	"skill": "rifle",
     "ammo": "nanite_ammo",
     "flags": ["NEVER_JAMS", "NONCONDUCTIVE", "TRADER_AVOID", "WATERPROOF_GUN" ],
     "volume": 1,

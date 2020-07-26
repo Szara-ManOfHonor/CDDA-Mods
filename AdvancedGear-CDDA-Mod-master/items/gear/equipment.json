@@ -282,7 +282,7 @@
       "encumbrance": 4,
       "material_thickness": 1
     },
-    "flags": ["RIGID", "SEALS", "WATERTIGHT", "NONCONDUCTIVE", "TRADER_AVOID" ],
+    "flags": ["RIGID", "SEALS", "WATERTIGHT", "NONCONDUCTIVE", "TRADER_AVOID", "TARDIS" ],
     "seals": true,
     "preserves": true,
     "watertight": true,

@@ -38,10 +38,6 @@
         "moves_cost": 5
       },
       {
-        "type": "picklock",
-        "pick_quality": 50
-      },
-      {
         "flame": false,
         "type": "cauterize"
       },
@@ -53,9 +49,12 @@
         "tool_quality": 2,
         "cost_scaling": 0,
         "move_cost": 500
-      }
+      },
+	  {
+        "type": "PICK_LOCK"
+      } 	  
     ],
-    "qualities": [["CUT", 3], ["CUT_FINE", 5], ["SMOOTH", 1], ["HAMMER", 3], ["HAMMER_FINE", 1], ["SAW_M_FINE", 1], ["COOK", 3], ["DISTILL", 1], ["CHEM", 3], ["BOIL", 1], ["WRENCH", 3], ["WRENCH_FINE", 1], ["SCREW", 3], ["SCREW_FINE", 1], ["BUTCHER", 50], ["DRILL", 3], [ "CHISEL", 3] ]
+    "qualities": [["CUT", 3], ["CUT_FINE", 5], ["SMOOTH", 1], ["HAMMER", 3], ["HAMMER_FINE", 1], ["SAW_M_FINE", 1], ["COOK", 3], ["DISTILL", 1], ["CHEM", 3], ["BOIL", 1], ["WRENCH", 3], ["WRENCH_FINE", 1], ["SCREW", 3], ["SCREW_FINE", 1], ["BUTCHER", 50], ["DRILL", 3], ["CHISEL", 3], [ "LOCKPICK", 50 ] ]
   },{
     "id": "nanite_multitool_large",
     "type": "TOOL",
