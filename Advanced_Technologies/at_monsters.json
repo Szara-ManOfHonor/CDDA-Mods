@@ -36,7 +36,7 @@
     "species":"ROBOT",
 	"default_faction":"cop_bot",
     "symbol":"@",
-    "color":"ltgray",
+    "color":"light_gray",
     "size":"MEDIUM",
     "material":"steel",
     "diff":2,

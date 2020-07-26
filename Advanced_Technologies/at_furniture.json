@@ -5,7 +5,7 @@
         "name": "robotics assembly bench",
         "description": "robotics assembly bench",
         "symbol": "=",
-        "color": "ltgray",
+        "color": "light_gray",
         "move_cost_mod": -1,
         "required_str": -1,
         "crafting_pseudo_item": "precision_toolkit",
