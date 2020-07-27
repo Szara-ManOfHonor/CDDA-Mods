@@ -1,5 +1,6 @@
 [
   {
+      "id" : "Half_Gel_Door",
       "type" : "construction",
       "description" : "Build Gel Door", "//": "Step 1: door frame",
       "category" : "CONSTRUCT",
@@ -12,6 +13,7 @@
       "pre_special" : "check_empty",
       "post_terrain" : "t_gel_door_frame"
   },{
+      "id" : "Full_Gel_Door",
       "type" : "construction",
       "description" : "Build Gel Door", "//": "Step 2: complete the door",
       "category" : "CONSTRUCT",

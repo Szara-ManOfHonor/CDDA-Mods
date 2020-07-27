@@ -1,5 +1,6 @@
 [
   {
+      "id" : "Half_Gel_wall",
       "type" : "construction",
       "description" : "Build Gel Wall", "//": "Step 1: half of a wall in an empty space",
       "category" : "CONSTRUCT",
@@ -12,6 +13,7 @@
       "pre_special" : "check_empty",
       "post_terrain" : "t_gel_wall_half"
   },{
+      "id" : "Full_Gel_wall",
       "type" : "construction",
       "description" : "Build Gel Wall", "//": "Step 2: complete the half made wall",
       "category" : "CONSTRUCT",
