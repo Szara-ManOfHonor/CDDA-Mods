@@ -54,6 +54,8 @@ PK's Rebalance https://github.com/dissociativity/PKs_Rebalancing
 
 Secronom https://github.com/Axema/Secronom-Zombies
 
+Tanks(Legacy) https://github.com/Soup-de-Loop/CDDA-tankmod-legacy-latest
+
 Vampiric Stuff https://github.com/Axema/Vampiric-Stuff
 
 Youkai Disco https://github.com/Toltetix/cdda-youkai-mod
