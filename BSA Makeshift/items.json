@@ -1,101 +1,72 @@
 [
- {
-  "id": "makeshift_umbrella", 
-  "type": "GENERIC", 
-  "category": "tools", 
-  "name": "makeshift umbrella", 
-  "description": "A crudely made umbrella, used to keep dry when weilded.", 
-  "weight": 118,
-  "volume": 2, 
-  "price": 12000, 
-  "to_hit": 1, 
-  "bashing": 1,
-  "material": [ "plastic", "aluminum" ], 
-  "symbol": ",",
-  "color": "dark_gray",
-  "techniques": [ "WBLOCK_1" ],
-  "flags": [ "RAIN_PROTECT" ] 
- },
- {
-    "id": "make_pla_flask",
-    "type": "CONTAINER",
-    "category": "other",
-    "name": "makeshift plastic flask",
-    "description": "A small plastic flask with a crude lid, it's see through but works as intended.",
-    "weight": 120,
-    "volume": 1,
-    "price": 100,
-    "to_hit": 1,
-    "bashing": 3,
-    "material": "plastic",
-    "symbol": ")",
-    "color": "light_gray",
-    "contains": 1,
-    "seals": true,
-    "watertight": true
- },
- {
-    "id": "makeshift_pla_bottle",
-    "type": "CONTAINER",
-    "category": "other",
-    "name": "makeshift plastic bottle",
-    "description": "A crude mostly watertight plastic water bottle.",
-    "weight": 80,
-    "volume": 1,
-    "price": 50,
-    "to_hit": 1,
-    "bashing": 3,
-    "material": "plastic",
-    "symbol": ")",
-    "color": "light_gray",
-    "contains": 2,
-    "seals": true,
-    "watertight": true
- },
- {
-    "id": "make_grenade_frag",
-    "type": "TOOL",
-    "name": "makeshift fragmentation grenade",
-    "description": "A crude fragmentation grenade.",
-    "category": "weapons",
-    "weight": 470,
+  {
+    "id": "makeshift_umbrella",
+    "type": "GENERIC",
+    "category": "tools",
+    "name": { "str": "makeshift umbrella", "str_pl": "makeshift umbrella's" },
+    "description": "A crudely made umbrella, used to keep dry when weilded.",
+    "weight": "118 g",
     "volume": 2,
-    "bashing": 4,
+    "price": 12000,
     "to_hit": 1,
-    "price": 900,
-    "material": ["iron"],
-    "symbol": "*",
-    "color": "green",
-    "explode_in_fire" : true,
-    "explosion" : {
-        "power": 7,
-        "shrapnel": {
-            "count": 10,
-            "mass": 4,
-            "recovery": 5,
-            "drop": "scrap"
-        }
-    },
-    "use_action": {
-        "type": "countdown",
-        "name": "Arm grenade",
-        "message": "You light the fuse on the %s."
-    },
-    "countdown_interval": 3,
-    "countdown_destroy": true,
-    "countdown_action": {
-        "type": "explosion",
-        "explosion_power": 4,
-		"explosion" : {
-			"power": 11,
-			"shrapnel": {
-				"count": 7,
-				"mass": 4,
-				"recovery": 5,
-				"drop": "scrap"
-			}
-		},
-    "flags": [ "BOMB", "NONCONDUCTIVE" ]
-    }
+    "bashing": 1,
+    "material": [ "plastic", "aluminum" ],
+    "symbol": ",",
+    "color": "dark_gray",
+    "techniques": [ "WBLOCK_1" ],
+    "flags": [ "RAIN_PROTECT" ]
+  },
+  {
+    "id": "make_pla_flask",
+    "type": "GENERIC",
+    "category": "CONTAINER",
+    "name": { "str": "makeshift plastic flask", "str_pl": "makeshift plastic flask's"  },
+    "description": "A small plastic flask with a crude lid, it's see through but works as intended.",
+    "weight": "130 g",
+    "volume": "1250 ml",
+    "price": 100,
+    "price_postapoc": 0,
+    "to_hit": 1,
+    "bashing": 3,
+    "material": "plastic",
+    "symbol": ")",
+    "color": "light_gray",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "rigid": true,
+        "watertight": true,
+        "max_contains_volume": "1 L",
+        "max_contains_weight": "4 kg"
+      }
+    ],
+    "insulation": 10
+  },
+  {
+    "id": "makeshift_pla_bottle",
+    "type": "GENERIC",
+    "category": "CONTAINER",
+    "name": { "str": "makeshift plastic bottle", "str_pl": "makeshift plastic bottle's" },
+    "description": "A crude mostly watertight plastic water bottle.",
+    "weight": "10 g",
+    "volume": "502 ml",
+    "price": 50,
+    "price_postapoc": 0,
+    "to_hit": 1,
+    "bashing": 3,
+    "material": "plastic",
+    "ascii_picture": "plastic_bottle",
+    "symbol": ")",
+    "color": "light_gray",
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "watertight": true,
+        "rigid": true,
+        "max_contains_volume": "500 ml",
+        "max_contains_weight": "1 kg",
+        "moves": 400
+      }
+    ]
   }
 ]
