@@ -9,7 +9,7 @@
     "looks_like": "f_robotic_arm",
     "move_cost_mod": -1,
     "required_str": -1,
-    "flags": [ "TRANSPARENT" ],
+    "flags": [ "TRANSPARENT", "AUTODOC" ],
     "examine_action": "autodoc",
     "deconstruct": {
       "items": [
@@ -27,7 +27,7 @@
         { "item": "scrap", "count": [ 6, 8 ] }
       ]
     },
-    "bash": {
+	"bash": {
       "str_min": 8,
       "str_max": 150,
       "sound": "crunch!",
@@ -50,8 +50,8 @@
     "type": "furniture",
     "id": "f_robotic_arm",
     "name": "robotic arm",
+    "description": "This is a robotic arm.",
     "symbol": "&",
-    "description": "Robotic arm.",
     "bgcolor": "yellow",
     "move_cost_mod": 3,
     "required_str": 18,
@@ -70,7 +70,7 @@
         { "item": "Autonmous_Machine_Parts", "count": [ 2, 5 ] }
       ]
     },
-    "bash": {
+	 "bash": {
       "str_min": 8,
       "str_max": 45,
       "sound": "smash!",
