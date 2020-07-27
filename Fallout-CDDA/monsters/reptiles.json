@@ -24,9 +24,9 @@
     "dodge": 2,
     "armor_bash": 6,
     "armor_cut": 8,
-    "harvest": "animal_noskin",
     "vision_day": 3,
     "vision_night": 35,
+	"harvest": "gecko",
     "path_settings": { "max_dist": 8 },
     "special_attacks": [
       {
@@ -55,7 +55,6 @@
       "KEENNOSE",
       "PATH_AVOID_DANGER_1",
       "ANIMAL",
-      "BLEED",
       "ATTACKMON",
       "BONES",
       "LEATHER",
@@ -88,9 +87,9 @@
     "dodge": 2,
     "armor_bash": 6,
     "armor_cut": 8,
-    "harvest": "animal_large_noskin",
     "vision_day": 35,
     "vision_night": 35,
+	"harvest": "gecko",
     "path_settings": { "max_dist": 8 },
     "special_attacks": [
       {
@@ -111,7 +110,6 @@
     "death_function": [ "NORMAL" ],
 	    "reproduction": { "baby_egg": "egg_gecko", "baby_count": 3, "baby_timer": 10 },
     "flags": [
-	"DOGFOOD",
       "SEES",
       "HEARS",
       "GOODHEARING",
@@ -119,7 +117,6 @@
       "KEENNOSE",
       "PATH_AVOID_DANGER_1",
       "ANIMAL",
-      "BLEED",
       "ATTACKMON",
       "BONES",
       "LEATHER",
@@ -152,9 +149,9 @@
     "dodge": 2,
     "armor_bash": 6,
     "armor_cut": 8,
-    "harvest": "animal_noskin",
     "vision_day": 3,
     "vision_night": 35,
+	"harvest": "gecko_gold",
     "path_settings": { "max_dist": 8 },
     "special_attacks": [
       {
@@ -185,7 +182,6 @@
       "KEENNOSE",
       "PATH_AVOID_DANGER_1",
       "ANIMAL",
-      "BLEED",
       "ATTACKMON",
       "BONES",
       "LEATHER",
@@ -218,9 +214,9 @@
     "dodge": 2,
     "armor_bash": 6,
     "armor_cut": 8,
-    "harvest": "animal_large_noskin",
     "vision_day": 35,
     "vision_night": 35,
+	"harvest": "gecko_gold",
     "path_settings": { "max_dist": 8 },
     "special_attacks": [
       {
@@ -243,7 +239,6 @@
     "flags": [
 	"ACIDPROOF",
 	"POISON",
-		"DOGFOOD",
       "SEES",
       "HEARS",
       "GOODHEARING",
@@ -251,7 +246,6 @@
       "KEENNOSE",
       "PATH_AVOID_DANGER_1",
       "ANIMAL",
-      "BLEED",
       "ATTACKMON",
       "BONES",
       "LEATHER",
@@ -285,9 +279,9 @@
     "dodge": 2,
     "armor_bash": 6,
     "armor_cut": 8,
-    "harvest": "mammal_small_leather",
     "vision_day": 70,
     "vision_night": 70,
+	"harvest": "animal_large_noskin",
     "path_settings": { "max_dist": 8 },
     "special_attacks": [
       {
@@ -308,15 +302,14 @@
     "death_function": ["NORMAL" ],
 		"upgrades": { "age_grow": 5, "into": "mon_deathclaw" },
     "flags": [
-	"DOGFOOD",
       "SEES",
       "HEARS",
+	"DOGFOOD",
       "GOODHEARING",
       "SMELLS",
       "KEENNOSE",
       "PATH_AVOID_DANGER_1",
       "ANIMAL",
-      "BLEED",
       "ATTACKMON",
       "BONES",
       "LEATHER",
@@ -349,9 +342,9 @@
     "dodge": 2,
     "armor_bash": 12,
     "armor_cut": 12,
-    "harvest": "mammal_leather",
     "vision_day": 70,
     "vision_night": 70,
+	"harvest": "animal_large_noskin",
     "path_settings": { "max_dist": 8 },
     "special_attacks": [
       {
@@ -372,7 +365,6 @@
     "death_function": [ "NORMAL" ],
 			"upgrades": { "age_grow": 5, "into": "mon_deathclaw_mother" },
     "flags": [
-		"DOGFOOD",
       "SEES",
       "HEARS",
       "GOODHEARING",
@@ -380,7 +372,6 @@
       "KEENNOSE",
       "PATH_AVOID_DANGER_1",
       "ANIMAL",
-      "BLEED",
       "ATTACKMON",
       "BONES",
       "LEATHER",
@@ -413,9 +404,9 @@
     "dodge": 2,
     "armor_bash": 12,
     "armor_cut": 12,
-    "harvest": "mutant_mammal_large_leather",
     "vision_day": 70,
     "vision_night": 70,
+	"harvest": "animal_large_noskin",
     "path_settings": { "max_dist": 8 },
     "special_attacks": [
       {
@@ -436,7 +427,6 @@
     "death_function": [ "NORMAL" ],
 	    "reproduction": { "baby_egg": "egg_deathclaw", "baby_count": 3, "baby_timer": 3 },
     "flags": [
-		"DOGFOOD",
       "SEES",
       "HEARS",
       "GOODHEARING",
@@ -444,7 +434,6 @@
       "KEENNOSE",
       "PATH_AVOID_DANGER_1",
       "ANIMAL",
-      "BLEED",
       "ATTACKMON",
       "BONES",
       "LEATHER",
@@ -478,9 +467,9 @@
     "dodge": 2,
     "armor_bash": 6,
     "armor_cut": 8,
-    "harvest": "mammal_small_leather",
     "vision_day": 70,
     "vision_night": 70,
+	"harvest": "animal_large_noskin",
     "path_settings": { "max_dist": 8 },
     "special_attacks": [
       {
@@ -501,15 +490,14 @@
     "death_function": ["NORMAL" ],
 		"upgrades": { "age_grow": 5, "into": "mon_deathclaw_albino" },
     "flags": [
-	"DOGFOOD",
       "SEES",
       "HEARS",
+	"DOGFOOD",
       "GOODHEARING",
       "SMELLS",
       "KEENNOSE",
       "PATH_AVOID_DANGER_1",
-      "ANIMAL",
-      "BLEED",
+      "ANIMAL",  
       "ATTACKMON",
       "BONES",
       "LEATHER",
@@ -542,9 +530,9 @@
     "dodge": 2,
     "armor_bash": 12,
     "armor_cut": 12,
-    "harvest": "mammal_large_leather",
     "vision_day": 70,
     "vision_night": 70,
+	"harvest": "animal_large_noskin",
     "path_settings": { "max_dist": 8 },
     "special_attacks": [
       {
@@ -565,15 +553,13 @@
     "death_function": [ "NORMAL" ],
 	    "reproduction": { "baby_egg": "egg_deathclaw", "baby_count": 3, "baby_timer": 10 },
     "flags": [
-		"DOGFOOD",
       "SEES",
       "HEARS",
       "GOODHEARING",
       "SMELLS",
       "KEENNOSE",
       "PATH_AVOID_DANGER_1",
-      "ANIMAL",
-      "BLEED",
+      "ANIMAL",      
       "ATTACKMON",
       "BONES",
       "LEATHER",
@@ -609,9 +595,9 @@
     "armor_bash": 6,
     "armor_cut": 8,
 	    "luminance": 200,
-    "harvest": "mammal_small_leather",
     "vision_day": 70,
     "vision_night": 70,
+	"harvest": "animal_large_noskin",
     "path_settings": { "max_dist": 8 },
     "special_attacks": [
       {
@@ -634,15 +620,13 @@
     "flags": [
 		"ACIDPROOF",
 	"POISON",
-	"DOGFOOD",
       "SEES",
       "HEARS",
       "GOODHEARING",
       "SMELLS",
       "KEENNOSE",
       "PATH_AVOID_DANGER_1",
-      "ANIMAL",
-      "BLEED",
+      "ANIMAL",     
       "ATTACKMON",
       "BONES",
       "LEATHER",
@@ -676,9 +660,9 @@
     "dodge": 2,
     "armor_bash": 12,
     "armor_cut": 12,
-    "harvest": "mutant_mammal_large_leather",
     "vision_day": 70,
     "vision_night": 70,
+	"harvest": "animal_large_noskin",
     "path_settings": { "max_dist": 8 },
     "special_attacks": [
       {
@@ -701,20 +685,67 @@
     "flags": [
 		"ACIDPROOF",
 	"POISON",
-		"DOGFOOD",
       "SEES",
       "HEARS",
       "GOODHEARING",
       "SMELLS",
       "KEENNOSE",
       "PATH_AVOID_DANGER_1",
-      "ANIMAL",
-      "BLEED",
+      "ANIMAL",      
       "ATTACKMON",
       "BONES",
       "LEATHER",
       "SWIMS"
     ]
+  },
+  
+  
+  {
+    "id": "mon_iguana",
+    "type": "MONSTER",
+    "name": "common iguana",
+    "description": "A common iguana; a popular pet, and even more popular food source.",
+    "default_faction": "gator",
+    "bodytype": "gator",
+    "categories": [ "WILDLIFE" ],
+    "species": [ "REPTILE" ],
+    "volume": "2500 ml",
+    "weight": "120 kg",
+    "hp": 90,
+    "speed": 90,
+    "material": [ "flesh" ],
+    "symbol": "A",
+    "color": "light_green",
+    "aggression": 0,
+    "morale": 50,
+    "melee_skill": 4,
+    "melee_dice": 1,
+    "melee_dice_sides": 10,
+    "melee_cut": 12,
+    "dodge": 2,
+    "armor_bash": 6,
+    "armor_cut": 8,
+    "vision_day": 3,
+    "vision_night": 35,
+    "harvest": "animal_large_noskin",
+    "path_settings": { "max_dist": 8 },
+    "special_attacks": [
+      {
+        "type": "bite",
+        "cooldown": 20,
+        "accuracy": 6,
+        "damage_max_instance": [
+          { "damage_type": "stab", "amount": 9, "armor_multiplier": 0.5 },
+          { "damage_type": "bash", "amount": 27, "armor_multiplier": 0.5 }
+        ],
+        "effects": [ { "id": "grabbed", "duration": 1000, "bp": "TORSO" } ]
+      }
+    ],
+    "fear_triggers": [ "FIRE", "HURT", "PLAYER_CLOSE" ],
+    "placate_triggers": [ "MEAT" ],
+	"reproduction": { "baby_egg": "egg_reptile", "baby_count": 3, "baby_timer": 10 },
+    "death_function": [ "NORMAL" ],
+    "flags": [ "SEES", "HEARS", "GOODHEARING", "SMELLS", "KEENNOSE", "PATH_AVOID_DANGER_1", "ANIMAL", "ATTACKMON", "DOGFOOD" ]
   }
   
 ]
