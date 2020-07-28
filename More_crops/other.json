@@ -5,11 +5,11 @@
     "name": "shot hull chunk",
     "description": "It is the mass of a cartridge case, it can be used to make empty shell casings",
     "category": "other",
-    "material": "plastic",
+    "material": [ "plastic" ],
     "color": "red",
     "symbol": ".",
-    "weight": 1,
-    "volume": 1,
+    "weight": "1 g",
+    "volume": "250 ml",
     "stack_size": 100
   },
   {
@@ -18,11 +18,11 @@
     "name": "7.62x25mm casing chunk",
     "description": "It is the mass of a cartridge case, it can be used to make empty shell casings",
     "category": "other",
-    "material": "brass",
+    "material": [ "brass" ],
     "color": "red",
     "symbol": ".",
-    "weight": 1,
-    "volume": 1,
+    "weight": "1 g",
+    "volume": "250 ml",
     "stack_size": 100
   },
   {
@@ -31,11 +31,11 @@
     "name": ".700 Nitro Express casing chunk",
     "description": "It is the mass of a cartridge case, it can be used to make empty shell casings",
     "category": "other",
-    "material": "brass",
+    "material": [ "brass" ],
     "color": "red",
     "symbol": ".",
-    "weight": 1,
-    "volume": 1,
+    "weight": "1 g",
+    "volume": "250 ml",
     "stack_size": 100
   },
   {
@@ -44,11 +44,11 @@
     "name": "5.45mm casing chunk",
     "description": "It is the mass of a cartridge case, it can be used to make empty shell casings",
     "category": "other",
-    "material": "brass",
+    "material": [ "brass" ],
     "color": "red",
     "symbol": ".",
-    "weight": 1,
-    "volume": 1,
+    "weight": "1 g",
+    "volume": "250 ml",
     "stack_size": 100
   },
   {
@@ -57,11 +57,11 @@
     "name": ".50 BMG casing chunk",
     "description": "It is the mass of a cartridge case, it can be used to make empty shell casings",
     "category": "other",
-    "material": "brass",
+    "material": [ "brass" ],
     "color": "red",
     "symbol": ".",
-    "weight": 1,
-    "volume": 1,
+    "weight": "1 g",
+    "volume": "250 ml",
     "stack_size": 100
   },
   {
@@ -70,11 +70,11 @@
     "name": ".45 ACP casing chunk",
     "description": "It is the mass of a cartridge case, it can be used to make empty shell casings",
     "category": "other",
-    "material": "brass",
+    "material": [ "brass" ],
     "color": "red",
     "symbol": ".",
-    "weight": 1,
-    "volume": 1,
+    "weight": "1 g",
+    "volume": "250 ml",
     "stack_size": 100
   },
   {
@@ -83,11 +83,11 @@
     "name": ".40 S&W casing chunk",
     "description": "It is the mass of a cartridge case, it can be used to make empty shell casings",
     "category": "other",
-    "material": "brass",
+    "material": [ "brass" ],
     "color": "red",
     "symbol": ".",
-    "weight": 1,
-    "volume": 1,
+    "weight": "1 g",
+    "volume": "250 ml",
     "stack_size": 100
   },
   {
@@ -96,11 +96,11 @@
     "name": ".38 casing chunk",
     "description": "It is the mass of a cartridge case, it can be used to make empty shell casings",
     "category": "other",
-    "material": "brass",
+    "material": [ "brass" ],
     "color": "red",
     "symbol": ".",
-    "weight": 1,
-    "volume": 1,
+    "weight": "1 g",
+    "volume": "250 ml",
     "stack_size": 100
   },
   {
@@ -109,11 +109,11 @@
     "name": ".32 ACP casing chunk",
     "description": "It is the mass of a cartridge case, it can be used to make empty shell casings",
     "category": "other",
-    "material": "brass",
+    "material": [ "brass" ],
     "color": "red",
     "symbol": ".",
-    "weight": 1,
-    "volume": 1,
+    "weight": "1 g",
+    "volume": "250 ml",
     "stack_size": 100
   },
   {
@@ -122,11 +122,11 @@
     "name": ".308 casing chunk",
     "description": "It is the mass of a cartridge case, it can be used to make empty shell casings",
     "category": "other",
-    "material": "brass",
+    "material": [ "brass" ],
     "color": "red",
     "symbol": ".",
-    "weight": 1,
-    "volume": 1,
+    "weight": "1 g",
+    "volume": "250 ml",
     "stack_size": 100
   },
   {
@@ -135,11 +135,11 @@
     "name": ".300 casing chunk",
     "description": "It is the mass of a cartridge case, it can be used to make empty shell casings",
     "category": "other",
-    "material": "brass",
+    "material": [ "brass" ],
     "color": "red",
     "symbol": ".",
-    "weight": 1,
-    "volume": 1,
+    "weight": "1 g",
+    "volume": "250 ml",
     "stack_size": 100
   },
   {
@@ -148,11 +148,11 @@
     "name": ".30-06 casing chunk",
     "description": "It is the mass of a cartridge case, it can be used to make empty shell casings",
     "category": "other",
-    "material": "brass",
+    "material": [ "brass" ],
     "color": "red",
     "symbol": ".",
-    "weight": 1,
-    "volume": 1,
+    "weight": "1 g",
+    "volume": "250 ml",
     "stack_size": 100
   },
   {
@@ -161,11 +161,11 @@
     "name": ".22 LR casing chunk",
     "description": "It is the mass of a cartridge case, it can be used to make empty shell casings",
     "category": "other",
-    "material": "brass",
+    "material": [ "brass" ],
     "color": "red",
     "symbol": ".",
-    "weight": 1,
-    "volume": 1,
+    "weight": "1 g",
+    "volume": "250 ml",
     "stack_size": 100
   },
   {
@@ -174,11 +174,11 @@
     "name": ".223 casing chunk",
     "description": "It is the mass of a cartridge case, it can be used to make empty shell casings",
     "category": "other",
-    "material": "brass",
+    "material": [ "brass" ],
     "color": "red",
     "symbol": ".",
-    "weight": 1,
-    "volume": 1,
+    "weight": "1 g",
+    "volume": "250 ml",
     "stack_size": 100
   },
   {
@@ -187,11 +187,11 @@
     "name": "7.62R casing chunk",
     "description": "It is the mass of a cartridge case, it can be used to make empty shell casings",
     "category": "other",
-    "material": "brass",
+    "material": [ "brass" ],
     "color": "red",
     "symbol": ".",
-    "weight": 1,
-    "volume": 1,
+    "weight": "1 g",
+    "volume": "250 ml",
     "stack_size": 100
   },
   {
@@ -200,11 +200,11 @@
     "name": "7.62x39 casing chunk",
     "description": "It is the mass of a cartridge case, it can be used to make empty shell casings",
     "category": "other",
-    "material": "brass",
+    "material": [ "brass" ],
     "color": "red",
     "symbol": ".",
-    "weight": 1,
-    "volume": 1,
+    "weight": "1 g",
+    "volume": "250 ml",
     "stack_size": 100
   },
   {
@@ -213,11 +213,11 @@
     "name": "9mm casing chunk",
     "description": "It is the mass of a cartridge case, it can be used to make empty shell casings",
     "category": "other",
-    "material": "brass",
+    "material": [ "brass" ],
     "color": "red",
     "symbol": ".",
-    "weight": 1,
-    "volume": 1,
+    "weight": "1 g",
+    "volume": "250 ml",
     "stack_size": 100
   },
   {
@@ -226,11 +226,11 @@
     "name": ".454 casing chunk",
     "description": "It is the mass of a cartridge case, it can be used to make empty shell casings",
     "category": "other",
-    "material": "brass",
+    "material": [ "brass" ],
     "color": "red",
     "symbol": ".",
-    "weight": 1,
-    "volume": 1,
+    "weight": "1 g",
+    "volume": "250 ml",
     "stack_size": 100
   },
   {
@@ -239,11 +239,11 @@
     "name": ".44 magnum casing chunk",
     "description": "It is the mass of a cartridge case, it can be used to make empty shell casings",
     "category": "other",
-    "material": "brass",
+    "material": [ "brass" ],
     "color": "red",
     "symbol": ".",
-    "weight": 1,
-    "volume": 1,
+    "weight": "1 g",
+    "volume": "250 ml",
     "stack_size": 100
   },
   {
@@ -252,11 +252,11 @@
     "name": "5.7x28mm casing chunk",
     "description": "It is the mass of a cartridge case, it can be used to make empty shell casings",
     "category": "other",
-    "material": "brass",
+    "material": [ "brass" ],
     "color": "red",
     "symbol": ".",
-    "weight": 1,
-    "volume": 1,
+    "weight": "1 g",
+    "volume": "250 ml",
     "stack_size": 100
   },
   {
@@ -265,11 +265,11 @@
     "name": ".500 S&W casing chunk",
     "description": "It is the mass of a cartridge case, it can be used to make empty shell casings",
     "category": "other",
-    "material": "brass",
+    "material": [ "brass" ],
     "color": "red",
     "symbol": ".",
-    "weight": 1,
-    "volume": 1,
+    "weight": "1 g",
+    "volume": "250 ml",
     "stack_size": 100
   },
   {
@@ -278,11 +278,11 @@
     "name": "9x18mm casing chunk",
     "description": "It is the mass of a cartridge case, it can be used to make empty shell casings",
     "category": "other",
-    "material": "brass",
+    "material": [ "brass" ],
     "color": "red",
     "symbol": ".",
-    "weight": 1,
-    "volume": 1,
+    "weight": "1 g",
+    "volume": "250 ml",
     "stack_size": 100
   },
   {
@@ -291,11 +291,11 @@
     "name": "4.6x30mm casing chunk",
     "description": "It is the mass of a cartridge case, it can be used to make empty shell casings",
     "category": "other",
-    "material": "brass",
+    "material": [ "brass" ],
     "color": "red",
     "symbol": ".",
-    "weight": 1,
-    "volume": 1,
+    "weight": "1 g",
+    "volume": "250 ml",
     "stack_size": 100
   },
   {
@@ -304,11 +304,11 @@
     "name": "5x50 hull chunk",
     "description": "It is the mass of a cartridge case, it can be used to make empty shell casings",
     "category": "other",
-    "material": "brass",
+    "material": [ "brass" ],
     "color": "red",
     "symbol": ".",
-    "weight": 1,
-    "volume": 1,
+    "weight": "1 g",
+    "volume": "250 ml",
     "stack_size": 100
   }
 ]
