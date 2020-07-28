@@ -1,6 +1,6 @@
 [
   {
-    "type":"GENERIC",
+    "type": "GENERIC",
     "id": "Cellulose",
     "symbol": ",",
     "color": "light_gray",
@@ -8,10 +8,10 @@
     "category": "spare_parts",
     "description": "The slightly fluffy material extracted from a wood pulp. Makes for a great insulator.",
     "price": 100,
-    "material": "wood",
-    "weight": 45,
-    "volume": 4,
+    "material": [ "wood" ],
+    "weight": "45 g",
+    "volume": "1 L",
     "bashing": 1,
     "to_hit": -5
-   }
+  }
 ]
