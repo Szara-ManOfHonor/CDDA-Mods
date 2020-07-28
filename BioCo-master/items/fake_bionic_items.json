@@ -5,14 +5,44 @@
     "category": "weapons",
     "name": "Bionic Fire Extinguisher",
     "description": "Testing",
-    "weight": 151,
-    "volume": 1,
+    "weight": "151 g",
+    "volume": "250 ml",
     "price": 14000,
     "to_hit": -1,
     "bashing": 6,
     "material": [ "plastic", "aluminum" ],
     "symbol": ";",
     "color": "dark_gray",
-    "use_action": "THROWABLE_EXTINGUISHER_ACT"
+    "use_action": {
+      "target": "bio_Fire_Extinguisher_act",
+      "target_charges": 3,
+      "menu_text": "Pull plug",
+      "msg": "You pull the plug on the extinguisher grenade.",
+      "active": true,
+      "type": "transform"
+    },
+    "flags": [ "ACT_IN_FIRE", "TRADER_AVOID", "NO_REPAIR", "BOMB" ]
+  },
+    {
+    "id": "bio_Fire_Extinguisher_act",
+    "type": "TOOL",
+    "category": "tools",
+    "name": { "str": "Active Bionic Fire Extinguisher" },
+    "description": "This is an active extinguisher grenade, likely to burst any second now.  Better throw it!",
+    "weight": "151 g",
+    "volume": "250 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "to_hit": -1,
+    "bashing": 6,
+    "material": [ "steel" ],
+    "symbol": "*",
+    "color": "light_red",
+    "initial_charges": 3,
+    "max_charges": 3,
+    "turns_per_charge": 1,
+    "emits": [ "emit_extinguisher_burst" ],
+    "revert_to": "canister_empty",
+    "flags": [ "TRADER_AVOID" ]
   }
  ]
