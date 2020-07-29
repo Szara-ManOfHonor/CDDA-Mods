@@ -1,5 +1,5 @@
 [
- {
+  {
     "abstract": "mon_dog_mutant",
     "type": "MONSTER",
     "name": "mutant dog",
@@ -9,7 +9,7 @@
     "categories": [ "NULL" ],
     "species": [ "MAMMAL" ],
     "volume": "30000 ml",
-    "weight": 30000,
+    "weight": "30000 g",
     "harvest": "mammal_small_fur",
     "hp": 30,
     "speed": 150,
@@ -50,7 +50,7 @@
     "name": "mutant whelp",
     "description": "A deformed and mutating canine whelp.",
     "volume": "750 ml",
-    "weight": 1000,
+    "weight": "1000 g",
     "hp": 8,
     "speed": 98,
     "aggression": -13,
@@ -143,7 +143,7 @@
     "vision_night": 20,
     "reproduction": { "baby_monster": "mon_dog_mutant_worm_pup", "baby_count": 2, "baby_timer": 270 },
     "harvest": "mammal_small_leather",
-    "extend": { "flags": [  "BILE_BLOOD" ] }
+    "extend": { "flags": [ "BILE_BLOOD" ] }
   },
   {
     "id": "mon_dog_mutant_worm_pup",
@@ -223,11 +223,10 @@
     "type": "MONSTER",
     "name": "direwolf",
     "description": "A canine mutated into a wild beast the size of a grizzly bear. It can recover from disease and wounds with an alarming speed. The wild animal cannot be controlled, but perhaps a younger version could be tamed.",
-    "diff": 4,
     "symbol": "D",
     "color": "red",
     "volume": "650000 ml",
-    "weight": 650000,
+    "weight": "650000 g",
     "hp": 300,
     "harvest": "mammal_large_fur",
     "armor_bash": 6,
@@ -241,13 +240,12 @@
     "speed": 110,
     "aggression": 80,
     "morale": 100,
-	"regenerates": 10,
-    "regen_morale": true,
+    "regenerates": 1,
     "anger_triggers": [ "FRIEND_ATTACKED", "HURT", "FRIEND_DIED", "PLAYER_WEAK", "PLAYER_CLOSE" ],
     "placate_triggers": [ "MEAT" ],
     "reproduction": { "baby_monster": "mon_dog_mutant_dire_pup", "baby_count": 1, "baby_timer": 270 },
     "delete": { "flags": [ "HIT_AND_RUN" ] },
-    "extend": { "flags": [ "PET_MOUNTABLE" ] }
+    "extend": { "flags": [ "FUR", "PET_MOUNTABLE" ] }
   },
   {
     "id": "mon_dog_mutant_dire_pup",
@@ -257,7 +255,7 @@
     "description": "The offspring of a direwolf, already the size of an actual wolf. It seems almost as intelligent and friendly as a domestic dog.",
     "color": "light_red",
     "volume": "26625 ml",
-    "weight": 26625,
+    "weight": "26625 g",
     "hp": 40,
     "speed": 165,
     "material": [ "flesh" ],
@@ -270,9 +268,8 @@
     "dodge": 4,
     "armor_bash": 1,
     "vision_night": 5,
-	"regenerates": 10,
-    "regen_morale": true,
     "harvest": "mammal_fur",
+    "regenerates": 1,
     "upgrades": { "age_grow": 60, "into": "mon_dog_mutant_dire" },
     "extend": { "flags": [ "FUR", "DOGFOOD" ] }
   }

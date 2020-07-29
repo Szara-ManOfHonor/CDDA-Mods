@@ -38,7 +38,7 @@
     "harvest": "mammal_large_fat",
     "speed": 50,
     "volume": "160000 ml",
-    "weight": 160000,
+    "weight": "160000 g",
     "color": "brown",
     "extend": { "flags": [ "NO_BREED" ] }
   },
@@ -81,7 +81,7 @@
     "name_plural": "auroch",
     "description": "A mutated cow that has regressed to a primitive state.  It has increased in size and grown a shaggy coat of thick fur.  Unlike most mutants, this beast still has the potential to be tamed.",
     "volume": "140000 ml",
-    "weight": 140000,
+    "weight": "140000 g",
     "harvest": "mammal_large_fur",
     "reproduction": { "baby_monster": "mon_cow_calf_mutant_auroch", "baby_count": 1, "baby_timer": 20 },
     "color": "brown",
@@ -107,7 +107,7 @@
     "description": "A mutated cow that can photosynthesize sunlight through its moss-like fur.  This green beast is quite lethargic and is often mistaken for a bush or hedge.",
     "reproduction": { "baby_monster": "mon_cow_calf_mutant_moss", "baby_count": 1, "baby_timer": 20 },
     "default_faction": "triffid",
-    "death_drops": { "item": "withered", "count": [20,30] },
+    "death_drops": { "item": "withered", "count": [ 20, 30 ] },
     "color": "green"
   },
   {
@@ -118,7 +118,7 @@
     "name_plural": "auroch calves",
     "description": "A young mutated cow that can photosynthesize sunlight through its moss-like fur.  This green beast is quite lethargic and is often mistaken for a bush or hedge.",
     "default_faction": "plant",
-    "death_drops": { "item": "withered", "count": [10,20] },
+    "death_drops": { "item": "withered", "count": [ 10, 20 ] },
     "upgrades": { "age_grow": 28, "into": "mon_cow_mutant_moss" },
     "color": "light_gray"
   },
@@ -171,7 +171,7 @@
     "hp": 40,
     "speed": 110,
     "volume": "350000 ml",
-    "weight": 350000,
+    "weight": "350000 g",
     "extend": { "flags": [ "NO_BREED" ] },
     "color": "brown"
   },
@@ -371,7 +371,7 @@
     "description": "A large mutated pig that has grown a thick protective hide similar to that of a rhino.",
     "color": "light_gray",
     "volume": "400000 ml",
-    "weight": 400000,
+    "weight": "400000 g",
     "hp": 240,
     "aggression": 0,
     "morale": 80,
@@ -402,7 +402,7 @@
     "description": "A large mutated pig with rows of venomous quills growing from its spine.  Despite it's fearsome appearance, it is fairly non aggressive.",
     "attack_effs": [ { "id": "badpoison", "chance": 25, "duration": 1000 } ],
     "volume": "300000 ml",
-    "weight": 300000,
+    "weight": "300000 g",
     "color": "light_gray",
     "hp": 180,
     "melee_skill": 4,

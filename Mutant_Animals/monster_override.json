@@ -84,6 +84,18 @@
     "upgrades": { "half_life": 182, "into_group": "GROUP_CANINE_SICK" }
   },
   {
+    "id": "mon_coyote_wolf",
+    "type": "MONSTER",
+    "copy-from": "mon_coyote_wolf",
+    "upgrades": { "half_life": 182, "into_group": "GROUP_CANINE_SICK" }
+  },
+  {
+    "id": "mon_coyote",
+    "type": "MONSTER",
+    "copy-from": "mon_coyote",
+    "upgrades": { "half_life": 182, "into_group": "GROUP_CANINE_SICK" }
+  },
+  {
     "id": "mon_frog_giant",
     "type": "MONSTER",
     "copy-from": "mon_frog_giant",
@@ -365,7 +377,7 @@
     "copy-from": "mon_fish_perch",
     "upgrades": { "half_life": 91, "into_group": "GROUP_FISH_SICK" }
   },
-  { 
+  {
     "id": "mon_fish_pickerel",
     "type": "MONSTER",
     "copy-from": "mon_fish_pickerel",
