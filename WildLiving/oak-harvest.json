@@ -25,8 +25,8 @@
   {
     "type": "terrain",
     "id": "t_tree_oak_harvested",
+    "description": "A harvested oak tree",
     "name": "oak tree",
-    "description": "A massive deciduous tree belonging to the 'Quercus' genus, commonly found throughout New England region.  You could cut it down with the right tools. It has been harvested of its acorns.",
     "symbol": "7",
     "color": [ "brown", "brown", "brown", "brown" ],
     "//": "barren in winter, not harvestable",

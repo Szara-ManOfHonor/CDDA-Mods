@@ -4,8 +4,10 @@
     "mod_type": "SUPPLEMENTAL",
     "ident": "surv_crowbar",
     "name": "Survivor crowbar",
-    "author": "none",
+    "authors": [ "Unknown" ],
+    "maintainers": [ "TheGoatGod" ],
     "description": "Add Survivor Barr with improved combat performance.",
-    "path": ""
+    "category": "items",
+    "dependencies": [ "dda" ]
   }
 ]

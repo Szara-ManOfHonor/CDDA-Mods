@@ -4,8 +4,8 @@
     "type": "TOOL",
     "name": "survivor food irratiator",
     "description": "This is a tool that can irradiate food properly prepared in a sealed plastic bag using ionising radiation such as X-Rays.  Bulky and heavy to keep the user safe.",
-    "weight": 18875,
-    "volume": 20,
+    "weight": "18875 g",
+    "volume": "5 L",
     "price": 40000,
     "material": [ "steel", "lead" ],
     "symbol": ";",
@@ -25,11 +25,7 @@
     "time": 120000,
     "reversible": true,
     "decomp_learn": 4,
-    "autolearn": [
-      [ "fabrication", 5 ],
-      [ "cooking", 3 ],
-      [ "electronics", 6 ]
-    ],
+    "autolearn": [ [ "fabrication", 5 ], [ "cooking", 3 ], [ "electronics", 6 ] ],
     "using": [ [ "welding_standard", 5 ] ],
     "qualities": [ { "id": "HAMMER", "level": 1 } ],
     "tools": [ [ [ "soldering_iron", 30 ], [ "toolset", 30 ] ] ],
@@ -55,10 +51,7 @@
     "difficulty": 4,
     "time": 5000,
     "autolearn": true,
-    "tools": [
-      [ [ "mold_plastic", -1 ] ],
-      [ [ "surface_heat", 5, "LIST" ] ]
-    ],
+    "tools": [ [ [ "mold_plastic", -1 ] ], [ [ "surface_heat", 5, "LIST" ] ] ],
     "components": [ [ [ "plastic_chunk", 1 ] ] ]
   }
 ]

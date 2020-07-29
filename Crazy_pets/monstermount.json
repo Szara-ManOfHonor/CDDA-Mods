@@ -8,7 +8,7 @@
     "species": [ "ROBOT" ],
     "diff": 20,
     "volume": "92500 ml",
-    "weight": 1200000,
+    "weight": "1200000 g",
     "hp": 90,
     "speed": 115,
     "material": [ "steel" ],
@@ -41,7 +41,7 @@
     "species": [ "ROBOT" ],
     "diff": 30,
     "volume": "875000 ml",
-    "weight": 2000000,
+    "weight": "2000000 g",
     "hp": 240,
     "speed": 75,
     "material": [ "steel" ],
@@ -62,8 +62,20 @@
     "special_attacks": [ [ "MULTI_ROBOT", 3 ] ],
     "death_drops": { "groups": [ [ "robots", 4 ] ] },
     "death_function": [ "BROKEN" ],
-    "flags": [ "SEES", "HEARS", "GOODHEARING", "NOHEAD", "BASHES", "DESTROYS", "NO_BREATHE", "ELECTRONIC", "PRIORITIZE_TARGETS", "PET_MOUNTABLE" ]
-  },{
+    "flags": [
+      "SEES",
+      "HEARS",
+      "GOODHEARING",
+      "NOHEAD",
+      "BASHES",
+      "DESTROYS",
+      "NO_BREATHE",
+      "ELECTRONIC",
+      "PRIORITIZE_TARGETS",
+      "PET_MOUNTABLE"
+    ]
+  },
+  {
     "id": "mon_shoggoth",
     "type": "MONSTER",
     "name": "shoggoth",
@@ -72,7 +84,7 @@
     "bodytype": "blob",
     "species": [ "NETHER" ],
     "volume": "875000 ml",
-    "weight": 2000000,
+    "weight": "2000000 g",
     "hp": 400,
     "speed": 90,
     "symbol": "&",
@@ -86,11 +98,9 @@
     "melee_cut": 6,
     "armor_bash": 10,
     "armor_cut": 30,
-	"regenerates": 50,
-    "regen_morale": true,
     "harvest": "exempt",
     "path_settings": { "max_dist": 5 },
-    "special_attacks": [ [ "PARROT", 40 ] ],
+    "special_attacks": [ [ "PARROT", 40 ], [ "GENERATOR", 50 ] ],
     "death_function": [ "MELT" ],
     "flags": [
       "SEES",
