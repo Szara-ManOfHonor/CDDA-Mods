@@ -1,7 +1,7 @@
 [
   {
-    "abstract": "bot_hack_base",
     "type": "recipe",
+    "result": "bot_hack_base",
     "override": "true",
     "category": "CC_ELECTRONIC",
     "subcategory": "CSC_ELECTRONIC_OTHER",
@@ -128,8 +128,8 @@
     ]
   },
   {
-    "abstract": "bot_turret_base",
     "type": "recipe",
+    "result": "bot_turret_base",
     "category": "CC_ELECTRONIC",
     "subcategory": "CSC_ELECTRONIC_OTHER",
     "skill_used": "electronics",
