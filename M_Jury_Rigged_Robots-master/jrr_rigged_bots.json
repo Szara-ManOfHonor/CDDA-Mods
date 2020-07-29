@@ -75,7 +75,7 @@
     "species":"ROBOT",
     "default_faction":"rigged_bot",
     "symbol":"e",
-    "color":"ltgray",
+    "color":"light_gray",
     "volume": "750 ml", 
     "weight": "1200 g",
     "material":"steel",
