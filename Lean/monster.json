@@ -1,4 +1,5 @@
-{
+[
+  {
     "id": "debug_mon_BA",
     "type": "MONSTER",
     "name": "debug monster",
@@ -17,11 +18,6 @@
     "melee_cut": 0,
     "vision_day": 1,
     "death_function": [ "MELT" ],
-    "death_drops": {
-        "subtype": "collection",
-        "groups": [
-          [ "default_zombie_clothes", 5 ],
-          [ "jollyranch", 95 ]
-        ]
-      }
-}
+    "death_drops": { "subtype": "collection", "groups": [ [ "default_zombie_clothes", 5 ], [ "jollyranch", 95 ] ] }
+  }
+]

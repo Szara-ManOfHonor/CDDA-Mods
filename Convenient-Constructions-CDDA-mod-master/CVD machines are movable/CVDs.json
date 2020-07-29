@@ -1,5 +1,6 @@
 [
   {
+    "id": "Install_CVD_machine_and_terminal",
     "type": "construction",
     "description": "Install CVD machine and terminal",
     "category": "FURN",
@@ -27,13 +28,13 @@
     "id": "aaf_cvd_module",
     "type": "TOOL",
     "symbol": "&",
-    "color": "lt gray",
+    "color": "light_gray",
     "name": "CVD Terminal Core",
     "description": "A refabricated CVD machine, ready to be constructed.",
     "price": 800000,
     "material": [ "steel", "plastic" ],
-    "weight": 12000,
-    "volume": 18,
+    "weight": "12000 g",
+    "volume": "4500 ml",
     "bashing": 10,
     "category": "tools"
   },

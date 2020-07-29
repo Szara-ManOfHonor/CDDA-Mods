@@ -7,7 +7,15 @@
     "object": {
       "mapgensize": [ 7, 7 ],
       "rotation": [ 0, 3 ],
-      "rows": [ "S....rr", ".......", "..IiI..", "..III..", "..IiI..", "c......", "cc....h" ],
+      "rows": [
+        "S....rr",
+        ".......",
+        "..IiI..",
+        "..III..",
+        "..IiI..",
+        "c......",
+        "cc....h"
+      ],
       "palettes": [ "lab_palette", "lab_loot_research" ],
       "furniture": { "i": "f_food_irradiator", "I": "f_food_irradiator_casing" },
       "item": { "C": { "item": "recipe_food_irradiator", "chance": 100 } }
@@ -21,7 +29,17 @@
     "object": {
       "mapgensize": [ 9, 9 ],
       "rotation": [ 0, 3 ],
-      "rows": [ ".........", ".X......h", "........h", "...IiI...", "...III...", "...IiI...", ".........", "........c", "......Scc" ],
+      "rows": [
+        ".........",
+        ".X......h",
+        "........h",
+        "...IiI...",
+        "...III...",
+        "...IiI...",
+        ".........",
+        "........c",
+        "......Scc"
+      ],
       "palettes": [ "lab_palette", "lab_loot_research" ],
       "furniture": { "i": "f_food_irradiator", "I": "f_food_irradiator_casing" },
       "item": { "C": { "item": "recipe_food_irradiator", "chance": 100 } }
