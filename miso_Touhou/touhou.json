@@ -25,8 +25,8 @@
         ],
         "entries": [ { "item": "water_mineral", "container-item": "take_suitou_500ml", "charges": 2 } ]
       },
-      "male": [ "kariginu", "eboshi", "ettyuu_hundosi" ],
-      "female": [ "ettyuu_hundosi", "miko_siraginu", "reimu_hibakama", "miko_suikan", "reimu_cloth", "reimu_ribbon" ]
+      "male": [ "kimono", "eboshi" ],
+      "female": [ "miko_siraginu", "reimu_hibakama", "miko_suikan", "reimu_cloth" ]
     },
     "flags": [ "SCEN_ONLY" ]
   },
@@ -56,8 +56,8 @@
         ],
         "entries": [ { "item": "water_mineral", "container-item": "take_suitou_500ml", "charges": 2 } ]
       },
-      "male": [ "kariginu", "eboshi", "ettyuu_hundosi" ],
-      "female": [ "ettyuu_hundosi", "miko_siraginu", "reimu_hibakama", "miko_suikan", "reimu_cloth", "reimu_ribbon" ]
+      "male": [ "kimono", "eboshi" ],
+      "female": [ "miko_siraginu", "reimu_hibakama", "miko_suikan", "reimu_cloth" ]
     },
     "flags": [ "SCEN_ONLY" ]
   },
@@ -69,14 +69,14 @@
     "points": 0,
     "items": {
       "both": {
-        "items": [ "eboshi", "kimono", "cloak", "ragpouch", "gloves_liner", "gloves_light", "tabi_dress", "copper_knife", "t_setta" ],
+        "items": [ "eboshi", "kimono", "ragpouch", "gloves_liner", "gloves_light", "copper_knife", "t_setta" ],
         "entries": [
           { "item": "water_mineral", "container-item": "take_suitou_500ml", "charges": 2 },
           { "item": "fire_drill", "charges": 20 }
         ]
       },
-      "male": [ "ettyuu_hundosi" ],
-      "female": [ "sarasi", "ettyuu_hundosi" ]
+      "male": [ "kimono" ],
+      "female": [ "sarasi", "kimono" ]
     },
     "flags": [ "SCEN_ONLY" ]
   },
@@ -89,14 +89,14 @@
     "flags": [ "SCEN_ONLY" ],
     "items": {
       "both": {
-        "items": [ "eboshi", "kimono", "cloak", "ragpouch", "gloves_liner", "gloves_light", "tabi_dress", "copper_knife", "t_setta" ],
+        "items": [ "eboshi", "kimono", "ragpouch", "gloves_liner", "gloves_light", "copper_knife", "t_setta" ],
         "entries": [
           { "item": "water_mineral", "container-item": "take_suitou_500ml", "charges": 2 },
           { "item": "fire_drill", "charges": 20 }
         ]
       },
-      "male": [ "ettyuu_hundosi" ],
-      "female": [ "sarasi", "ettyuu_hundosi" ]
+      "male": [ "kimono" ],
+      "female": [ "sarasi", "kimono" ]
     }
   },
   {
@@ -108,14 +108,14 @@
     "flags": [ "SCEN_ONLY" ],
     "items": {
       "both": {
-        "items": [ "eboshi", "kimono", "cloak", "ragpouch", "gloves_liner", "gloves_light", "tabi_dress", "copper_knife", "t_setta" ],
+        "items": [ "eboshi", "kimono", "ragpouch", "gloves_liner", "gloves_light", "copper_knife", "t_setta" ],
         "entries": [
           { "item": "water_mineral", "container-item": "take_suitou_500ml", "charges": 2 },
           { "item": "fire_drill", "charges": 20 }
         ]
       },
-      "male": [ "ettyuu_hundosi" ],
-      "female": [ "sarasi", "ettyuu_hundosi" ]
+      "male": [ "kimono" ],
+      "female": [ "sarasi", "kimono" ]
     }
   },
   {
@@ -148,8 +148,8 @@
           { "item": "magic_barrage01", "ammo-item": "magic_barrage_ammo1", "charges": 20 }
         ]
       },
-      "male": [ "kariginu", "eboshi", "ettyuu_hundosi" ],
-      "female": [ "ettyuu_hundosi", "miko_siraginu", "reimu_hibakama", "reimu_suikan", "reimu_cloth", "reimu_ribbon" ]
+      "male": [ "kimono", "eboshi" ],
+      "female": [ "miko_siraginu", "reimu_hibakama", "reimu_suikan", "reimu_cloth" ]
     }
   },
   {
@@ -169,8 +169,6 @@
       "both": {
         "items": [
           "magic_barrage_energy",
-          "marisa_hat",
-          "marisa_dress",
           "socks",
           "swag_bag",
           "tights",
@@ -201,7 +199,7 @@
         ]
       },
       "male": [ "boxer_shorts" ],
-      "female": [ "bra", "drawers" ]
+      "female": [ "bra", "kimono" ]
     }
   },
   {
@@ -214,14 +212,14 @@
     "skills": [  ],
     "items": {
       "both": {
-        "items": [ "marisa_hat", "marisa_dress", "socks", "strap_shoes", "peacoat" ],
+        "items": [ "socks", "strap_shoes", "peacoat" ],
         "entries": [
           { "item": "water_clean", "container-item": "take_suitou_500ml", "charges": 2 },
           { "item": "onigiri", "container-item": "bag_plastic_sealed", "charges": 2 }
         ]
       },
       "male": [ "boxer_shorts" ],
-      "female": [ "bra", "drawers", "camisole" ]
+      "female": [ "bra", "kimono", "camisole" ]
     },
     "flags": [ "SCEN_ONLY" ]
   },
@@ -235,11 +233,11 @@
     "CBMs": [ "bio_watch" ],
     "items": {
       "both": {
-        "items": [ "socks", "dress_shirt", "hat_fur", "boots", "tie_skinny", "backpack_leather", "tieclip", "sports_drink" ],
+        "items": [ "socks", "dress_shirt", "usami_hatr", "boots", "tie_skinny", "backpack_leather", "tieclip", "sports_drink" ],
         "entries": [ { "item": "onigiri", "container-item": "bag_plastic_sealed", "charges": 2 } ]
       },
       "male": [ "boxer_shorts", "shorts_denim" ],
-      "female": [ "bra", "skirt", "drawers" ]
+      "female": [ "bra", "skirt", "eboshi" ]
     }
   },
   {
@@ -255,7 +253,7 @@
         "entries": [ { "item": "onigiri", "container-item": "bag_plastic_sealed", "charges": 2 } ]
       },
       "male": [ "boxer_shorts", "shorts_denim" ],
-      "female": [ "bra", "drawers" ]
+      "female": [ "bra", "eboshi" ]
     }
   },
   {
@@ -263,7 +261,7 @@
     "ident": "usami_sumireko",
     "name": {
       "male": "Expose the Esoteric! The Secret Sealing Club's First President (Female Only!)",
-      "female": "Weak School Girl"
+      "female": "Psychic School Girl"
     },
     "description": "(Sumireko Usami) Even if I go to bed or woke up, I can see a horrible reality in front of my eyes. Even if you can not recover a peaceful day, let's at least recover only cultural life.",
     "points": 3,
@@ -274,11 +272,11 @@
       "both": {
         "items": [
           "magic_barrage_energy",
-          "hat_fur",
+          "usami_hat",
           "boots",
           "backpack_leather",
           "dress_shirt",
-          "sumireko_cloth",
+          "sumireko_cloak",
           "sumireko_skirt",
           "sumireko_vest",
           "gloves_liner",
@@ -287,11 +285,12 @@
         ],
         "entries": [
           { "item": "onigiri", "container-item": "bag_plastic_sealed", "charges": 2 },
-          { "item": "magic_barrage01", "ammo-item": "magic_barrage_ammo1", "charges": 20 }
+          { "item": "magic_barrage01", "ammo-item": "magic_barrage_ammo1", "charges": 20 },
+          { "item": "sumireko_gun", "ammo-item": "380_p", "charges": 20 }
         ]
       },
       "male": [ "boxer_shorts" ],
-      "female": [ "bra", "drawers" ]
+      "female": [ "bra", "kimono" ]
     }
   },
   {
@@ -338,8 +337,8 @@
           { "item": "saw", "container-item": "tool_belt" }
         ]
       },
-      "male": [ "ettyuu_hundosi" ],
-      "female": [ "bra", "ettyuu_hundosi" ]
+      "male": [ "kimono" ],
+      "female": [ "bra", "kimono" ]
     },
     "flags": [ "SCEN_ONLY" ]
   },
@@ -412,7 +411,7 @@
         ]
       },
       "male": [ "boxer_shorts" ],
-      "female": [ "bra", "drawers" ]
+      "female": [ "bra", "eboshi" ]
     },
     "flags": [ "SCEN_ONLY" ]
   },
@@ -422,11 +421,7 @@
     "name": { "male": "Fortune-teller", "female": "Fortune-teller (Male Only!)" },
     "description": "(Fortune-teller) I saw the outside of the world through horoscopes. Then the human life suddenly managed by youkai looks miserable. I was thinking of quitting humans.",
     "points": -1,
-    "items": {
-      "both": [ "ekisya_cap", "ekisya_kimono", "cloak", "tabi_dress", "straw_sandals" ],
-      "male": [ "ettyuu_hundosi" ],
-      "female": [ "sarasi", "ettyuu_hundosi" ]
-    }
+    "items": { "both": [ "ekisya_cap", "ekisya_kimono", "straw_sandals" ], "male": [ "kimono" ], "female": [ "sarasi", "kimono" ] }
   },
   {
     "type": "profession",
@@ -434,11 +429,7 @@
     "name": { "male": "Fortune-teller", "female": "Fortune-teller (Male Only!)" },
     "description": "(Fortune-teller) I saw the outside of the world through horoscopes. Then the human life suddenly managed by youkai looks miserable. I was thinking of quitting humans.",
     "points": -1,
-    "items": {
-      "both": [ "ekisya_cap", "ekisya_kimono", "cloak", "tabi_dress", "straw_sandals" ],
-      "male": [ "ettyuu_hundosi" ],
-      "female": [ "sarasi", "ettyuu_hundosi" ]
-    },
+    "items": { "both": [ "ekisya_cap", "ekisya_kimono", "straw_sandals" ], "male": [ "kimono" ], "female": [ "sarasi", "kimono" ] },
     "addictions": [ { "intensity": 30, "type": "amphetamine" } ],
     "flags": [ "SCEN_ONLY" ]
   },
@@ -448,11 +439,7 @@
     "name": { "male": "Fortune-teller", "female": "Fortune-teller (Male Only!)" },
     "description": "(Fortune-teller) I saw the outside of the world through horoscopes. Then the human life suddenly managed by youkai looks miserable. I was thinking of quitting humans.",
     "points": -2,
-    "items": {
-      "both": [ "ekisya_cap", "ekisya_kimono", "cloak", "tabi_dress", "straw_sandals" ],
-      "male": [ "ettyuu_hundosi" ],
-      "female": [ "sarasi", "ettyuu_hundosi" ]
-    },
+    "items": { "both": [ "ekisya_cap", "ekisya_kimono", "straw_sandals" ], "male": [ "kimono" ], "female": [ "sarasi", "kimono" ] },
     "CBMs": [
       "bio_dis_shock",
       "bio_dis_acid",
@@ -510,7 +497,7 @@
         ]
       },
       "male": [ "boxer_shorts" ],
-      "female": [ "bra", "drawers" ]
+      "female": [ "bra", "kimono" ]
     },
     "flags": [ "SCEN_ONLY" ]
   },
@@ -566,7 +553,7 @@
         "entries": [ { "item": "magic_barrage01", "ammo-item": "magic_barrage_ammo1", "charges": 20 } ]
       },
       "male": [ "boxer_shorts" ],
-      "female": [ "drawers" ]
+      "female": [ "eboshi" ]
     },
     "flags": [ "SCEN_ONLY" ]
   },
@@ -661,7 +648,7 @@
         ]
       },
       "male": [ "boxer_shorts" ],
-      "female": [ "bra", "drawers" ]
+      "female": [ "bra", "eboshi" ]
     },
     "flags": [ "SCEN_ONLY" ]
   },
@@ -747,7 +734,7 @@
         ]
       },
       "male": [ "boxer_shorts" ],
-      "female": [ "bra", "drawers" ]
+      "female": [ "bra", "eboshi" ]
     },
     "flags": [ "SCEN_ONLY" ]
   },
@@ -793,7 +780,7 @@
         ]
       },
       "male": [ "boxer_shorts" ],
-      "female": [ "bra", "drawers" ]
+      "female": [ "bra", "kimono" ]
     },
     "flags": [ "SCEN_ONLY" ]
   },
@@ -834,7 +821,7 @@
         ]
       },
       "male": [ "boxer_shorts" ],
-      "female": [ "bra", "camisole", "drawers" ]
+      "female": [ "bra", "camisole", "eboshi" ]
     },
     "flags": [ "SCEN_ONLY" ]
   },
@@ -859,8 +846,8 @@
           { "item": "magic_barrage01", "ammo-item": "magic_barrage_ammo1", "charges": 20 }
         ]
       },
-      "male": [ "ettyuu_hundosi" ],
-      "female": [ "bra", "drawers" ]
+      "male": [ "kimono" ],
+      "female": [ "bra", "eboshi" ]
     },
     "flags": [ "SCEN_ONLY" ]
   },
@@ -911,7 +898,7 @@
         ]
       },
       "male": [ "boxer_shorts" ],
-      "female": [ "bra", "drawers" ]
+      "female": [ "bra", "kimono" ]
     }
   },
   {
@@ -941,7 +928,7 @@
         ]
       },
       "male": [ "boxer_shorts" ],
-      "female": [ "bra", "drawers" ]
+      "female": [ "bra", "kimono" ]
     },
     "flags": [ "SCEN_ONLY" ]
   },
@@ -972,7 +959,7 @@
         ]
       },
       "male": [ "boxer_shorts" ],
-      "female": [ "bra", "drawers" ]
+      "female": [ "bra", "kimono" ]
     },
     "flags": [ "SCEN_ONLY" ]
   },
@@ -1003,7 +990,7 @@
         ]
       },
       "male": [ "boxer_shorts" ],
-      "female": [ "bra", "drawers" ]
+      "female": [ "bra", "kimono" ]
     },
     "flags": [ "SCEN_ONLY" ]
   },
@@ -1036,7 +1023,7 @@
         ]
       },
       "male": [ "boxer_shorts" ],
-      "female": [ "sarasi", "drawers" ]
+      "female": [ "sarasi", "kimono" ]
     }
   },
   {
@@ -1072,8 +1059,8 @@
           { "item": "magic_barrage01", "ammo-item": "magic_barrage_ammo1", "charges": 20 }
         ]
       },
-      "male": [ "sarasi", "ettyuu_hundosi" ],
-      "female": [ "sarasi", "drawers" ]
+      "male": [ "sarasi", "kimono" ],
+      "female": [ "sarasi", "eboshi" ]
     },
     "flags": [ "SCEN_ONLY" ]
   },
@@ -1107,7 +1094,7 @@
         ]
       },
       "male": [ "boxer_shorts" ],
-      "female": [ "sarasi", "ettyuu_hundosi", "camisole" ]
+      "female": [ "sarasi", "kimono", "camisole" ]
     }
   },
   {
@@ -1140,7 +1127,7 @@
         ]
       },
       "male": [ "boxer_shorts" ],
-      "female": [ "bra", "drawers", "camisole" ]
+      "female": [ "bra", "kimono", "camisole" ]
     }
   },
   {
@@ -1190,7 +1177,7 @@
         ]
       },
       "male": [ "boxer_shorts" ],
-      "female": [ "bra", "drawers", "camisole" ]
+      "female": [ "bra", "kimono", "camisole" ]
     }
   },
   {
@@ -1220,7 +1207,7 @@
         ]
       },
       "male": [ "boxer_shorts" ],
-      "female": [ "bra", "drawers" ]
+      "female": [ "bra", "eboshi" ]
     },
     "flags": [ "SCEN_ONLY" ]
   },
@@ -1260,7 +1247,7 @@
         ]
       },
       "male": [ "boxer_shorts" ],
-      "female": [ "bra", "drawers" ]
+      "female": [ "bra", "eboshi" ]
     },
     "flags": [ "SCEN_ONLY" ]
   },
@@ -1303,7 +1290,7 @@
         ]
       },
       "male": [ "boxer_shorts" ],
-      "female": [ "bra", "drawers" ]
+      "female": [ "bra", "kimono" ]
     },
     "flags": [ "SCEN_ONLY" ]
   },
@@ -1354,7 +1341,7 @@
         ]
       },
       "male": [ "boxer_shorts" ],
-      "female": [ "sarasi", "drawers" ]
+      "female": [ "sarasi", "kimono" ]
     },
     "flags": [ "SCEN_ONLY" ]
   },
@@ -1390,7 +1377,7 @@
         ]
       },
       "male": [ "boxer_shorts" ],
-      "female": [ "sarasi", "ettyuu_hundosi" ]
+      "female": [ "sarasi", "kimono" ]
     },
     "flags": [ "SCEN_ONLY" ]
   },
@@ -1440,7 +1427,7 @@
         ]
       },
       "male": [ "boxer_shorts" ],
-      "female": [ "bra", "drawers" ]
+      "female": [ "bra", "eboshi" ]
     },
     "flags": [ "SCEN_ONLY" ]
   },
@@ -1475,7 +1462,7 @@
         ]
       },
       "male": [ "boxer_shorts" ],
-      "female": [ "bra", "drawers" ]
+      "female": [ "bra", "kimono" ]
     },
     "flags": [ "SCEN_ONLY" ]
   },
@@ -1504,7 +1491,7 @@
         "entries": [ { "item": "water_clean", "container-item": "take_suitou_500ml", "charges": 3 } ]
       },
       "male": [ "boxer_shorts" ],
-      "female": [ "bra", "drawers" ]
+      "female": [ "bra", "eboshi" ]
     }
   }
 ]

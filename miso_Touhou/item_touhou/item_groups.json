@@ -186,7 +186,6 @@
       { "item": "maid_hat", "damage": [ 1, 2 ] },
       { "item": "stockings", "damage": [ 1, 2 ] },
       { "item": "panties", "damage": [ 1, 2 ] },
-      { "item": "cloak", "damage": [ 1, 2 ] },
       { "item": "bra", "damage": [ 1, 2 ] },
       { "group": "cleaning_tool" },
       { "group": "child_items", "prob": 50 }
@@ -218,8 +217,6 @@
       { "item": "patchouli_robe" },
       { "item": "patchouli_cap" },
       { "item": "bra" },
-      { "item": "drawers" },
-      { "item": "cloak" },
       { "item": "inhaler" },
       { "item": "patchouli_grimoire" }
     ]
@@ -278,8 +275,6 @@
       { "item": "scarlet_cap", "damage": [ 1, 2 ] },
       { "item": "remilia_dress", "damage": [ 1, 2 ] },
       { "item": "bra", "damage": [ 1, 2 ] },
-      { "item": "drawers", "damage": [ 1, 2 ] },
-      { "item": "cloak", "damage": [ 1, 2 ] },
       { "item": "remilia_diary", "damage": [ 1, 2 ] },
       { "item": "spear_steel", "damage": [ 1, 2 ] },
       { "item": "parasol01", "damage": [ 1, 2 ] }
@@ -296,8 +291,6 @@
       { "item": "scarlet_cap", "damage": [ 1, 2 ] },
       { "item": "remilia_dress", "damage": [ 1, 2 ] },
       { "item": "bra", "damage": [ 1, 2 ] },
-      { "item": "drawers", "damage": [ 1, 2 ] },
-      { "item": "cloak", "damage": [ 1, 2 ] },
       { "item": "parasol01", "damage": [ 1, 2 ] }
     ]
   },
@@ -314,8 +307,6 @@
       { "item": "frandre_dress2", "damage": [ 1, 2 ] },
       { "item": "frandre_skirt", "damage": [ 1, 2 ] },
       { "item": "bra", "damage": [ 1, 2 ] },
-      { "item": "drawers", "damage": [ 1, 2 ] },
-      { "item": "cloak", "damage": [ 1, 2 ] },
       { "item": "parasol01", "damage": [ 1, 2 ] }
     ]
   }

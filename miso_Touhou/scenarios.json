@@ -93,7 +93,7 @@
   {
     "type": "scenario",
     "copy-from": "schools_out",
-    "ident": "schools_out",
+    "id": "schools_out",
     "name": "School",
     "extend": { "professions": [ "kakasi2", "maribel_hearn", "usami_renko", "usami_sumireko", "kamisirasawa_keine" ] }
   },
@@ -169,7 +169,7 @@
   },
   {
     "type": "start_location",
-    "ident": "marisa_start01",
+    "id": "marisa_start01",
     "name": "Kirisame Magic Store",
     "target": "marisanoie_2"
   },
@@ -194,7 +194,7 @@
   },
   {
     "type": "start_location",
-    "ident": "koumakan_modoki01",
+    "id": "koumakan_modoki01",
     "name": "Scarlet Western Mansion",
     "target": "koumakan00_4"
   },

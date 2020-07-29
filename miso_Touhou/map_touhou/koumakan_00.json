@@ -190,7 +190,6 @@
         { "item": "human_flesh_time_cooking", "repeat": 6, "x": 23, "y": 8 },
         { "item": "hstomach_time_cooking", "repeat": 8, "x": 23, "y": 8 },
         { "item": "tea_raw", "repeat": 1, "x": 22, "y": 11 },
-        { "item": "drawers", "repeat": 1, "x": 20, "y": 20 },
         { "item": "fairy_maid_dress", "repeat": 1, "x": 22, "y": 20 },
         { "item": "fairy_maid_dress", "repeat": 1, "x": 21, "y": 22 }
       ],
@@ -843,10 +842,7 @@
         { "chance": 99, "fuel": 99, "rotation": 180, "status": 0, "vehicle": "Horse_drawn_carriage", "x": 4, "y": 10 },
         { "chance": 99, "fuel": 99, "rotation": 180, "status": 0, "vehicle": "Horse_drawn_carriage", "x": 4, "y": 14 }
       ],
-      "place_signs": [
-        { "signage": "Danger!  Keep Out!", "x": 13, "y": 0 },
-        { "signage": "Danger!  Keep Out!", "x": 13, "y": 1 }
-      ],
+      "place_signs": [ { "signage": "Danger!  Keep Out!", "x": 13, "y": 0 }, { "signage": "Danger!  Keep Out!", "x": 13, "y": 1 } ],
       "fields": {
         ">": [ { "field": "fd_blood" }, { "field": "fd_gibs_flesh" } ],
         "g": [ { "field": "fd_blood" }, { "field": "fd_gibs_flesh" } ]

@@ -368,13 +368,11 @@
         { "item": "bag_human_vac", "repeat": 1, "x": 19, "y": 13 },
         { "item": "milk", "repeat": 1, "x": 19, "y": 13 },
         { "item": "tea_raw", "repeat": 1, "x": 19, "y": 13 },
-        { "item": "drawers", "repeat": 1, "x": 11, "y": 19 },
         { "item": "frandre_dress1", "repeat": 1, "x": 11, "y": 19 },
         { "item": "frandre_dress2", "repeat": 2, "x": 11, "y": 19 },
         { "item": "frandre_skirt", "repeat": 1, "x": 11, "y": 19 },
         { "item": "scarlet_cap", "repeat": 1, "x": 11, "y": 19 },
-        { "item": "strap_shoes", "repeat": 1, "x": 11, "y": 19 },
-        { "item": "drawers", "repeat": 1, "x": 11, "y": 22 }
+        { "item": "strap_shoes", "repeat": 1, "x": 11, "y": 19 }
       ],
       "furniture": {
         " ": "f_null",
