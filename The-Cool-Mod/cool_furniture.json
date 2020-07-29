@@ -5,9 +5,9 @@
     "name": "closed cooler",
     "description": "A cooler for keeping your food fresh. It is currently closed.",
     "symbol": "o",
-    "color": [ "ltcyan" ],
+    "color": [ "light_cyan" ],
     "move_cost_mod": -1,
-    "max_volume": 40,
+    "max_volume": "500 ml",
     "required_str": 1,
     "bash": {
       "str_min": 8,
@@ -24,9 +24,9 @@
     "name": "open cooler",
     "description": "A cooler for keeping your food fresh. It is currently open.",
     "symbol": "u",
-    "color": [ "ltcyan" ],
+    "color": [ "light_cyan" ],
     "move_cost_mod": -1,
-    "max_volume": 40,
+    "max_volume": "500 ml",
     "required_str": 1,
     "bash": {
       "str_min": 8,
