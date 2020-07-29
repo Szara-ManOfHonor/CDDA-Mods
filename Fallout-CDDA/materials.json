@@ -8,6 +8,7 @@
     "cut_resist": 3,
     "acid_resist": 15,
     "fire_resist": 20,
+	"bullet_resist": 10,
     "elec_resist": 0,
     "chip_resist": 20,
 	"repaired_with": "zetan_scrap",
