@@ -73,7 +73,7 @@
   },
   {
     "type": "recipe",
-    "result": "saiga410mag_10rd",
+    "result": "saiga10mag_410",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_MAGAZINES",
     "skill_used": "fabrication",
@@ -106,7 +106,7 @@
   },
   {
     "type": "recipe",
-    "result": "saiga410mag_30rd",
+    "result": "saiga30mag_410",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_MAGAZINES",
     "skill_used": "fabrication",
