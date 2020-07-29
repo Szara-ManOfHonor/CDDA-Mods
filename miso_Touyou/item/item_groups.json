@@ -12,12 +12,12 @@
   {
     "type": "item_group",
     "id": "dresser",
-    "items": [ [ "drawers", 45 ] ]
+    "items": [ [ "kimono", 45 ] ]
   },
   {
     "type": "item_group",
     "id": "allclothes",
-    "items": [ [ "drawers", 45 ] ]
+    "items": [ [ "eboshi", 45 ] ]
   },
   {
     "type": "item_group",
@@ -51,7 +51,7 @@
   {
     "type": "item_group",
     "id": "female_underwear_bottom",
-    "items": [ [ "drawers", 45 ] ]
+    "items": [ [ "eboshi", 45 ] ]
   },
   {
     "type": "item_group",
@@ -67,10 +67,10 @@
       { "item": "t_setta", "damage": [ 1, 4 ] },
       { "item": "miko_siraginu", "damage": [ 1, 4 ] },
       { "item": "miko_suikan", "damage": [ 1, 4 ] },
-      { "item": "gohei" },
+      { "item": "eboshi" },
       { "item": "miko_hibakama", "damage": [ 1, 4 ] },
-      { "item": "ettyuu_hundosi", "damage": [ 1, 4 ] },
-      { "item": "tabi_dress", "damage": [ 1, 4 ] }
+      { "item": "kimono", "damage": [ 1, 4 ] },
+      { "item": "sarasi", "damage": [ 1, 4 ] }
     ]
   },
   {
@@ -82,10 +82,10 @@
       { "group": "miko_suikan_tihaya", "damage": [ 1, 4 ] },
       { "item": "t_setta", "damage": [ 1, 4 ] },
       { "item": "miko_siraginu", "damage": [ 1, 4 ] },
-      { "item": "gohei" },
+      { "item": "eboshi" },
       { "item": "miko_hibakama", "damage": [ 1, 4 ] },
-      { "item": "ettyuu_hundosi", "damage": [ 1, 4 ] },
-      { "item": "tabi_dress", "damage": [ 1, 4 ] }
+      { "item": "kimono", "damage": [ 1, 4 ] },
+      { "item": "sarasi", "damage": [ 1, 4 ] }
     ]
   }
 ]

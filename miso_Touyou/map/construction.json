@@ -1,6 +1,7 @@
 [
   {
     "type": "construction",
+    "id": "b_hearth",
     "description": "Make a hearth",
     "//": "家族の団らん",
     "category": "FURN",
@@ -13,6 +14,7 @@
   },
   {
     "type": "construction",
+    "id": "b_f_tatami",
     "description": "Lay tatami mat",
     "//": "職人技",
     "category": "FURN",
@@ -25,6 +27,7 @@
   },
   {
     "type": "construction",
+    "id": "b_t_tree_apricot_harvested",
     "description": "Train the apricots with the power of blobs",
     "//": "いわゆる梅干しのためだけな子",
     "category": "FARM_WOOD",
@@ -37,6 +40,7 @@
   },
   {
     "type": "construction",
+    "id": "b_pit_spiked",
     "description": "Spike Pit",
     "//": "竹槍を使う方",
     "category": "DIG",
