@@ -7,8 +7,8 @@
     "ammo": "auto_pistol",
     "id": "pistol_auto",
     "description": "The Auto-Pistol or Automatic Pistol is a fairly standard sidearm for both military and civilian use. Ammunition is fed into the pistol automatically from a detachable magazine, allowing for greater capacity and reload time than a Revolver.",
-    "weight": 500,
-    "volume": 0.5,
+    "weight": "500 g",
+    "volume": "125 ml",
     "price": 54500,
     "to_hit": 0,
     "bashing": 3,
@@ -21,7 +21,8 @@
     "burst": 5,
     "range": 29,
     "valid_mod_locations": [ [ "accessories", 1 ], [ "grip", 1 ], [ "muzzle", 1 ], [ "sights", 1 ], [ "stock", 1 ] ]
-  },{
+  },
+  {
     "type": "GUN",
     "name": "Elephant Gun",
     "name_plural": "Elephant Guns",
@@ -29,8 +30,8 @@
     "ammo": "elephant_bullet",
     "id": "elephant_gun",
     "description": "Yah.",
-    "weight": 5000,
-    "volume": 0.5,
+    "weight": "5000 g",
+    "volume": "125 ml",
     "price": 54500,
     "to_hit": 0,
     "bashing": 3,

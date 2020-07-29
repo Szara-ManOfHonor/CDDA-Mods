@@ -3,7 +3,7 @@
   "id": "seat" recipe, uncraft, vehicle_part, GENERIC,
   "name": "seat" recipe, uncraft, vehicle_part, GENERIC,
   "description": "A soft car seat covered with leather.",
-  "weight": 9071,
+  "weight": "9071 g",
   "to_hit": -4,
   "color": "red",
   "symbol": "0",
@@ -11,7 +11,7 @@
     "leather" material, GENERIC, recipe,
     "aluminum" material
   ],
-  "volume": 30,
+  "volume": "7500 ml",
   "bashing": 4,
   "category": "veh_parts" ITEM_CATEGORY,
   "price": 25000
