@@ -1,19 +1,15 @@
 [
   {
     "type": "profession_item_substitutions",
-    "substitutions": [
-      {
-        "trait": "WOOLALLERGY",
-        "sub": [
-          [ "mittens", "gloves_leather" ],
-          [ "beret_wool", "beret" ],
-          [ "greatcoat", "winter_jacket_army" ],
-          [ "scarf", "knit_scarf" ],
-          [ "scarf_long", "long_knit_scarf" ],
-          [ "scarf_loose", "knit_scarf_loose" ],
-          [ "scarf_long_loose", "long_knit_scarf_loose" ]
-        ]
-      }
+    "trait": "WOOLALLERGY",
+    "sub": [
+      { "item": "mittens", "new": [ "gloves_leather" ] },
+      { "item": "beret_wool", "new": [ "beret" ] },
+      { "item": "greatcoat", "new": [ "winter_jacket_army" ] },
+      { "item": "scarf", "new": [ "knit_scarf" ] },
+      { "item": "scarf_long", "new": [ "long_knit_scarf" ] },
+      { "item": "scarf_loose", "new": [ "knit_scarf_loose" ] },
+      { "item": "scarf_long_loose", "new": [ "long_knit_scarf_loose" ] }
     ]
   },
   {
@@ -195,7 +191,7 @@
           { "item": "cell_phone", "charges": 100 }
         ]
       },
-      "male": [ "silver_bracelet", "tricorne", "gold_ring" ],
+      "male": [ "silver_bracelet", "tricorne", "ring" ],
       "female": [ "sports_bra", "gold_ear", "gold_bracelet", "beret_wool", "vibrator", "hairpin" ]
     }
   },
@@ -276,7 +272,7 @@
           "dress_shirt",
           "socks_wool",
           "boots_steel",
-          "technician_pants_gray",
+          "technician_pants_ltblue",
           "duct_tape",
           "coat_winter",
           "glasses_safety",
