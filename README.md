@@ -15,7 +15,7 @@ A bunch of mods have been removed from this repository because they are being up
 All credit for the original mods goes to their creators.
 
 # Current update status
-Check issues for the most important details. Testing in progress. Consider this repository WIP right now.
+Check issues for the most important details. Testing in progress. Consider this repository WIP right now. As of 29 July 2020, it loads. Everything. Many errors are thrown, but it loads. I'll be working on cleaning it up over the coming days. But I've made 58 commits over the past few days, so maybe I will take a small break first.
 
 Just spent a month in Romania away from my computer, and had a very busy spring. Finally going to be pushing updates now though. It difficult when I'm woking 13 hours a day 7 days a week.
 
