@@ -4,14 +4,15 @@
     "mod-type": "SUPPLEMENTAL",
     "ident": "maddremod",
     "name": "MaddreMod",
-    "author": "Maddremor",
-    "description": "Test Message Please Ignore",
-    "path": "",
+    "authors": "Maddremor",
+    "maintainers": "TheGoatGod",
+    "description": "Adds Vehicles, Items, construction and recipes.",
+    "category": "misc_additions",
     "dependencies": [ "dda" ]
   },
   {
     "type": "ITEM_BLACKLIST",
-    "items": [ "toolbox" ]
+    "whitelist": false,
+    "items": [  ]
   }
 ]
-

@@ -5,8 +5,8 @@
     "comestible_type": "FOOD",
     "name": "mush",
     "description": "A gray , thick slurry containing all nutrients your body needs, but with the downside of being barely edible.",
-    "weight": 700,
-    "volume": 1,
+    "weight": "700 g",
+    "volume": "250 ml",
     "price": 0,
     "material": [ "veggy", "flesh", "wheat" ],
     "symbol": "%",
@@ -27,8 +27,8 @@
     "comestible_type": "DRINK",
     "name": "alcoholic water",
     "description": "Water spiked with ethanol to kill bacteria, this should be safe to drink (liver and common sense excepted).",
-    "weight": 249,
-    "volume": 1,
+    "weight": "249 g",
+    "volume": "250 ml",
     "price": 300,
     "phase": "liquid",
     "material": [ "alcohol", "water" ],
@@ -44,4 +44,3 @@
     "flags": [ "EATEN_COLD" ]
   }
 ]
-

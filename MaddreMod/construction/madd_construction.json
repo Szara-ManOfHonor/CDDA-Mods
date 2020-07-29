@@ -1,5 +1,6 @@
 [
   {
+    "id": "Assemble_metal_compactor",
     "type": "construction",
     "description": "Assemble metal compactor",
     "category": "FURN",
@@ -11,6 +12,7 @@
     "post_terrain": "t_recycler"
   },
   {
+    "id": "Seal_Crate",
     "type": "construction",
     "description": "Seal Crate",
     "category": "FURN",
