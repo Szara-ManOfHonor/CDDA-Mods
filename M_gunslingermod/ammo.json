@@ -30,7 +30,7 @@
     "ammo_type": "gs_60",
     "casing": "gs_60_casing",
     "range": 20,
-    "damage": 60,
+    "damage": { "damage_type": "bullet", "amount": 60 },
     "pierce": 25,
     "dispersion": 75,
     "recoil": 2200,
