@@ -32,7 +32,7 @@ These mods are being maintained by their owner or someone else who picked up the
 
 Arcana https://github.com/chaosvolt/cdda-arcana-mod 
 
-~~Ascension (aka Winning DDA) https://github.com/tyrael93/Ascension~~ (Outdated, see TheGoatGod below)
+~~Ascension (aka Winning DDA) https://github.com/tyrael93/Ascension~~ (Outdated, see TheGoatGod below, go to the Winning DDA folder, not the Ascension folder, it just has one file in it)
 
 Cata++ https://github.com/Noctifer-de-Mortem/nocts_cata_mod 
 
