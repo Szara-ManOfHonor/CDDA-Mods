@@ -42,6 +42,8 @@ Engineering Essentials https://github.com/eilaattwood/EngineeringEssentials
 
 Fallout in CDDA https://github.com/Tefnut/Fallout-in-CDDA (Still in my repository for now, but this link is more updated, or not, I'm not sure, it didn't have the wheel hub update last I checked)
 
+Maddremor's mods https://github.com/Maddremor/cdda-Maddremors-Mods
+
 Mining Mod https://github.com/DangerNoodle/mining-mod
 
 MST_Extra https://github.com/chaosvolt/MST_Extra_Mod
