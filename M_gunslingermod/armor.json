@@ -30,7 +30,7 @@
     "rigid": false,
     "material": "leather",
     "symbol": "[",
-    "color": "light_brown",
+    "color": "brown",
     "covers": [ "LEG_EITHER" ],
     "coverage": 10,
     "encumbrance": 3,
