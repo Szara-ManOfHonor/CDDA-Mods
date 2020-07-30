@@ -8,6 +8,7 @@
     "material": [ "steel", "plastic" ],
     "symbol": "(",
     "color": "magenta",
+    "skill": "rifle",
     "weight": 5000,
     "volume": "2500 ml",
     "price": 0,
