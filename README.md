@@ -32,7 +32,7 @@ These mods are being maintained by their owner or someone else who picked up the
 
 Arcana https://github.com/chaosvolt/cdda-arcana-mod 
 
-Ascension (aka Winning DDA) https://github.com/tyrael93/Ascension
+~~Ascension (aka Winning DDA) https://github.com/tyrael93/Ascension~~ (Outdated, see TheGoatGod below)
 
 Cata++ https://github.com/Noctifer-de-Mortem/nocts_cata_mod 
 
@@ -40,7 +40,7 @@ Dorf_Life https://github.com/chaosvolt/Dorf-Life-CDDA
 
 Engineering Essentials https://github.com/eilaattwood/EngineeringEssentials
 
-Fallout in CDDA https://github.com/Tefnut/Fallout-in-CDDA (Still in my repository for now, but this link is more updated, or not, I'm not sure, it didn't have the wheel hub update last I checked)
+~~Fallout in CDDA https://github.com/Tefnut/Fallout-in-CDDA~~ (Oudated, see this repository or TheGoatGod's)
 
 Maddremor's mods https://github.com/Maddremor/cdda-Maddremors-Mods
 
@@ -62,6 +62,9 @@ Vampiric Stuff https://github.com/Axema/Vampiric-Stuff
 
 Youkai Disco https://github.com/Toltetix/cdda-youkai-mod
 
+# Links to other repository
+https://github.com/TheGoatGod/Goats-Mod-Compilation
+Following my haitus, I used many of TheGoatGd's updates. The goat also has a *lot* more mods in the pack, but few I've wanted to add to this pack. It is however useful for things like Ascension. Definitely give it a look.
 
 
 # Removed mods
