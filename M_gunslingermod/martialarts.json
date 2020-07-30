@@ -13,7 +13,7 @@
         "name": "I aim with my eye",
         "description": "I do not aim with my hand. He who aims with his hand has forgotten the face of his father.",
         "max_stacks": 1,
-        "flat_bonuses": [ { "hit", 1.5 } ]
+        "flat_bonuses": [ { "stat": "hit", "scale": 1.5 } ]
       },
       {
         "id": "gunslinger_staticbuff2",
