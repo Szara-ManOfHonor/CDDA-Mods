@@ -198,28 +198,6 @@
     }
   },
   {
-    "id": "bot_exploder",
-    "type": "TOOL",
-    "symbol": ";",
-    "color": "green",
-    "name": "Explorer (stop)",
-    "description": "A small, round turret which extends from the floor.  Two SMG barrels swivel 360 degrees.",
-    "price": 500000,
-    "material": [ "steel", "plastic" ],
-    "weight": "1507 g",
-    "volume": "750 ml",
-    "bashing": 8,
-    "to_hit": -3,
-    "use_action": {
-      "type": "place_monster",
-      "monster_id": "mon_exploder",
-      "difficulty": 6,
-      "skill1": "electronics",
-      "skill2": "computer",
-      "moves": 100
-    }
-  },
-  {
     "id": "bot_eyebot",
     "type": "TOOL",
     "symbol": ";",
@@ -370,12 +348,6 @@
     "id": "mon_tankbot",
     "copy-from": "mon_tankbot",
     "revert_to_itype": "bot_tankbot"
-  },
-  {
-    "type": "MONSTER",
-    "id": "mon_exploder",
-    "copy-from": "mon_turret_rifle",
-    "revert_to_itype": "bot_exploder"
   },
   {
     "type": "MONSTER",

@@ -20,7 +20,7 @@
 	[ "357_magnum", 20 ],
 	[ "357_magnum_hp", 10 ],
 	[ "357_magnum_ap", 10],
-	[ "4570", 50]
+	[ "4570", 5]
 	
     ]
 	
@@ -106,6 +106,7 @@
       [ "redryder", 100 ],
 	  [ "varmint_rifle", 100 ],
 	  [ "colt_rangemaster", 100 ],
+	  [ "r91", 100 ],
 	  [ "cowboy_repeater", 100 ],
 	  [ "dks501", 50 ],
 	  [ "brush_gun", 50 ]
@@ -122,10 +123,15 @@
 	  [ "brush_gun", 75 ],
 	  [ "ak112", 50 ],
 	  [ "bozar", 50 ],
+	  [ "rf2076", 50 ],
 	  [ "wattz_2000", 50 ],
-	  [ "cowboy_repeater_longue", 10 ],
-	  [ "varmint_rifle_ratslayer", 10 ],
-	  [ "brush_gun_medicine", 10 ]
+	  [ "amr50", 25 ],
+      [ "carbine_assault", 25],
+      [ "carbine_marksman", 25],	  
+	  [ "type93", 5 ],
+	  [ "cowboy_repeater_longue", 1 ],
+	  [ "varmint_rifle_ratslayer", 1 ],
+	  [ "brush_gun_medicine", 1 ]
     ]
   },
   {
@@ -138,7 +144,6 @@
 	  [ "mauser_9mm", 75 ],
 	  [ "357_magnum_revolver", 75 ],
 	  [ "deagle_44", 50 ],
-	  [ "wattz_1000", 50 ],
 	  [ "thatgun", 25 ],
 	  [ "14mmpistol", 1 ]
     ]
@@ -191,12 +196,24 @@
 	  [ "l30", 100 ],
 	  [ "cz53minigun", 100 ],
 	  [ "bozar", 50 ],  
+	  [ "25mmapw", 50 ],
 	  [ "avenger", 50 ],
 	  [ "vindicator", 50 ],
 	  [ "grenademg", 50 ],
 	  [ "10mmgatling", 50 ],
 	  [ "rockwell_bigbazooka", 50 ],
-	  [ "broadsider", 50 ]
+	  [ "broadsider", 20 ]
+    ]
+  },
+  
+  {
+      "type": "item_group",
+    "id": "guns_superheavy_fallout",
+    "//": "The biggest of big guns, the stuff you only find on tanks..",
+    "items": [
+	  [ "70mm_autocannon", 100 ],
+	  [ "tank_gun_dual", 100 ],
+	  [ "tank_gun_105", 10 ]
     ]
   },
   
@@ -228,7 +245,8 @@
     "items": [
       [ "10mmsmg", 100 ],
 	  [ "greasegun", 100 ],
-	  [ "tommygun", 50 ]
+	  [ "tommygun", 50 ],
+	  [ "22_smg", 50 ]
     ]
   },
   
@@ -239,6 +257,7 @@
     "items": [
       [ "tommygun", 100 ],
 	  [ "14mmsmg", 50 ],
+	  [ "22_smg", 100 ],
 	  [ "hk_p90c", 50 ],
 	  [ "laser_rcw", 50 ],
 	  [ "tommygun_silver", 5 ]
@@ -253,7 +272,8 @@
       [ "spear_fallout_replica", 100 ],
 	        [ "vault_knife", 100 ],
 	        [ "spear_fallout", 50 ],
-			[ "super_sledge", 5 ]
+			[ "gloves_boxing", 100 ],
+			[ "gloves_boxing_plated", 5 ]
     ]
   },
   
@@ -263,6 +283,15 @@
     "//": "melee weapons that rarely saw use pre-cataclysm, either due to being too brutal for military use, or just being impractical.",
     "items": [
 	        [ "spear_fallout", 100 ],
+			[ "machete_gladius", 100 ],
+			[ "flagstaff", 10 ],
+			[ "sword_revolutionary", 100 ],
+			[ "sword_chinese", 100 ],
+			[ "sword_chinese_shock", 1 ],
+			[ "meat_hook_claws", 100 ],
+			[ "gloves_boxing_plated", 100 ],
+			[ "gloves_boxing_goldplated", 10 ],
+			[ "gloves_boxing_doubleplated", 1 ],
 			[ "super_sledge", 50 ]
     ]
   },
@@ -274,10 +303,66 @@
     "//": "armor and clothing commonly owned by citizens and found in many locations.",
     "items": [
       [ "jumpsuit_vault", 100 ],
-	        [ "jumpsuit_vault_13", 50 ],
-	        [ "jumpsuit_vault_13_armored", 25 ],
-				        [ "jumpsuit_vault_13_utility", 25 ],
-			[ "armor_wasteplate", 5 ]
+	        [ "jumpsuit_vault_13", 75 ],
+	        [ "jumpsuit_vault_13_armored", 50 ],
+		    [ "jumpsuit_vault_13_utility", 50 ],
+			[ "armor_wasteplate", 25 ],
+			[ "armor_combat_light", 25 ],
+			[ "armor_combat_light_winter", 25 ],
+			[ "armor_combat_light_winter_medic", 25 ],
+			[ "helmet_combat_light", 25 ],
+		    [ "helmet_combat_light_winter", 25 ],
+	        [ "balclava_winter", 25 ],
+			[ "helm_nullifier", 1 ],
+			[ "jacket_leather_tunnel", 50 ],
+			[ "jacket_leather_king", 50 ],
+			[ "jacket_leather_khan", 50 ],
+			[ "jacket_leather_atomcat", 50 ],
+			[ "jacket_boomer", 50 ],
+			[ "cathedralrobe", 5 ],
+			[ "nightpants_naughty", 5 ],
+			[ "nightshirt_naughty", 5 ],
+			[ "jumpsuit_china", 1 ],
+			[ "jumpsuit_racer", 50 ],
+			[ "jumpsuit_enclave", 15 ],
+			[ "winter_jacket_enclave", 15 ],
+			[ "winter_pants_enclave", 15 ],
+			[ "hat_enclave", 15 ],
+			[ "trenchcoat_general_green", 15 ],
+			[ "trenchcoat_general_white", 10 ],
+			[ "trenchcoat_general_black", 5 ],
+			[ "hat_general_green", 15 ],
+			[ "hat_general_white", 10 ],
+			[ "hat_general_black", 5 ],
+			[ "wastehound_mask", 5 ],
+			[ "helmet_biker_retro", 75 ],
+			[ "hat_peoples", 1 ],
+			[ "mask_pint", 50 ],
+			[ "mask_pint_magic", 1 ],
+			[ "suit_benny", 5 ],
+			[ "scrubs_bigmt", 5 ],
+			[ "dress_shirt_NCR", 50 ],
+			[ "jeans_ncr", 50 ],
+			[ "ncr_armor", 25 ],
+			[ "armor_legate", 1 ],
+			[ "helmet_legate", 1 ],
+			[ "armor_legion_recruit", 50],
+			[ "helmet_legion_recruit", 50],
+			
+			
+			[ "armor_legion_prime", 25],
+			[ "helmet_legion_prime", 25],			
+			
+			[ "armor_legion_veteran", 5],
+			[ "helmet_legion_veteran", 5],
+			
+			[ "hazmat_suit_ghost", 5 ],
+			[ "beret_recon", 25 ],
+			[ "helmet_fiend", 25 ],
+			[ "jacket_db_varsity", 5 ],
+			[ "duster_minutemen", 50 ],
+			[ "duster_minutemen_general", 5 ],
+			[ "coat_frock_red", 5 ]
     ]
   },
   
@@ -303,7 +388,7 @@
 	  ["25mm_grenade_drummag", 25],
 	  ["10mmgatlingmag", 25],
 	  ["10mmgatlingmagxl", 25],
-	  	  ["25mm_grenade_drummagxl", 10]
+	  ["25mm_grenade_drummagxl", 10]
 
     ]
   },
@@ -358,6 +443,36 @@
     ]
   },
   
+  
+  {
+    "type" : "item_group",
+    "id" : "alien_gear_fallout",
+    "//" : "Zetan equipment.",
+    "items": [
+      ["zetan_rifle", 100],
+	  ["zetan_smg", 100],
+	  ["plasma_zetan", 100],
+	  ["zetan_pistol", 50],
+	  ["zetan_pistol_fire", 25],
+	  ["zetan_pistol_shot", 25],
+	  ["zetan_cannon", 10]
+
+    ]
+  },
+  
+  {
+    "type" : "item_group",
+    "id" : "alien_junk_fallout",
+    "//" : "Zetan scrap.",
+    "items": [
+      ["plasma_zetan", 100],
+	  ["scrap_zetan", 100],
+	  [ "painting_fuzzy", 50 ],
+	  ["zetan_sheet", 10],
+	  ["plasma_zetan", 25]
+    ]
+  },
+  
         {
     "type" : "item_group",
     "id" : "books_fallout_common",
@@ -370,11 +485,27 @@
 			  	  ["chaingangcomic", 100],
 				  	  ["shroudcomic", 100],
 					  	  ["mantamancomic", 100],
+	  ["mag_comic_fantoma", 100],
+	  ["mag_comic_police", 100],
+	  ["mag_unstoppables", 100],
+	  ["mag_astounding", 100],
+	  ["mag_chivalry", 100],
+	  ["mag_catspaw", 100],
+	  ["mag_pugilism", 75],
 	  ["electronics_deans", 75],
+	  ["drivingzen", 75],
+	  ["tricksandtraps", 75],
 	  ["totalhack", 75],
 	  ["electronics_deans_vault", 50],
-	  ["gunrunnerbook", 25],
-	  ["wastelandgunsmith", 25]
+	  ["gunrunnerbook", 5],
+	  ["wastelandgunsmith", 5],
+	  ["wasteland_survival_guide", 5],
+	  ["manual_boxing_newreno", 5],
+	  ["manual_gecko", 5],
+	  ["manual_arroyo", 5],
+	  ["holybook_fbible", 5],
+	  ["holybook_hintbook", 1],
+	  ["holybook_krivbeknih", 1]
 
     ]
   },
@@ -459,7 +590,52 @@
 	  [ "sugarbombs", 100 ],
 	  [ "eggs_devilled_fallout", 100 ]
     ]
+  },
+  
+  {
+    "type": "item_group",
+    "id": "item_clutter_fallout",
+    "//": "general clutter items; similar to junk, but Fallout flair.",
+    "items": [
+    [ "deck_of_tragic_cards", 20 ],
+	[ "painting_fuzzy", 1 ],
+	[ "coin_NCR", 30 ],
+	[ "coin_legion_small", 25 ],
+	[ "coin_legion_large", 10 ],
+	[ "cap_bottle", 70 ],
+	[ "pipboy_2000", 50 ],
+	[ "pipboy_3000", 50 ],
+	[ "deck_caravan", 20 ],
+	[ "doll_nixon", 100 ],
+	[ "doll_action_abe", 100 ],
+	[ "doll_buttercup", 100 ],
+	[ "doll_dinky", 100 ],
+	[ "souveneir_rocket", 100 ],
+	[ "toy_nuka_truck", 100 ],
+	[ "condom_jimmy_blue", 33 ],
+	[ "condom_jimmy_green", 34 ],
+	[ "condom_jimmy_red", 33 ],
+	[ "flask_vault", 100 ],
+	
+	[ "iv_mutagen_fev", 1],
+	
+	[ "45boxmag", 10 ],
+	[ "22boxmag", 10 ],
+	[ "makeshift_revolver_pack", 10 ],
+	[ "makeshift_lever_pack", 10 ],
+	[ "makeshift_bolt_pack", 10 ],
+	[ "makeshift_pump_pack", 10 ],
+	[ "makeshift_gatling_pack", 10 ],
+	
+	
+	
+	[ "bottle_plastic_nukadark", 10 ],
+	[ "bag_canvas_westtek_nylon", 10 ]
+	
+    ]
   }
   
  
+	
+	
 ]

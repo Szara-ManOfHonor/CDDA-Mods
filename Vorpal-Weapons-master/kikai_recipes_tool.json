@@ -57,20 +57,6 @@
   },
   {
     "type": "recipe",
-    "result": "bot_exploder",
-    "category": "CC_ELECTRONIC",
-    "subcategory": "CSC_ELECTRONIC_OTHER",
-    "skill_used": "electronics",
-    "skills_required": [ "mechanics", 6 ],
-    "difficulty": 8,
-    "time": 1000,
-    "reversible": false,
-    "autolearn": true,
-    "tools": [ [ [ "magnetic_field_vo", 600 ] ] ],
-    "components": [ [ [ "scrap", 16 ], [ "steel_chunk", 4 ], [ "steel_lump", 1 ] ] ]
-  },
-  {
-    "type": "recipe",
     "result": "bot_tankbot",
     "category": "CC_ELECTRONIC",
     "subcategory": "CSC_ELECTRONIC_OTHER",
