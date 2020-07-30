@@ -1,6 +1,6 @@
 [
   {
-    "result": "anesthesia",
+    "result": "anesthetic",
     "type": "recipe",
     "byproducts": [ [ "syringe" ] ],
     "category": "CC_OTHER",
