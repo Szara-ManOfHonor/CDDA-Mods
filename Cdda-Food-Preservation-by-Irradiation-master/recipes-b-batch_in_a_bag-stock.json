@@ -7,7 +7,6 @@
     "skill_used": "cooking",
     "difficulty": 3,
     "skills_required": [ "mechanics", 2 ],
-    "time": 50000,
     "batch_time_factors": [ 83, 5 ],
     "autolearn": true,
     "container": "bag_plastic",
