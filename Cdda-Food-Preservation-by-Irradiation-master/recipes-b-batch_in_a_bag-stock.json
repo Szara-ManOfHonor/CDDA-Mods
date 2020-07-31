@@ -1,6 +1,6 @@
 [
   {
-    "result": "veg_irradiated_abstract_batched",
+    "result": "irradiated_apple",
     "type": "recipe",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_VEGGI",
@@ -10,12 +10,7 @@
     "time": 50000,
     "batch_time_factors": [ 83, 5 ],
     "autolearn": true,
-    "container": "bag_plastic"
-  },
-  {
-    "result": "irradiated_apple",
-    "copy-from": "veg_irradiated_abstract_batched",
-    "type": "recipe",
+    "container": "bag_plastic",
     "id_suffix": "batch_in_a_bag",
     "//": "Recipes below here are the multi-charge veggy based on bag capacity and veggy volume.",
     "result_mult": 24,
@@ -28,7 +23,7 @@
   },
   {
     "result": "irradiated_banana",
-    "copy-from": "veg_irradiated_abstract_batched",
+    "copy-from": "irradiated_apple",
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
@@ -41,7 +36,7 @@
   },
   {
     "result": "irradiated_orange",
-    "copy-from": "veg_irradiated_abstract_batched",
+    "copy-from": "irradiated_apple",
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
@@ -54,7 +49,7 @@
   },
   {
     "result": "irradiated_lemon",
-    "copy-from": "veg_irradiated_abstract_batched",
+    "copy-from": "irradiated_apple",
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
@@ -67,7 +62,7 @@
   },
   {
     "result": "irradiated_blueberries",
-    "copy-from": "veg_irradiated_abstract_batched",
+    "copy-from": "irradiated_apple",
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
@@ -79,7 +74,7 @@
   },
   {
     "result": "irradiated_strawberries",
-    "copy-from": "veg_irradiated_abstract_batched",
+    "copy-from": "irradiated_apple",
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
@@ -91,7 +86,7 @@
   },
   {
     "result": "irradiated_lettuce",
-    "copy-from": "veg_irradiated_abstract_batched",
+    "copy-from": "irradiated_apple",
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 8,
@@ -104,7 +99,7 @@
   },
   {
     "result": "irradiated_cabbage",
-    "copy-from": "veg_irradiated_abstract_batched",
+    "copy-from": "irradiated_apple",
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
@@ -117,7 +112,7 @@
   },
   {
     "result": "irradiated_tomato",
-    "copy-from": "veg_irradiated_abstract_batched",
+    "copy-from": "irradiated_apple",
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
@@ -130,7 +125,7 @@
   },
   {
     "result": "irradiated_broccoli",
-    "copy-from": "veg_irradiated_abstract_batched",
+    "copy-from": "irradiated_apple",
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
@@ -143,7 +138,7 @@
   },
   {
     "result": "irradiated_zucchini",
-    "copy-from": "veg_irradiated_abstract_batched",
+    "copy-from": "irradiated_apple",
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
@@ -156,7 +151,7 @@
   },
   {
     "result": "irradiated_onion",
-    "copy-from": "veg_irradiated_abstract_batched",
+    "copy-from": "irradiated_apple",
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
@@ -169,7 +164,7 @@
   },
   {
     "result": "irradiated_carrot",
-    "copy-from": "veg_irradiated_abstract_batched",
+    "copy-from": "irradiated_apple",
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
@@ -182,7 +177,7 @@
   },
   {
     "result": "irradiated_corn",
-    "copy-from": "veg_irradiated_abstract_batched",
+    "copy-from": "irradiated_apple",
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
@@ -195,7 +190,7 @@
   },
   {
     "result": "irradiated_pumpkin",
-    "copy-from": "veg_irradiated_abstract_batched",
+    "copy-from": "irradiated_apple",
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 2,
@@ -208,7 +203,7 @@
   },
   {
     "result": "irradiated_grapefruit",
-    "copy-from": "veg_irradiated_abstract_batched",
+    "copy-from": "irradiated_apple",
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
@@ -220,7 +215,7 @@
   },
   {
     "result": "irradiated_pear",
-    "copy-from": "veg_irradiated_abstract_batched",
+    "copy-from": "irradiated_apple",
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
@@ -233,7 +228,7 @@
   },
   {
     "result": "irradiated_cherries",
-    "copy-from": "veg_irradiated_abstract_batched",
+    "copy-from": "irradiated_apple",
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
@@ -245,7 +240,7 @@
   },
   {
     "result": "irradiated_plums",
-    "copy-from": "veg_irradiated_abstract_batched",
+    "copy-from": "irradiated_apple",
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
@@ -257,7 +252,7 @@
   },
   {
     "result": "irradiated_grapes",
-    "copy-from": "veg_irradiated_abstract_batched",
+    "copy-from": "irradiated_apple",
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
@@ -270,7 +265,7 @@
   },
   {
     "result": "irradiated_pineapple",
-    "copy-from": "veg_irradiated_abstract_batched",
+    "copy-from": "irradiated_apple",
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 6,
@@ -283,7 +278,7 @@
   },
   {
     "result": "irradiated_peach",
-    "copy-from": "veg_irradiated_abstract_batched",
+    "copy-from": "irradiated_apple",
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
@@ -296,7 +291,7 @@
   },
   {
     "result": "irradiated_cranberries",
-    "copy-from": "veg_irradiated_abstract_batched",
+    "copy-from": "irradiated_apple",
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
@@ -309,7 +304,7 @@
   },
   {
     "result": "irradiated_watermelon",
-    "copy-from": "veg_irradiated_abstract_batched",
+    "copy-from": "irradiated_apple",
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 2,
@@ -322,7 +317,7 @@
   },
   {
     "result": "irradiated_melon",
-    "copy-from": "veg_irradiated_abstract_batched",
+    "copy-from": "irradiated_apple",
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 6,
@@ -335,7 +330,7 @@
   },
   {
     "result": "irradiated_raspberries",
-    "copy-from": "veg_irradiated_abstract_batched",
+    "copy-from": "irradiated_apple",
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
@@ -348,7 +343,7 @@
   },
   {
     "result": "irradiated_blackberries",
-    "copy-from": "veg_irradiated_abstract_batched",
+    "copy-from": "irradiated_apple",
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
@@ -361,7 +356,7 @@
   },
   {
     "result": "irradiated_mango",
-    "copy-from": "veg_irradiated_abstract_batched",
+    "copy-from": "irradiated_apple",
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
@@ -374,7 +369,7 @@
   },
   {
     "result": "irradiated_pomegranate",
-    "copy-from": "veg_irradiated_abstract_batched",
+    "copy-from": "irradiated_apple",
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
@@ -387,7 +382,7 @@
   },
   {
     "result": "irradiated_rhubarb",
-    "copy-from": "veg_irradiated_abstract_batched",
+    "copy-from": "irradiated_apple",
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
@@ -400,7 +395,7 @@
   },
   {
     "result": "irradiated_papaya",
-    "copy-from": "veg_irradiated_abstract_batched",
+    "copy-from": "irradiated_apple",
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
@@ -412,7 +407,7 @@
   },
   {
     "result": "irradiated_kiwi",
-    "copy-from": "veg_irradiated_abstract_batched",
+    "copy-from": "irradiated_apple",
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
@@ -425,7 +420,7 @@
   },
   {
     "result": "irradiated_apricot",
-    "copy-from": "veg_irradiated_abstract_batched",
+    "copy-from": "irradiated_apple",
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
@@ -438,7 +433,7 @@
   },
   {
     "result": "irradiated_cucumber",
-    "copy-from": "veg_irradiated_abstract_batched",
+    "copy-from": "irradiated_apple",
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
@@ -451,7 +446,7 @@
   },
   {
     "result": "irradiated_celery",
-    "copy-from": "veg_irradiated_abstract_batched",
+    "copy-from": "irradiated_apple",
     "type": "recipe",
     "id_suffix": "batch_in_a_bag",
     "result_mult": 24,
