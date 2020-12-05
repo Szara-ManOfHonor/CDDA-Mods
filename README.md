@@ -15,9 +15,10 @@ A bunch of mods have been removed from this repository because they are being up
 All credit for the original mods goes to their creators.
 
 # Current update status
-Check issues for the most important details. Testing in progress. Consider this repository WIP right now. As of 29 July 2020, it loads. Everything. Many errors are thrown, but it loads. I'll be working on cleaning it up over the coming days. But I've made 58 commits over the past few days, so maybe I will take a small break first.
+# Basically a dead repository#
+I might be getting back into updating, but it has been so long I'm probably going to be making a new, much smaller one, since other people have taken up updating most of these in their own repositories. I hgihly reccomend TheGoatGod's repository linked below.
 
-Just spent a month in Romania away from my computer, and had a very busy spring. Finally going to be pushing updates now though. It difficult when I'm woking 13 hours a day 7 days a week.
+Check issues for the most important details. Testing in progress. Consider this repository WIP right now. As of 29 July 2020, it loads. Everything. Many errors are thrown, but it loads. I'll be working on cleaning it up over the coming days. 
 
 ZSFixed_Extended Buildings and Roadwarrior (madmax) are borked and will not load. Hopefully fixed eventually
 
@@ -63,7 +64,7 @@ Vampiric Stuff https://github.com/Axema/Vampiric-Stuff
 Youkai Disco https://github.com/Toltetix/cdda-youkai-mod
 
 # Links to other repository
-https://github.com/TheGoatGod/Goats-Mod-Compilation
+https://github.com/TheGoatGod/Goats-Mod-Compilation-redux
 Following my haitus, I used many of TheGoatGd's updates. The goat also has a *lot* more mods in the pack, but few I've wanted to add to this pack. It is however useful for things like Ascension. Definitely give it a look.
 
 
