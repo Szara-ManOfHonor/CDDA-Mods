@@ -1,6 +1,7 @@
 [
 	{
-				"id": "f_BioCo_Assembly_Machine",
+		"id": "f_BioCo_Assembly_Machine",
+		"group": "f_BioCo_Assembly_Machine",
         "type" : "construction",
         "description" : "Build BioCo Assembly Machine",
         "category" : "FURN",
@@ -17,8 +18,14 @@
         "pre_special" : "check_empty",
         "post_terrain" : "f_BioCo_Assembly_Machine"
     },
+   {
+    "type": "construction_group",
+    "id": "f_BioCo_Assembly_Machine",
+    "name": "Build BioCo Assembly Machine"
+   },
 	{
-    		"id": "f_BioCo_Chemical_Engine",
+    	"id": "f_BioCo_Chemical_Engine",
+		"group": "f_BioCo_Chemical_Engine",
         "type" : "construction",
         "description" : "Build BioCo Chemical Engine",
         "category" : "FURN",
@@ -36,7 +43,13 @@
         "post_terrain" : "f_BioCo_Chemical_Engine"
     },
 	{
-				"id": "f_autodoc",
+    "type": "construction_group",
+    "id": "f_BioCo_Chemical_Engine",
+    "name": "Build BioCo Chemical Engine"
+   },
+	{
+		"id": "f_autodoc",
+		"group": "f_autodoc",
         "type" : "construction",
         "description" : "Build BioCo AutoDoc",
         "category" : "FURN",
@@ -54,7 +67,13 @@
         "post_terrain" : "f_autodoc"
     },
 	{
-				"id": "BioCo_AutoDoc_Couch",
+    "type": "construction_group",
+    "id": "f_autodoc",
+    "name": "Build BioCo AutoDoc"
+   },
+	{
+		"id": "BioCo_AutoDoc_Couch",
+		"group": "BioCo_AutoDoc_Couch",
         "type" : "construction",
         "description" : "Build BioCo AutoDoc Couch",
         "category" : "FURN",
@@ -70,5 +89,10 @@
         "pre_note" : "A BioCo Autodoc Couch. A series of wires connecting it and a nearby AutoDoc transmit needed data about the creature laying down.",
         "pre_special" : "check_empty",
         "post_terrain" : "f_autodoc_couch"
-    }
+    },
+	{
+    "type": "construction_group",
+    "id": "BioCo_AutoDoc_Couch",
+    "name": "Build BioCo AutoDoc Couch"
+   }
 ]
