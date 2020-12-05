@@ -15,10 +15,10 @@ A bunch of mods have been removed from this repository because they are being up
 All credit for the original mods goes to their creators.
 
 # Current update status
-# Basically a dead repository#
-I might be getting back into updating, but it has been so long I'm probably going to be making a new, much smaller one, since other people have taken up updating most of these in their own repositories. I hgihly reccomend TheGoatGod's repository linked below.
+# Outdated#
+Updating is in progress. In the meantime I highly reccomend TheGoatGod's repository linked below.
 
-Check issues for the most important details. Testing in progress. Consider this repository WIP right now. As of 29 July 2020, it loads. Everything. Many errors are thrown, but it loads. I'll be working on cleaning it up over the coming days. 
+Check issues for the most important details. Testing in progress.
 
 ZSFixed_Extended Buildings and Roadwarrior (madmax) are borked and will not load. Hopefully fixed eventually
 
@@ -65,9 +65,4 @@ Youkai Disco https://github.com/Toltetix/cdda-youkai-mod
 
 # Links to other repository
 https://github.com/TheGoatGod/Goats-Mod-Compilation-redux
-Following my haitus, I used many of TheGoatGd's updates. The goat also has a *lot* more mods in the pack, but few I've wanted to add to this pack. It is however useful for things like Ascension. Definitely give it a look.
-
-
-# Removed mods
-(For reasons other than being mainlined or maintained elsewhere)
-Disinfectant Powder, "powder_disinfectant", by Broken "Spaghetti" Admin- This mod doesn't add any way to create or obtain the disinfectant powder which it adds as an item, so it is effectively useless.
+Following my haitus, I used many of TheGoatGd's updates. The Goat also has a *lot* more mods in the pack, but few I've wanted to add to this pack. It is however useful for things like Ascension. Definitely give it a look.
