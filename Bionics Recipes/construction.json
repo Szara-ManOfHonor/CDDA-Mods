@@ -1,6 +1,7 @@
 [
   {
     "id": "Autodoc1",
+	"group": "Autodoc1",
     "type": "construction",
     "description": "Build Autodoc",
     "category": "FURN",
@@ -23,7 +24,13 @@
     "post_terrain": "f_autodoc"
   },
   {
+    "type": "construction_group",
+    "id": "Autodoc1",
+    "name": "Build Autodoc"
+   },
+  {
     "id": "Autodoc_couch1",
+	"group": "Autodoc_couch1",
     "type": "construction",
     "description": "Build Autodoc Couch",
     "category": "FURN",
@@ -37,5 +44,10 @@
     ],
     "pre_special": "check_empty",
     "post_terrain": "f_autodoc_couch"
-  }
+  },
+  {
+    "type": "construction_group",
+    "id": "Autodoc_couch1",
+    "name": "Build Autodoc Couch"
+   }
 ]
