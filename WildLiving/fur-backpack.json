@@ -5,7 +5,7 @@
     "name": "fur backpack",
     "description": "A medium sized fur backpack, with a few loops for attaching gear.",
     "weight": "818 g",
-    "volume": 10,
+    "volume": "2500 ml",
     "price": 11900,
     "material": [ "fur" ],
     "symbol": "[",
@@ -34,7 +34,7 @@
     "subcategory": "CSC_ARMOR_STORAGE",
     "skill_used": "tailor",
     "difficulty": 3,
-    "time": 60000,
+    "time": "2 hours",
     "autolearn": true,
     "using": [ [ "sewing_standard", 20 ] ],
     "components": [ [ [ "fur", 6 ], [ "tanned_pelt", 3 ] ], [ [ "cordage", 1, "LIST" ], [ "filament", 60, "LIST" ] ], [ [ "scrap", 6 ] ] ]

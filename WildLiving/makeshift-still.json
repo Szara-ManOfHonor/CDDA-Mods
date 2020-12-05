@@ -33,6 +33,7 @@
     "type": "construction",
     "id": "c_primitive_still",
     "description": "Build Makeshift Still",
+	"group": "c_primitive_still",
     "category": "CONSTRUCT",
     "required_skills": [ [ "fabrication", 3 ], [ "survival", 2 ] ],
     "time": "45 m",
@@ -41,5 +42,10 @@
     "pre_note": "Can be deconstructed without tools.",
     "pre_terrain": "t_dirtmound",
     "post_terrain": "f_primitive_still"
+  },
+  {
+    "type": "construction_group",
+    "id": "c_pimitive_still",
+    "name": "Build makeshift still"
   }
 ]

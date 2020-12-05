@@ -5,9 +5,9 @@
     "name": "dog whistle",
     "description": "This is a small wooden whistle.  When used, it produces a high tone that causes nearby friendly dogs to either follow you closely and stop attacking, or start attacking enemies if they are currently docile.",
     "weight": "22 g",
-    "volume": "0 ml",
+    "volume": "250 ml",
     "price": 1000,
-    "material": [ "wood" ],
+    "material": "wood",
     "symbol": ";",
     "color": "yellow",
     "use_action": "DOG_WHISTLE"
@@ -20,7 +20,7 @@
     "skill_used": "fabrication",
     "difficulty": 3,
     "skills_required": [ "survival", 4 ],
-    "time": 20000,
+    "time": "30 minutes",
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "components": [ [ [ "stick", 2 ] ] ]

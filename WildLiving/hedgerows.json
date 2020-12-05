@@ -3,6 +3,7 @@
     "type": "construction",
     "id": "c_plant_hedgerow",
     "description": "Plant hedgerow",
+	"group": "c_hedgerow",
     "category": "FARM_WOOD",
     "difficulty": 2,
     "time": 10,
@@ -10,6 +11,11 @@
     "components": [ [ [ "seed_veggy_wild", 10 ] ] ],
     "pre_flags": "DIGGABLE",
     "post_terrain": "t_hedgerow"
+  },
+  {
+    "type": "construction_group",
+    "id": "c_hedgerow",
+    "name": "Plant hedgerow"
   },
   {
     "type": "terrain",

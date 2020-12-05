@@ -24,6 +24,7 @@
   {
     "type": "construction",
     "id": "c_makeshift_fence",
+	"group": "c_makeshift_fence",
     "description": "Build Makeshift Fence",
     "category": "FURN",
     "difficulty": 2,
@@ -37,6 +38,11 @@
     "components": [ [ [ "2x4", 8 ], [ "stick", 8 ] ] ],
     "pre_flags": "DIGGABLE",
     "post_terrain": "f_makeshiftfence"
+  },
+  {
+    "type": "construction_group",
+    "id": "c_makeshift_fence",
+    "name": "Build makeshift fence"
   },
   {
     "type": "furniture",
@@ -63,6 +69,7 @@
   {
     "type": "construction",
     "id": "c_wovenfence",
+	"group": "c_wovenfence",
     "description": "Build Woven Fence",
     "category": "FURN",
     "difficulty": 2,
@@ -76,5 +83,10 @@
     "components": [ [ [ "stick", 2 ], [ "stick_long", 8 ] ] ],
     "pre_flags": "DIGGABLE",
     "post_terrain": "f_wovenfence"
+  },
+  {
+    "type": "construction_group",
+    "id": "c_wovenfence",
+    "name": "Build woven fence"
   }
 ]
