@@ -1216,7 +1216,7 @@
     "prereqs": [ "FLOWERS" ],
     "prereqs2": [ "POISONOUS2" ],
     "threshreq": [ "THRESH_PLANT" ],
-    "restricts_gear": [ "mouth", "head", "EYES" ],
+    "restricts_gear": [ "mouth", "head", "eyes" ],
     "attacks": {
       "attack_text_u": "You stab at %s with the stinger inside your petals",
       "attack_text_npc": "%1$s stabs at %2$s with the stinger inside their petals",
@@ -4665,7 +4665,7 @@
     "description": "You have a second set of clear eyelids which lower while underwater, allowing you to see as though you were wearing goggles.  Slightly decreases wet penalties.",
     "category": [ "MUTCAT_LIZARD", "MUTCAT_FISH" ],
     "cancels": [ "FLOWER_HEAD" ],
-    "wet_protection": [ { "part": "EYES", "neutral": 2 } ]
+    "wet_protection": [ { "part": "eyes", "neutral": 2 } ]
   },
   {
     "type": "mutation",

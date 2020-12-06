@@ -179,7 +179,7 @@
     "occupied_bodyparts": [
       [ "TORSO", -64 ],
       [ "head", -6 ],
-      [ "EYES", -1 ],
+      [ "eyes", -1 ],
       [ "mouth", 0 ],
       [ "ARM_L", -9 ],
       [ "ARM_R", -9 ],
@@ -199,7 +199,7 @@
     "occupied_bodyparts": [
       [ "TORSO", -128 ],
       [ "head", -12 ],
-      [ "EYES", -2 ],
+      [ "eyes", -2 ],
       [ "mouth", -1 ],
       [ "ARM_L", -18 ],
       [ "ARM_R", -18 ],
@@ -219,7 +219,7 @@
     "occupied_bodyparts": [
       [ "TORSO", -192 ],
       [ "head", -18 ],
-      [ "EYES", -3 ],
+      [ "eyes", -3 ],
       [ "mouth", -2 ],
       [ "ARM_L", -27 ],
       [ "ARM_R", -27 ],
@@ -239,7 +239,7 @@
     "occupied_bodyparts": [
       [ "TORSO", -256 ],
       [ "head", -24 ],
-      [ "EYES", -4 ],
+      [ "eyes", -4 ],
       [ "mouth", -3 ],
       [ "ARM_L", -36 ],
       [ "ARM_R", -36 ],

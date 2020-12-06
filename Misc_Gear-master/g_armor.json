@@ -213,7 +213,7 @@
         "name_plural" : "pairs of vertigo glasses",
         "weight" : 30,
         "color" : "yellow",
-        "covers" : ["EYES"],
+        "covers" : ["eyes"],
         "to_hit" : -2,
         "storage" : 0,
         "symbol" : "[",

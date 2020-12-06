@@ -268,7 +268,7 @@
     "material": [ "plastic" ],
     "symbol": "[",
     "color": "yellow",
-    "covers": [ "head", "mouth", "EYES", "TORSO", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r" ],
+    "covers": [ "head", "mouth", "eyes", "TORSO", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r" ],
     "coverage": 100,
     "encumbrance": 40,
     "warmth": 40,
@@ -1345,7 +1345,7 @@
     "material": [ "kevlar", "steel", "nomex", "fur" ],
     "symbol": "[",
     "color": "white",
-    "covers": [ "head", "mouth", "EYES", "TORSO", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r" ],
+    "covers": [ "head", "mouth", "eyes", "TORSO", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r" ],
     "coverage": 100,
     "use_action": {
       "type": "transform",
@@ -1387,7 +1387,7 @@
     "material": [ "kevlar", "nomex", "fur" ],
     "symbol": "[",
     "color": "white",
-    "covers": [ "head", "mouth", "EYES", "TORSO", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r" ],
+    "covers": [ "head", "mouth", "eyes", "TORSO", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r" ],
     "coverage": 100,
     "use_action": {
       "type": "transform",
@@ -1429,7 +1429,7 @@
     "material": [ "kevlar", "steel", "nomex", "fur" ],
     "symbol": "[",
     "color": "white",
-    "covers": [ "head", "mouth", "EYES", "TORSO", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r" ],
+    "covers": [ "head", "mouth", "eyes", "TORSO", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r" ],
     "coverage": 100,
     "use_action": {
       "type": "transform",
@@ -1471,7 +1471,7 @@
     "material": [ "kevlar", "steel", "nomex", "fur" ],
     "symbol": "[",
     "color": "white",
-    "covers": [ "head", "mouth", "EYES", "TORSO", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r" ],
+    "covers": [ "head", "mouth", "eyes", "TORSO", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r" ],
     "coverage": 100,
     "use_action": {
       "type": "transform",
@@ -1513,7 +1513,7 @@
     "material": [ "kevlar", "steel", "nomex", "fur" ],
     "symbol": "[",
     "color": "white",
-    "covers": [ "head", "mouth", "EYES", "TORSO", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r" ],
+    "covers": [ "head", "mouth", "eyes", "TORSO", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r" ],
     "coverage": 100,
     "use_action": {
       "type": "transform",
@@ -1555,7 +1555,7 @@
     "material": [ "kevlar", "steel", "nomex", "fur" ],
     "symbol": "[",
     "color": "white",
-    "covers": [ "head", "mouth", "EYES", "TORSO", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r" ],
+    "covers": [ "head", "mouth", "eyes", "TORSO", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r" ],
     "coverage": 100,
     "use_action": {
       "type": "transform",
@@ -1597,7 +1597,7 @@
     "material": [ "kevlar", "steel", "nomex", "fur" ],
     "symbol": "[",
     "color": "white",
-    "covers": [ "head", "mouth", "EYES", "TORSO", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r" ],
+    "covers": [ "head", "mouth", "eyes", "TORSO", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r" ],
     "coverage": 100,
     "use_action": {
       "type": "transform",
@@ -1639,7 +1639,7 @@
     "material": [ "kevlar", "steel", "nomex", "fur" ],
     "symbol": "[",
     "color": "white",
-    "covers": [ "head", "mouth", "EYES", "TORSO", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r" ],
+    "covers": [ "head", "mouth", "eyes", "TORSO", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r" ],
     "coverage": 100,
     "use_action": {
       "type": "transform",
@@ -1681,7 +1681,7 @@
     "material": [ "kevlar", "steel", "nomex", "fur" ],
     "symbol": "[",
     "color": "white",
-    "covers": [ "head", "mouth", "EYES", "TORSO", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r" ],
+    "covers": [ "head", "mouth", "eyes", "TORSO", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r" ],
     "coverage": 100,
     "use_action": {
       "type": "transform",
@@ -1723,7 +1723,7 @@
     "material": [ "kevlar", "steel", "nomex", "fur" ],
     "symbol": "[",
     "color": "white",
-    "covers": [ "head", "mouth", "EYES", "TORSO", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r" ],
+    "covers": [ "head", "mouth", "eyes", "TORSO", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r" ],
     "coverage": 100,
     "use_action": {
       "type": "transform",
@@ -1765,7 +1765,7 @@
     "material": [ "kevlar", "steel", "nomex", "fur" ],
     "symbol": "[",
     "color": "white",
-    "covers": [ "head", "mouth", "EYES", "TORSO", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r" ],
+    "covers": [ "head", "mouth", "eyes", "TORSO", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r" ],
     "coverage": 100,
     "use_action": {
       "type": "transform",
@@ -1807,7 +1807,7 @@
     "material": [ "kevlar", "steel", "nomex", "fur" ],
     "symbol": "[",
     "color": "white",
-    "covers": [ "head", "mouth", "EYES", "TORSO", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r" ],
+    "covers": [ "head", "mouth", "eyes", "TORSO", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r" ],
     "coverage": 100,
     "use_action": {
       "type": "transform",
@@ -1849,7 +1849,7 @@
     "material": [ "kevlar", "steel", "nomex", "fur" ],
     "symbol": "[",
     "color": "white",
-    "covers": [ "head", "mouth", "EYES", "TORSO", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r" ],
+    "covers": [ "head", "mouth", "eyes", "TORSO", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r" ],
     "coverage": 100,
     "use_action": {
       "type": "transform",
@@ -1891,7 +1891,7 @@
     "material": [ "plastic" ],
     "symbol": "[",
     "color": "yellow",
-    "covers": [ "head", "mouth", "EYES", "TORSO", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r" ],
+    "covers": [ "head", "mouth", "eyes", "TORSO", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r" ],
     "coverage": 100,
     "encumbrance": 40,
     "warmth": 40,
