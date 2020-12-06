@@ -581,7 +581,7 @@
     "attacks": {
       "attack_text_u": "You peck %s",
       "attack_text_npc": "%1$s pecks %2$s",
-      "body_part": "MOUTH",
+      "body_part": "mouth",
       "chance": 15,
       "base_damage": { "damage_type": "stab", "amount": 15 }
     },
@@ -1216,11 +1216,11 @@
     "prereqs": [ "FLOWERS" ],
     "prereqs2": [ "POISONOUS2" ],
     "threshreq": [ "THRESH_PLANT" ],
-    "restricts_gear": [ "MOUTH", "HEAD", "EYES" ],
+    "restricts_gear": [ "mouth", "HEAD", "EYES" ],
     "attacks": {
       "attack_text_u": "You stab at %s with the stinger inside your petals",
       "attack_text_npc": "%1$s stabs at %2$s with the stinger inside their petals",
-      "body_part": "MOUTH",
+      "body_part": "mouth",
       "chance": 40,
       "base_damage": { "damage_type": "stab", "amount": 15 }
     },
@@ -1940,7 +1940,7 @@
       "SCUTES"
     ],
     "category": [ "MUTCAT_FELINE" ],
-    "armor": [ { "parts": [ "HEAD", "MOUTH" ], "bash": 1 } ]
+    "armor": [ { "parts": [ "HEAD", "mouth" ], "bash": 1 } ]
   },
   {
     "type": "mutation",
@@ -2098,11 +2098,11 @@
       "attack_text_u": "You nip at %s",
       "attack_text_npc": "%1$s nips and harries %2$s",
       "blocker_mutations": [ "FANGS" ],
-      "body_part": "MOUTH",
+      "body_part": "mouth",
       "chance": 20,
       "base_damage": { "damage_type": "cut", "amount": 12 }
     },
-    "restricts_gear": [ "MOUTH" ]
+    "restricts_gear": [ "mouth" ]
   },
   {
     "type": "mutation",
@@ -2135,11 +2135,11 @@
       "attack_text_u": "You nip at %s",
       "attack_text_npc": "%1$s nips and harries %2$s",
       "blocker_mutations": [ "FANGS" ],
-      "body_part": "MOUTH",
+      "body_part": "mouth",
       "chance": 18,
       "base_damage": { "damage_type": "cut", "amount": 10 }
     },
-    "restricts_gear": [ "MOUTH" ]
+    "restricts_gear": [ "mouth" ]
   },
   {
     "type": "mutation",
@@ -2168,12 +2168,12 @@
     ],
     "prereqs": [ "MUZZLE" ],
     "category": [ "MUTCAT_BEAST" ],
-    "restricts_gear": [ "MOUTH" ],
+    "restricts_gear": [ "mouth" ],
     "attacks": {
       "attack_text_u": "You chomp %s",
       "attack_text_npc": "%1$s chomps %2$s",
       "blocker_mutations": [ "FANGS" ],
-      "body_part": "MOUTH",
+      "body_part": "mouth",
       "chance": 18,
       "base_damage": { "damage_type": "cut", "amount": 12 }
     }
@@ -2211,11 +2211,11 @@
       "attack_text_u": "You nip at %s",
       "attack_text_npc": "%1$s nips and harries %2$s",
       "blocker_mutations": [ "FANGS" ],
-      "body_part": "MOUTH",
+      "body_part": "mouth",
       "chance": 20,
       "base_damage": { "damage_type": "cut", "amount": 12 }
     },
-    "restricts_gear": [ "MOUTH" ]
+    "restricts_gear": [ "mouth" ]
   },
   {
     "type": "mutation",
@@ -2244,7 +2244,7 @@
       "FLOWER_HEAD",
       "FANGS_SPIDER"
     ],
-    "restricts_gear": [ "MOUTH" ]
+    "restricts_gear": [ "mouth" ]
   },
   {
     "type": "mutation",
@@ -2278,11 +2278,11 @@
       "attack_text_u": "You bite a chunk out of %s",
       "attack_text_npc": "%1$s bites a chunk out of %2$s",
       "blocker_mutations": [ "FANGS" ],
-      "body_part": "MOUTH",
+      "body_part": "mouth",
       "chance": 18,
       "base_damage": { "damage_type": "stab", "amount": 16 }
     },
-    "restricts_gear": [ "MOUTH" ]
+    "restricts_gear": [ "mouth" ]
   },
   {
     "type": "mutation",
@@ -2314,7 +2314,7 @@
     "changes_to": [ "MUZZLE_CHIMERA" ],
     "leads_to": [ "BOVINE_BODY" ],
     "social_modifiers": { "intimidate": 15 },
-    "restricts_gear": [ "MOUTH" ]
+    "restricts_gear": [ "mouth" ]
   },
   {
     "type": "mutation",
@@ -2344,12 +2344,12 @@
     "threshreq": [ "THRESH_CHIMERA" ],
     "category": [ "MUTCAT_CHIMERA" ],
     "leads_to": [ "CHIMERA_BODY" ],
-    "restricts_gear": [ "MOUTH" ],
+    "restricts_gear": [ "mouth" ],
     "attacks": {
       "attack_text_u": "You bite and rend %s",
       "attack_text_npc": "%1$s bites and rends %2$s",
       "blocker_mutations": [ "FANGS", "SABER_TEETH" ],
-      "body_part": "MOUTH",
+      "body_part": "mouth",
       "chance": 20,
       "base_damage": { "damage_type": "stab", "amount": 25 }
     }
@@ -3105,7 +3105,7 @@
     "visibility": 7,
     "ugliness": 4,
     "description": "You have a flattened nose and thin slits for nostrils, giving you a lizard-like appearance.  This makes breathing slightly difficult and increases mouth encumbrance by 5.",
-    "encumbrance_always": [ [ "MOUTH", 5 ] ],
+    "encumbrance_always": [ [ "mouth", 5 ] ],
     "cancels": [ "SLIT_NOSTRILS_TORTOISE", "SLIT_NOSTRILS_FISH", "NO_NOSE_SPIDER", "NO_NOSE_INSECT", "FLOWER_HEAD" ]
   },
   {
@@ -3116,7 +3116,7 @@
     "visibility": 7,
     "ugliness": 4,
     "description": "You have a flattened nose and thin slits for nostrils, giving you a fish-like appearance.  This makes breathing slightly difficult and increases mouth encumbrance by 5.",
-    "encumbrance_always": [ [ "MOUTH", 5 ] ],
+    "encumbrance_always": [ [ "mouth", 5 ] ],
     "cancels": [ "SLIT_NOSTRILS_TORTOISE", "SLIT_NOSTRILS", "NO_NOSE_SPIDER", "NO_NOSE_INSECT", "FLOWER_HEAD" ],
     "category": [ "MUTCAT_FISH" ]
   },
@@ -3128,7 +3128,7 @@
     "visibility": 7,
     "ugliness": 4,
     "description": "You have a flattened nose and thin slits for nostrils, giving you a tortoise-like appearance.  This makes breathing slightly difficult and increases mouth encumbrance by 5.",
-    "encumbrance_always": [ [ "MOUTH", 5 ] ],
+    "encumbrance_always": [ [ "mouth", 5 ] ],
     "cancels": [ "SLIT_NOSTRILS", "SLIT_NOSTRILS_FISH", "NO_NOSE_SPIDER", "NO_NOSE_INSECT", "FLOWER_HEAD" ],
     "category": [ "MUTCAT_TORTOISE" ]
   },
@@ -3163,7 +3163,7 @@
     "attacks": {
       "attack_text_u": "You stab at %s with your insectoid stinger",
       "attack_text_npc": "%1$s stabs at %2$s with the insectoid stinger",
-      "body_part": "MOUTH",
+      "body_part": "mouth",
       "chance": 30,
       "base_damage": { "damage_type": "stab", "amount": 20 }
     },
@@ -3518,7 +3518,7 @@
       {
         "attack_text_u": "You bite and tear into %s",
         "attack_text_npc": "%1$s bites and tears into %2$s",
-        "body_part": "MOUTH",
+        "body_part": "mouth",
         "chance": 35,
         "base_damage": { "damage_type": "stab", "amount": 35 }
       }
@@ -3558,13 +3558,13 @@
       {
         "attack_text_u": "You jackhammer into %s with your beak",
         "attack_text_npc": "%1$s jackhammer into %2$s with their beak",
-        "body_part": "MOUTH",
+        "body_part": "mouth",
         "chance": 15,
         "hardcoded_effect": true
       }
     ],
-    "wet_protection": [ { "part": "MOUTH", "ignored": 2 } ],
-    "restricts_gear": [ "MOUTH" ],
+    "wet_protection": [ { "part": "mouth", "ignored": 2 } ],
+    "restricts_gear": [ "mouth" ],
     "destroys_gear": true
   },
   {
@@ -3597,9 +3597,9 @@
     ],
     "prereqs": [ "BEAK" ],
     "threshreq": [ "THRESH_BIRD" ],
-    "wet_protection": [ { "part": "MOUTH", "ignored": 2 } ],
+    "wet_protection": [ { "part": "mouth", "ignored": 2 } ],
     "active": true,
-    "restricts_gear": [ "MOUTH" ],
+    "restricts_gear": [ "mouth" ],
     "destroys_gear": true
   },
   {
@@ -3634,7 +3634,7 @@
     "prereqs": [ "EYEBULGE", "COMPOUND_EYES" ],
     "threshreq": [ "THRESH_INSECT" ],
     "active": true,
-    "restricts_gear": [ "MOUTH" ]
+    "restricts_gear": [ "mouth" ]
   },
   {
     "type": "mutation",
@@ -3664,7 +3664,7 @@
       "FANGS_SPIDER"
     ],
     "category": [ "MUTCAT_CEPHALOPOD" ],
-    "wet_protection": [ { "part": "MOUTH", "neutral": 4 } ]
+    "wet_protection": [ { "part": "mouth", "neutral": 4 } ]
   },
   {
     "type": "mutation",
@@ -3696,13 +3696,13 @@
       "FLOWER_HEAD"
     ],
     "category": [ "MUTCAT_INSECT", "MUTCAT_SPIDER" ],
-    "wet_protection": [ { "part": "MOUTH", "ignored": 1 } ],
-    "restricts_gear": [ "MOUTH" ],
+    "wet_protection": [ { "part": "mouth", "ignored": 1 } ],
+    "restricts_gear": [ "mouth" ],
     "attacks": {
       "attack_text_u": "You bite %s with your fangs",
       "attack_text_npc": "%1$s bites %2$s with their fangs",
       "blocker_mutations": [ "FANGS_SPIDER" ],
-      "body_part": "MOUTH",
+      "body_part": "mouth",
       "chance": 22,
       "base_damage": { "damage_type": "cut", "amount": 12 }
     },
@@ -3742,11 +3742,11 @@
       "attack_text_u": "You bite %s with your fangs",
       "attack_text_npc": "%1$s bites %2$s with their fangs",
       "blocker_mutations": [ "MANDIBLES" ],
-      "body_part": "MOUTH",
+      "body_part": "mouth",
       "chance": 22,
       "base_damage": { "damage_type": "stab", "amount": 15 }
     },
-    "wet_protection": [ { "part": "MOUTH", "ignored": 1 } ]
+    "wet_protection": [ { "part": "mouth", "ignored": 1 } ]
   },
   {
     "type": "mutation",
@@ -4225,12 +4225,12 @@
     "prereqs": [ "SNOUT" ],
     "lead_to": [ "TORT_BODY" ],
     "category": [ "MUTCAT_TORTOISE" ],
-    "restricts_gear": [ "MOUTH" ],
+    "restricts_gear": [ "mouth" ],
     "allow_soft_gear": true,
     "attacks": {
       "attack_text_u": "You snap at %s",
       "attack_text_npc": "%1$s snaps at %2$s",
-      "body_part": "MOUTH",
+      "body_part": "mouth",
       "chance": 25,
       "base_damage": { "damage_type": "stab", "amount": 12 }
     }
@@ -4681,7 +4681,7 @@
         "attack_text_u": "You sink your fangs into %s",
         "attack_text_npc": "%1$s sinks their fangs into %2$s",
         "blocker_mutations": [ "MUZZLE", "MUZZLE_LONG", "MUZZLE_RAT", "MUZZLE_CHIMERA" ],
-        "body_part": "MOUTH",
+        "body_part": "mouth",
         "chance": 20,
         "base_damage": { "damage_type": "stab", "amount": 20 }
       },
@@ -4689,7 +4689,7 @@
         "attack_text_u": "You sink your fangs into %s",
         "attack_text_npc": "%1$s sinks their fangs into %2$s",
         "required_mutations": [ "MUZZLE" ],
-        "body_part": "MOUTH",
+        "body_part": "mouth",
         "chance": 18,
         "base_damage": { "damage_type": "stab", "amount": 20 }
       },
@@ -4697,7 +4697,7 @@
         "attack_text_u": "You sink your fangs into %s",
         "attack_text_npc": "%1$s sinks their fangs into %2$s",
         "required_mutations": [ "MUZZLE_LONG" ],
-        "body_part": "MOUTH",
+        "body_part": "mouth",
         "chance": 15,
         "base_damage": { "damage_type": "stab", "amount": 20 }
       },
@@ -4705,7 +4705,7 @@
         "attack_text_u": "You sink your fangs into %s",
         "attack_text_npc": "%1$s sinks their fangs into %2$s",
         "required_mutations": [ "MUZZLE_RAT" ],
-        "body_part": "MOUTH",
+        "body_part": "mouth",
         "chance": 19,
         "base_damage": { "damage_type": "stab", "amount": 20 }
       },
@@ -4713,7 +4713,7 @@
         "attack_text_u": "You bite and rend %s",
         "attack_text_npc": "%1$s bites and rends %2$s",
         "required_mutations": [ "MUZZLE_CHIMERA" ],
-        "body_part": "MOUTH",
+        "body_part": "mouth",
         "chance": 15,
         "base_damage": { "damage_type": "stab", "amount": 25 }
       }
@@ -4732,12 +4732,12 @@
     "prereqs": [ "FANGS" ],
     "threshreq": [ "THRESH_FELINE", "THRESH_CHIMERA" ],
     "cancels": [ "BEAK", "BEAK_HUM", "BEAK_PECK", "MANDIBLES", "RAZOR_TEETH", "FLOWER_HEAD", "FANGS_SPIDER", "PROBOSCIS" ],
-    "restricts_gear": [ "MOUTH" ],
+    "restricts_gear": [ "mouth" ],
     "social_modifiers": { "intimidate": 15 },
     "attacks": {
       "attack_text_u": "You tear into %s with your saber teeth",
       "attack_text_npc": "%1$s tears into %2$s with their saber teeth",
-      "body_part": "MOUTH",
+      "body_part": "mouth",
       "chance": 20,
       "base_damage": { "damage_type": "stab", "amount": 25 },
       "strength_damage": { "damage_type": "stab", "amount": 1 }

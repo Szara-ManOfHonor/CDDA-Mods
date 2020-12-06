@@ -763,7 +763,7 @@
     "symbol": "[",
     "color": "light_gray",
     "looks_like": "chainmail_suit",
-    "covers": [ "TORSO", "HEAD", "MOUTH", "ARMS", "HANDS", "LEGS" ],
+    "covers": [ "TORSO", "HEAD", "mouth", "ARMS", "HANDS", "LEGS" ],
     "coverage": 100,
     "encumbrance": 15,
     "warmth": 15,

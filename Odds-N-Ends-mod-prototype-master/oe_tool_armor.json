@@ -77,7 +77,7 @@
       "need_charges": 1,
       "need_charges_msg": "The %s's filter is used up."
     },
-    "covers": [ "MOUTH" ],
+    "covers": [ "mouth" ],
     "warmth": 10,
     "environmental_protection": 11,
     "encumbrance": 25,

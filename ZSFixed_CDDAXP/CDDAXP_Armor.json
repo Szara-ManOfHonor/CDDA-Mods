@@ -14,7 +14,7 @@
     "material": [ "plastic", "aluminum" ],
     "symbol": "[",
     "color": "dark_gray",
-    "covers": [ "MOUTH" ],
+    "covers": [ "mouth" ],
     "coverage": 100,
     "encumbrance": 25,
     "warmth": 17,

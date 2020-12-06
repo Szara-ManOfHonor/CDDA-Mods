@@ -11,7 +11,7 @@
     "material": [ "plastic" ],
     "symbol": "[",
     "color": "light_gray",
-    "covers": [ "MOUTH" ],
+    "covers": [ "mouth" ],
     "coverage": 100,
     "encumbrance": 20,
     "warmth": 10,
