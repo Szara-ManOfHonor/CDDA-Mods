@@ -15,8 +15,7 @@ A bunch of mods have been removed from this repository because they are being up
 All credit for the original mods goes to their creators.
 
 # Current update status
-# Outdated#
-Updating is in progress. In the meantime I highly reccomend TheGoatGod's repository linked below.
+Updating is in progress, 6Dec2020. The mods seem to load, though there are many realtively harmless bugs still to squash. They're a work in progress. In the meantime I highly reccomend TheGoatGod's repository linked below. Be mindful that TheGoatGod's repository doesn't seem to have the construction groups update, so anything that adds construction recipes won't work.
 
 Check issues for the most important details. Testing in progress.
 
@@ -65,4 +64,4 @@ Youkai Disco https://github.com/Toltetix/cdda-youkai-mod
 
 # Links to other repository
 https://github.com/TheGoatGod/Goats-Mod-Compilation-redux
-Following my haitus, I used many of TheGoatGd's updates. The Goat also has a *lot* more mods in the pack, but few I've wanted to add to this pack. It is however useful for things like Ascension. Definitely give it a look.
+Following my haitus, I used many of TheGoatGod's updates. The Goat also has a *lot* more mods in the pack, but few I've wanted to add to this pack. It is however useful for things like Ascension. Definitely give it a look.
