@@ -1,6 +1,7 @@
 [
   {
     "id": "Set_up_Atm",
+	"group": "set_up_atm",
     "type": "construction",
     "description": "Set up ATM",
     "category": "FURN",
@@ -12,7 +13,13 @@
     "post_terrain": "t_atm"
   },
   {
+   "type": "construction_group",
+   "id": "set_up_atm",
+   "name": "Set up ATM"
+  },
+  {
     "id": "install_Recycling_Machine",
+	"group": "install_recycling_machine",
     "type": "construction",
     "description": "Install Recycling Machine",
     "category": "FURN",
@@ -24,7 +31,13 @@
     "post_terrain": "t_recycler"
   },
   {
+   "type": "construction_group",
+   "id": "install_recycling_machine",
+   "name": "Install recyling machine"
+  },
+  {
     "id": "Make_an_oven",
+	"group": "make_an_oven",
     "type": "construction",
     "description": "Make an oven",
     "category": "FURN",
@@ -41,7 +54,13 @@
     "post_terrain": "f_oven"
   },
   {
+   "type": "construction_group",
+   "id": "make_an_oven",
+   "name": "Make an oven"
+  },
+  {
     "id": "Make_a_Shutter_and_Hoisting_Machine",
+	"group": "make_a_shutter_and_hoisting_machine",
     "type": "construction",
     "description": "Make a shutter and hoisting machine",
     "category": "FURN",
@@ -59,7 +78,13 @@
     "post_terrain": "t_gates_mech_control"
   },
   {
+   "type": "construction_group",
+   "id": "make_a_shutter_and_hoisting_machine",
+   "name": "Make a shutter and hoisting machine"
+  },
+  {
     "id": "Bury_Corpses",
+	"group": "bury_corpses",
     "type": "construction",
     "description": "Bury corpses",
     "category": "FURN",
@@ -70,7 +95,13 @@
     "post_terrain": "f_grave_head"
   },
   {
+   "type": "construction_group",
+   "id": "bury_corpses",
+   "name": "Bury Corpses"
+  },
+  {
     "id": "Erect_Gravestone",
+	"group": "erect_gravestone",
     "type": "construction",
     "description": "Erect gravestone",
     "category": "FURN",
@@ -79,6 +110,11 @@
     "qualities": [ [ { "id": "HAMMER", "level": 2 } ] ],
     "components": [ [ [ "rock", 5 ] ] ],
     "post_terrain": "f_grave_stone"
+  },
+  {
+   "type": "construction_group",
+   "id": "erect_gravestone",
+   "name": "Erect Gravestone"
   },
   {
     "id": "gate_mech_control",

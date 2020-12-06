@@ -1,6 +1,7 @@
 [
   {
     "id": "Install_CVD_machine_and_terminal",
+	"group": "Install_CVD_machine_and_terminal",
     "type": "construction",
     "description": "Install CVD machine and terminal",
     "category": "FURN",
@@ -23,6 +24,11 @@
       [ [ "sheet_metal", 2 ], [ "steel_plate", 1 ] ]
     ],
     "post_terrain": "t_cvdmachine"
+  },
+   {
+   "type": "construction_group",
+   "id": "Install_CVD_machine_and_terminal",
+   "name": "Install CVD machine and terminal"
   },
   {
     "id": "aaf_cvd_module",

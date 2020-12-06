@@ -4,7 +4,7 @@
     "ident": "convenientconstructions",
     "name": "Convenient Constructions",
     "authors": [ "TGWeaver" ],
-    "description": "This mod will let you construct large machines like ATMs and Recyclers, and move rare ones like Autodocs. Balanced to attempt providing convenience at a reasonable cost.",
+    "description": "This mod will let you construct large machines like ATMs and Recyclers, and move rare ones like Autodocs. Balanced to attempt providing convenience at a reasonable cost. This mod is somewhat modular, either subfolder can be deleted to disable those features.",
     "category": "misc_additions",
     "dependencies": [ "dda" ]
   }
