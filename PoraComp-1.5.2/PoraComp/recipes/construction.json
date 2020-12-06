@@ -1,6 +1,7 @@
 [
   {
     "id": "Canvas_Wall",
+	"group": "c_pora_canvas_wall",
     "type": "construction",
     "description": "Build Canvas Wall",
     "category": "CONSTRUCT",
@@ -12,7 +13,13 @@
     "post_terrain": "f_canvas_wall"
   },
   {
+   "type": "construction_group",
+   "id": "c_pora_canvas_wall",
+   "name": "Build Canvas Wall"
+  },
+  {
     "id": "Canvas Door",
+	"group": "c_pora_canvas_door",
     "type": "construction",
     "description": "Build Canvas Door",
     "category": "CONSTRUCT",
@@ -24,7 +31,13 @@
     "post_terrain": "f_canvas_door"
   },
   {
+   "type": "construction_group",
+   "id": "c_pora_canvas_door",
+   "name": "Build Canvas Door"
+  },
+  {
     "id": "Centrifuge",
+	"group": "c_pora_centrifuge",
     "type": "construction",
     "description": "Build Centrifuge",
     "category": "CONSTRUCT",
@@ -41,5 +54,10 @@
     ],
     "pre_special": "check_empty",
     "post_terrain": "t_centrifuge"
+  },
+  {
+   "type": "construction_group",
+   "id": "c_pora_centrifuge",
+   "name": "Build Centrifuge"
   }
 ]
