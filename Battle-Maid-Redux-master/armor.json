@@ -256,7 +256,7 @@
     "weight": 120,
     "volume": 4,
     "to_hit": -3,
-    "covers": [ "MOUTH" ],
+    "covers": [ "mouth" ],
     "flags": [ "OVERSIZE", "POCKETS", "OUTER", "ALLOWS_NATURAL_ATTACKS" ],
     "warmth": 20,
     "environmental_protection": 5,

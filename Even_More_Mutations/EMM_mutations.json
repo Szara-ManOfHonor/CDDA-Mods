@@ -350,7 +350,7 @@
       [ "LEG_L", 30 ],
       [ "LEG_R", 30 ],
       [ "FOOT_L", 30 ],
-      [ "MOUTH", 10 ],
+      [ "mouth", 10 ],
       [ "FOOT_R", 30 ]
     ],
     "restricts_gear": [ "HEAD" ],
@@ -581,7 +581,7 @@
     "visibility": 7,
     "ugliness": 4,
     "description": "You have a flattened nose and thin slits for nostrils, giving you a lizard-like appearance.  This makes breathing slightly difficult and increases mouth encumbrance by 10.",
-    "encumbrance_always": [ [ "MOUTH", 10 ] ],
+    "encumbrance_always": [ [ "mouth", 10 ] ],
     "category": [ "LIZARD", "CEPHALOPOD", "RAPTOR", "SNAKE" ]
   },
   {
@@ -760,7 +760,7 @@
         "attack_text_u": "You sink your fangs into %s",
         "attack_text_npc": "%1$s sinks their fangs into %2$s",
         "blocker_mutations": [ "MUZZLE", "MUZZLE_LONG", "MUZZLE_RAT" ],
-        "body_part": "MOUTH",
+        "body_part": "mouth",
         "chance": 20,
         "base_damage": { "damage_type": "stab", "amount": 20 }
       },
@@ -768,7 +768,7 @@
         "attack_text_u": "You sink your fangs into %s",
         "attack_text_npc": "%1$s sinks their fangs into %2$s",
         "required_mutations": [ "MUZZLE" ],
-        "body_part": "MOUTH",
+        "body_part": "mouth",
         "chance": 18,
         "base_damage": { "damage_type": "stab", "amount": 20 }
       },
@@ -776,7 +776,7 @@
         "attack_text_u": "You sink your fangs into %s",
         "attack_text_npc": "%1$s sinks their fangs into %2$s",
         "required_mutations": [ "MUZZLE_LONG" ],
-        "body_part": "MOUTH",
+        "body_part": "mouth",
         "chance": 15,
         "base_damage": { "damage_type": "stab", "amount": 20 }
       },
@@ -784,7 +784,7 @@
         "attack_text_u": "You sink your fangs into %s",
         "attack_text_npc": "%1$s sinks their fangs into %2$s",
         "required_mutations": [ "MUZZLE_RAT" ],
-        "body_part": "MOUTH",
+        "body_part": "mouth",
         "chance": 19,
         "base_damage": { "damage_type": "stab", "amount": 20 }
       }
@@ -903,7 +903,7 @@
         "attack_text_u": "You sink your fangs into %s",
         "attack_text_npc": "%1$s sinks their fangs into %2$s",
         "blocker_mutations": [ "MUZZLE", "MUZZLE_LONG", "MUZZLE_RAT" ],
-        "body_part": "MOUTH",
+        "body_part": "mouth",
         "chance": 20,
         "base_damage": { "damage_type": "stab", "amount": 15 }
       }
@@ -1386,7 +1386,7 @@
     "attacks": {
       "attack_text_u": "You bite into %s with your incisors",
       "attack_text_npc": "%1$s bites %2$s with their incisors",
-      "body_part": "MOUTH",
+      "body_part": "mouth",
       "chance": 18,
       "base_damage": [ { "damage_type": "cut", "amount": 3 }, { "damage_type": "bash", "amount": 3 } ]
     }

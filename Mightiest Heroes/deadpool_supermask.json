@@ -4,7 +4,7 @@
         "name" : "superhero mask",
         "weight" : 500,
         "color" : "red",
-        "covers" : ["HEAD", "MOUTH", "EYES"],
+        "covers" : ["HEAD", "mouth", "EYES"],
         "to_hit" : -3,
         "symbol" : "[",
         "description" : "A red mask covering the entire head, with black patches around the eyes.",
