@@ -116,7 +116,7 @@
     "material": [ "leather" ],
     "symbol": "[",
     "color": "light_blue",
-    "covers": [ "FEET" ],
+    "covers": [ "foot_l", "foot_r" ],
     "coverage": 80,
     "encumbrance": 16,
     "warmth": 15,

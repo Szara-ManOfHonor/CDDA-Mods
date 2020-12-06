@@ -96,7 +96,7 @@
     "name_plural": "lace stockings with garterbelts",
     "weight": 90,
     "color": "white",
-    "covers": [ "FEET", "LEGS" ],
+    "covers": [ "foot_l", "foot_r", "LEGS" ],
     "symbol": "[",
     "description": "A set of pure white lace stockings with a garterbelt and panties, decorated with elegant lacing.",
     "price": 500,

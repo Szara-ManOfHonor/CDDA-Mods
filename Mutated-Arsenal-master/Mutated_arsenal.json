@@ -13,7 +13,7 @@
     "material": [ "hardsteel", "steel" ],
     "symbol": "[",
     "color": "dark_gray",
-    "covers": [ "TORSO", "arm_l", "arm_r", "hand_l", "hand_r", "LEGS", "FEET" ],
+    "covers": [ "TORSO", "arm_l", "arm_r", "hand_l", "hand_r", "LEGS", "foot_l", "foot_r" ],
     "coverage": 100,
     "encumbrance": 60,
     "storage": 16,
