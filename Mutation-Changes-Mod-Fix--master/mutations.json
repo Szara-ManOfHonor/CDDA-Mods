@@ -68,7 +68,7 @@
       { "part": "ARM_R", "ignored": 4 },
       { "part": "HAND_L", "ignored": 1 },
       { "part": "HAND_R", "ignored": 1 },
-      { "part": "TORSO", "ignored": 10 }
+      { "part": "torso", "ignored": 10 }
     ],
     "armor": [ { "parts": "ALL", "bash": 3, "cut": 3, "acid": 1 } ]
   },
@@ -112,7 +112,7 @@
       { "part": "ARM_R", "ignored": 8 },
       { "part": "HAND_L", "ignored": 2 },
       { "part": "HAND_R", "ignored": 2 },
-      { "part": "TORSO", "ignored": 18 }
+      { "part": "torso", "ignored": 18 }
     ],
     "armor": [ { "parts": "ALL", "bash": 6, "cut": 6, "acid": 2 } ]
   },
@@ -156,10 +156,10 @@
       { "part": "ARM_R", "ignored": 12 },
       { "part": "HAND_L", "ignored": 3 },
       { "part": "HAND_R", "ignored": 3 },
-      { "part": "TORSO", "ignored": 26 }
+      { "part": "torso", "ignored": 26 }
     ],
     "encumbrance_always": [
-      [ "TORSO", 10 ],
+      [ "torso", 10 ],
       [ "head", 10 ],
       [ "ARM_L", 10 ],
       [ "ARM_R", 10 ],
@@ -244,7 +244,7 @@
       { "part": "ARM_R", "ignored": 4 },
       { "part": "HAND_L", "ignored": 1 },
       { "part": "HAND_R", "ignored": 1 },
-      { "part": "TORSO", "ignored": 10 }
+      { "part": "torso", "ignored": 10 }
     ],
     "armor": [ { "parts": "ALL", "bash": 6, "cut": 6, "acid": 2 } ]
   },
@@ -285,10 +285,10 @@
       { "part": "ARM_R", "ignored": 8 },
       { "part": "HAND_L", "ignored": 2 },
       { "part": "HAND_R", "ignored": 2 },
-      { "part": "TORSO", "ignored": 18 }
+      { "part": "torso", "ignored": 18 }
     ],
     "encumbrance_always": [
-      [ "TORSO", 10 ],
+      [ "torso", 10 ],
       [ "head", 10 ],
       [ "ARM_L", 10 ],
       [ "ARM_R", 10 ],
@@ -319,7 +319,7 @@
     "cancels": [ "PAWS", "ARM_TENTACLES", "ARM_TENTACLES_4", "ARM_TENTACLES_8" ],
     "prereqs": [ "CHITIN", "CHITIN2", "CHITIN3", "CHITIN_FUR2", "CHITIN_FUR3" ],
     "threshreq": [ "THRESH_INSECT", "THRESH_SPIDER" ],
-    "restricts_gear": [ "TORSO" ]
+    "restricts_gear": [ "torso" ]
   },
   {
     "type": "mutation",
@@ -998,7 +998,7 @@
       { "part": "ARM_R", "neutral": 7, "good": 12 },
       { "part": "HAND_L", "neutral": 2, "good": 3 },
       { "part": "HAND_R", "neutral": 2, "good": 3 },
-      { "part": "TORSO", "neutral": 14, "good": 26 }
+      { "part": "torso", "neutral": 14, "good": 26 }
     ]
   },
   {
@@ -1269,7 +1269,7 @@
       { "part": "ARM_R", "neutral": 4 },
       { "part": "HAND_L", "neutral": 1 },
       { "part": "HAND_R", "neutral": 1 },
-      { "part": "TORSO", "neutral": 10 }
+      { "part": "torso", "neutral": 10 }
     ],
     "armor": [ { "parts": "ALL", "bash": 3, "cut": 3 } ]
   },
@@ -1316,7 +1316,7 @@
       { "part": "ARM_R", "neutral": 8 },
       { "part": "HAND_L", "neutral": 3 },
       { "part": "HAND_R", "neutral": 3 },
-      { "part": "TORSO", "neutral": 20 }
+      { "part": "torso", "neutral": 20 }
     ],
     "armor": [ { "parts": "ALL", "bash": 5, "cut": 5 } ]
   },
@@ -1587,7 +1587,7 @@
       { "part": "ARM_R", "ignored": 9 },
       { "part": "HAND_L", "ignored": 2 },
       { "part": "HAND_R", "ignored": 2 },
-      { "part": "TORSO", "ignored": 20 }
+      { "part": "torso", "ignored": 20 }
     ],
     "armor": [ { "parts": "ALL", "bash": 1, "cut": 2 } ]
   },
@@ -1632,7 +1632,7 @@
       { "part": "ARM_R", "ignored": 9 },
       { "part": "HAND_L", "ignored": 2 },
       { "part": "HAND_R", "ignored": 2 },
-      { "part": "TORSO", "ignored": 20 }
+      { "part": "torso", "ignored": 20 }
     ],
     "armor": [ { "parts": "ALL", "bash": 2, "cut": 3, "acid": 1 } ]
   },
@@ -1679,7 +1679,7 @@
       { "part": "ARM_R", "ignored": 9 },
       { "part": "HAND_L", "ignored": 2 },
       { "part": "HAND_R", "ignored": 2 },
-      { "part": "TORSO", "ignored": 20 }
+      { "part": "torso", "ignored": 20 }
     ],
     "armor": [ { "parts": "ALL", "bash": 1, "cut": 2, "acid": 1, "elec": 1 } ]
   },
@@ -1962,7 +1962,7 @@
       { "part": "ARM_R", "neutral": 14, "good": 20 },
       { "part": "HAND_L", "neutral": 4, "good": 8 },
       { "part": "HAND_R", "neutral": 4, "good": 8 },
-      { "part": "TORSO", "neutral": 28, "good": 40 }
+      { "part": "torso", "neutral": 28, "good": 40 }
     ]
   },
   {
@@ -2006,7 +2006,7 @@
       { "part": "ARM_R", "good": 19 },
       { "part": "HAND_L", "good": 5 },
       { "part": "HAND_R", "good": 5 },
-      { "part": "TORSO", "good": 40 }
+      { "part": "torso", "good": 40 }
     ],
     "armor": [ { "parts": "ALL", "bash": 1, "cut": 2, "acid": 2 } ]
   },
@@ -2052,7 +2052,7 @@
       { "part": "ARM_R", "ignored": 13 },
       { "part": "HAND_L", "ignored": 4 },
       { "part": "HAND_R", "ignored": 4 },
-      { "part": "TORSO", "ignored": 26 }
+      { "part": "torso", "ignored": 26 }
     ],
     "armor": [ { "parts": "ALL", "bash": 5, "cut": 5, "acid": 1 } ]
   },
@@ -2485,7 +2485,7 @@
     "visibility": 1,
     "ugliness": 1,
     "mixed_effect": true,
-    "encumbrance_always": [ [ "TORSO", 10 ], [ "ARM_L", 10 ], [ "ARM_R", 10 ] ],
+    "encumbrance_always": [ [ "torso", 10 ], [ "ARM_L", 10 ], [ "ARM_R", 10 ] ],
     "description": "You have grown noticeably taller and broader.  Much of it is useful muscle mass (Strength +3), but you find it throws off your balance and you get in your own way (+10 torso and arm encumbrance).",
     "prereqs": [ "STR_UP", "STR_UP_2", "STR_UP_3", "STR_UP_4" ],
     "changes_to": [ "LARGE_OK", "HUGE" ],
@@ -2521,7 +2521,7 @@
     "changes_to": [ "HUGE_OK" ],
     "category": [ "MUTCAT_CHIMERA" ],
     "passive_mods": { "str_mod": 6 },
-    "restricts_gear": [ "TORSO", "LEG_L", "LEG_R", "ARM_L", "ARM_R", "HAND_L", "HAND_R", "head", "FOOT_L", "FOOT_R" ],
+    "restricts_gear": [ "torso", "LEG_L", "LEG_R", "ARM_L", "ARM_R", "HAND_L", "HAND_R", "head", "FOOT_L", "FOOT_R" ],
     "destroys_gear": true
   },
   {
@@ -2539,7 +2539,7 @@
     "category": [ "MUTCAT_CHIMERA" ],
     "leads_to": [ "MUT_TOUGH" ],
     "passive_mods": { "str_mod": 8 },
-    "restricts_gear": [ "TORSO", "LEG_L", "LEG_R", "ARM_L", "ARM_R", "HAND_L", "HAND_R", "head", "FOOT_L", "FOOT_R" ],
+    "restricts_gear": [ "torso", "LEG_L", "LEG_R", "ARM_L", "ARM_R", "HAND_L", "HAND_R", "head", "FOOT_L", "FOOT_R" ],
     "destroys_gear": true
   },
   {
@@ -3830,7 +3830,7 @@
       { "part": "LEG_R", "neutral": 2 },
       { "part": "ARM_L", "neutral": 2 },
       { "part": "ARM_R", "neutral": 2 },
-      { "part": "TORSO", "neutral": 4 }
+      { "part": "torso", "neutral": 4 }
     ],
     "armor": [ { "parts": "ALL", "bash": 1, "cut": 1 } ]
   },
@@ -4024,7 +4024,7 @@
       { "part": "ARM_R", "ignored": 14 },
       { "part": "HAND_L", "ignored": 4 },
       { "part": "HAND_R", "ignored": 4 },
-      { "part": "TORSO", "ignored": 30 }
+      { "part": "torso", "ignored": 30 }
     ],
     "armor": [ { "parts": "ALL", "bash": 4, "cut": 4, "acid": 1 } ]
   },
@@ -4060,7 +4060,7 @@
       { "part": "ARM_R", "ignored": 10 },
       { "part": "HAND_L", "ignored": 2 },
       { "part": "HAND_R", "ignored": 2 },
-      { "part": "TORSO", "ignored": 18 }
+      { "part": "torso", "ignored": 18 }
     ],
     "armor": [ { "parts": "ALL", "bash": 10, "cut": 10, "acid": 1 } ]
   },
@@ -4108,7 +4108,7 @@
       { "part": "ARM_R", "ignored": 14 },
       { "part": "HAND_L", "ignored": 4 },
       { "part": "HAND_R", "ignored": 4 },
-      { "part": "TORSO", "ignored": 30 }
+      { "part": "torso", "ignored": 30 }
     ],
     "armor": [ { "parts": "ALL", "bash": 6, "cut": 6, "acid": 1 } ],
     "passive_mods": { "dex_mod": -3 }
@@ -4285,10 +4285,10 @@
     "description": "You have grown a thick shell over your torso, providing excellent armor.  You find you can use the empty space as 16 storage space, but cannot wear anything on your torso.  Somewhat reduces wet effects.",
     "changes_to": [ "SHELL2" ],
     "category": [ "MUTCAT_TORTOISE" ],
-    "wet_protection": [ { "part": "TORSO", "ignored": 26 } ],
-    "restricts_gear": [ "TORSO" ],
+    "wet_protection": [ { "part": "torso", "ignored": 26 } ],
+    "restricts_gear": [ "torso" ],
     "destroys_gear": true,
-    "armor": [ { "parts": "TORSO", "bash": 16, "cut": 16, "acid": 2 } ]
+    "armor": [ { "parts": "torso", "bash": 16, "cut": 16, "acid": 2 } ]
   },
   {
     "type": "mutation",
@@ -4301,15 +4301,15 @@
     "bodytemp_sleep": 500,
     "mixed_effect": true,
     "description": "Your protective shell has grown large enough to accommodate--if need be--your whole body.  Activate to pull your head and limbs into your shell, trading mobility and vision for warmth and shelter.",
-    "encumbrance_always": [ [ "TORSO", 10 ] ],
+    "encumbrance_always": [ [ "torso", 10 ] ],
     "prereqs": [ "SHELL" ],
     "threshreq": [ "THRESH_CEPHALOPOD", "THRESH_TORTOISE" ],
     "category": [ "MUTCAT_TORTOISE" ],
-    "wet_protection": [ { "part": "TORSO", "ignored": 26 } ],
+    "wet_protection": [ { "part": "torso", "ignored": 26 } ],
     "active": true,
-    "restricts_gear": [ "TORSO" ],
+    "restricts_gear": [ "torso" ],
     "destroys_gear": true,
-    "armor": [ { "parts": "TORSO", "bash": 30, "cut": 30, "acid": 4 } ]
+    "armor": [ { "parts": "torso", "bash": 30, "cut": 30, "acid": 4 } ]
   },
   {
     "type": "mutation",

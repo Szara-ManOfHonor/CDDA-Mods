@@ -12,7 +12,7 @@
     "material": [ "cotton", "leather" ],
     "symbol": "[",
     "color": "brown",
-    "covers": [ "TORSO" ],
+    "covers": [ "torso" ],
     "coverage": 25,
     "encumbrance": 4,
     "storage": 25,

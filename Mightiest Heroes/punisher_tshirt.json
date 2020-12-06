@@ -4,7 +4,7 @@
         "name" : "t-shirt",
         "weight" : 110,
         "color" : "white",
-        "covers" : ["TORSO"],
+        "covers" : ["torso"],
         "symbol" : "[",
         "description" : "A black t-shirt with a menacing white skull on the front.",
         "price" : 1000,

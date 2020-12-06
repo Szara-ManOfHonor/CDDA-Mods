@@ -299,10 +299,10 @@
       { "part": "ARM_R", "ignored": 12 },
       { "part": "HAND_L", "ignored": 3 },
       { "part": "HAND_R", "ignored": 3 },
-      { "part": "TORSO", "ignored": 26 }
+      { "part": "torso", "ignored": 26 }
     ],
     "encumbrance_always": [
-      [ "TORSO", 10 ],
+      [ "torso", 10 ],
       [ "head", 10 ],
       [ "ARM_L", 10 ],
       [ "ARM_R", 10 ],
@@ -338,10 +338,10 @@
       { "part": "ARM_R", "ignored": 16 },
       { "part": "HAND_L", "ignored": 6 },
       { "part": "HAND_R", "ignored": 6 },
-      { "part": "TORSO", "ignored": 20 }
+      { "part": "torso", "ignored": 20 }
     ],
     "encumbrance_always": [
-      [ "TORSO", 40 ],
+      [ "torso", 40 ],
       [ "head", 40 ],
       [ "ARM_L", 30 ],
       [ "ARM_R", 30 ],
@@ -438,7 +438,7 @@
     "leads_to": [ "MUT_TOUGH" ],
     "category": [ "URSINE", "CATTLE", "CRAB" ],
     "passive_mods": { "str_mod": 4 },
-    "restricts_gear": [ "TORSO", "LEG_L", "LEG_R", "ARM_L", "ARM_R", "HAND_L", "HAND_R", "head", "FOOT_L", "FOOT_R" ],
+    "restricts_gear": [ "torso", "LEG_L", "LEG_R", "ARM_L", "ARM_R", "HAND_L", "HAND_R", "head", "FOOT_L", "FOOT_R" ],
     "destroys_gear": true
   },
   {
@@ -473,7 +473,7 @@
     "visibility": 1,
     "ugliness": 1,
     "mixed_effect": true,
-    "encumbrance_always": [ [ "TORSO", 10 ], [ "ARM_L", 10 ], [ "ARM_R", 10 ] ],
+    "encumbrance_always": [ [ "torso", 10 ], [ "ARM_L", 10 ], [ "ARM_R", 10 ] ],
     "description": "You have grown noticeably taller and broader.  Much of it is useful muscle mass (Strength +2), but you find it throws off your balance and you get in your own way (+10 torso and arm encumbrance).",
     "prereqs": [ "STR_UP", "STR_UP_2", "STR_UP_3", "STR_UP_4" ],
     "cancels": [ "SMALL", "SMALL2" ],
@@ -514,7 +514,7 @@
     "passive_mods": { "str_mod": 4 },
     "hp_adjustment": -6,
     "fatigue_modifier": 0.15,
-    "restricts_gear": [ "TORSO", "LEG_L", "LEG_R", "ARM_L", "ARM_R", "HAND_L", "HAND_R", "head", "FOOT_L", "FOOT_R" ],
+    "restricts_gear": [ "torso", "LEG_L", "LEG_R", "ARM_L", "ARM_R", "HAND_L", "HAND_R", "head", "FOOT_L", "FOOT_R" ],
     "destroys_gear": true
   },
   {
@@ -569,7 +569,7 @@
       { "part": "ARM_R", "ignored": 9 },
       { "part": "HAND_L", "ignored": 2 },
       { "part": "HAND_R", "ignored": 2 },
-      { "part": "TORSO", "ignored": 20 }
+      { "part": "torso", "ignored": 20 }
     ],
     "armor": [ { "parts": "ALL", "cut": 2 } ]
   },
@@ -740,7 +740,7 @@
       { "part": "ARM_R", "good": 19 },
       { "part": "HAND_L", "good": 5 },
       { "part": "HAND_R", "good": 5 },
-      { "part": "TORSO", "good": 40 }
+      { "part": "torso", "good": 40 }
     ],
     "armor": [ { "parts": "ALL", "cut": 1 } ]
   },

@@ -37,7 +37,7 @@
           { "damage_type": "stab", "amount": 9, "armor_multiplier": 0.5 },
           { "damage_type": "bash", "amount": 27, "armor_multiplier": 0.5 }
         ],
-        "effects": [ { "id": "grabbed", "duration": 1000, "bp": "TORSO" } ],
+        "effects": [ { "id": "grabbed", "duration": 1000, "bp": "torso" } ],
         "no_infection_chance": 2
       }
     ],
@@ -100,7 +100,7 @@
           { "damage_type": "stab", "amount": 9, "armor_multiplier": 0.5 },
           { "damage_type": "bash", "amount": 27, "armor_multiplier": 0.5 }
         ],
-        "effects": [ { "id": "grabbed", "duration": 1000, "bp": "TORSO" } ],
+        "effects": [ { "id": "grabbed", "duration": 1000, "bp": "torso" } ],
         "no_infection_chance": 2
       }
     ],
@@ -163,7 +163,7 @@
           { "damage_type": "stab", "amount": 9, "armor_multiplier": 0.5 },
           { "damage_type": "bash", "amount": 27, "armor_multiplier": 0.5 }
         ],
-        "effects": [ { "id": "grabbed", "duration": 1000, "bp": "TORSO" } ],
+        "effects": [ { "id": "grabbed", "duration": 1000, "bp": "torso" } ],
         "no_infection_chance": 2
       }
     ],
@@ -228,7 +228,7 @@
           { "damage_type": "stab", "amount": 9, "armor_multiplier": 0.5 },
           { "damage_type": "bash", "amount": 27, "armor_multiplier": 0.5 }
         ],
-        "effects": [ { "id": "grabbed", "duration": 1000, "bp": "TORSO" } ],
+        "effects": [ { "id": "grabbed", "duration": 1000, "bp": "torso" } ],
         "no_infection_chance": 2
       }
     ],
@@ -294,7 +294,7 @@
           { "damage_type": "stab", "amount": 9, "armor_multiplier": 0.5 },
           { "damage_type": "bash", "amount": 27, "armor_multiplier": 0.5 }
         ],
-        "effects": [ { "id": "grabbed", "duration": 1000, "bp": "TORSO" } ],
+        "effects": [ { "id": "grabbed", "duration": 1000, "bp": "torso" } ],
         "no_infection_chance": 2
       }
     ],
@@ -357,7 +357,7 @@
           { "damage_type": "stab", "amount": 9, "armor_multiplier": 0.5 },
           { "damage_type": "bash", "amount": 27, "armor_multiplier": 0.5 }
         ],
-        "effects": [ { "id": "grabbed", "duration": 1000, "bp": "TORSO" } ],
+        "effects": [ { "id": "grabbed", "duration": 1000, "bp": "torso" } ],
         "no_infection_chance": 2
       }
     ],
@@ -420,7 +420,7 @@
           { "damage_type": "stab", "amount": 9, "armor_multiplier": 0.5 },
           { "damage_type": "bash", "amount": 27, "armor_multiplier": 0.5 }
         ],
-        "effects": [ { "id": "grabbed", "duration": 1000, "bp": "TORSO" } ],
+        "effects": [ { "id": "grabbed", "duration": 1000, "bp": "torso" } ],
         "no_infection_chance": 2
       }
     ],
@@ -484,7 +484,7 @@
           { "damage_type": "stab", "amount": 9, "armor_multiplier": 0.5 },
           { "damage_type": "bash", "amount": 27, "armor_multiplier": 0.5 }
         ],
-        "effects": [ { "id": "grabbed", "duration": 1000, "bp": "TORSO" } ],
+        "effects": [ { "id": "grabbed", "duration": 1000, "bp": "torso" } ],
         "no_infection_chance": 2
       }
     ],
@@ -547,7 +547,7 @@
           { "damage_type": "stab", "amount": 9, "armor_multiplier": 0.5 },
           { "damage_type": "bash", "amount": 27, "armor_multiplier": 0.5 }
         ],
-        "effects": [ { "id": "grabbed", "duration": 1000, "bp": "TORSO" } ],
+        "effects": [ { "id": "grabbed", "duration": 1000, "bp": "torso" } ],
         "no_infection_chance": 2
       }
     ],
@@ -613,7 +613,7 @@
           { "damage_type": "stab", "amount": 9, "armor_multiplier": 0.5 },
           { "damage_type": "bash", "amount": 27, "armor_multiplier": 0.5 }
         ],
-        "effects": [ { "id": "grabbed", "duration": 1000, "bp": "TORSO" } ],
+        "effects": [ { "id": "grabbed", "duration": 1000, "bp": "torso" } ],
         "no_infection_chance": 2
       }
     ],
@@ -679,7 +679,7 @@
           { "damage_type": "stab", "amount": 9, "armor_multiplier": 0.5 },
           { "damage_type": "bash", "amount": 27, "armor_multiplier": 0.5 }
         ],
-        "effects": [ { "id": "grabbed", "duration": 1000, "bp": "TORSO" } ],
+        "effects": [ { "id": "grabbed", "duration": 1000, "bp": "torso" } ],
         "no_infection_chance": 2
       }
     ],
