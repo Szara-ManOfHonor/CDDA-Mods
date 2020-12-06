@@ -27,7 +27,7 @@
         "name_plural" : "rag pants",
         "weight" : 650,
         "color" : "light_gray",
-        "covers" : ["LEGS"],
+        "covers" : ["leg_l", "leg_r"],
         "to_hit" : 0,
         "storage" : 6,
         "symbol" : "[",

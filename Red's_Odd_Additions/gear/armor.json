@@ -10,7 +10,7 @@
     "material": [ "essence_bacon_material" ],
     "symbol": "[",
     "color": "red",
-    "covers": [ "LEGS" ],
+    "covers": [ "leg_l", "leg_r" ],
     "coverage": 100,
     "encumbrance": 40,
     "warmth": 65,
@@ -48,7 +48,7 @@
     "material": [ "cotton" ],
     "symbol": "-",
     "color": "brown",
-    "covers": [ "LEGS" ],
+    "covers": [ "leg_l", "leg_r" ],
     "coverage": 5,
     "material_thickness": 999,
     "flags": [ "VARSIZE" ]

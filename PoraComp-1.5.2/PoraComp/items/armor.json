@@ -37,7 +37,7 @@
     "price": 60000,
     "symbol": "[",
     "color": "dark_gray",
-    "covers": [ "LEGS" ],
+    "covers": [ "leg_l", "leg_r" ],
     "material": [ "nomex", "kevlar" ]
   },
   {
@@ -161,7 +161,7 @@
     "type": "ARMOR",
     "category": "armor",
     "name": "Survivor Leg Guards",
-    "covers": [ "LEGS" ],
+    "covers": [ "leg_l", "leg_r" ],
     "weight": "1700 g",
     "volume": 12,
     "price": 150000,

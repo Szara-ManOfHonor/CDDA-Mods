@@ -38,7 +38,7 @@
       "valid_mod_locations": [ [ "accessories", 250 ] ]
     },
     "artifact_data": { "effects_worn": [ "AEP_STR_UP" ] },
-    "covers": [ "HEAD", "mouth", "EYES", "TORSO", "arm_l", "arm_r", "hand_l", "hand_r", "LEGS", "foot_l", "foot_r" ],
+    "covers": [ "HEAD", "mouth", "EYES", "TORSO", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r" ],
     "storage": 4,
     "warmth": 30,
     "environmental_protection": 5,
@@ -86,7 +86,7 @@
       "valid_mod_locations": [ [ "accessories", 4 ] ]
     },
     "artifact_data": { "effects_worn": [ "AEP_STR_UP", "AEP_STR_UP" ] },
-    "covers": [ "HEAD", "mouth", "EYES", "TORSO", "arm_l", "arm_r", "hand_l", "hand_r", "LEGS", "foot_l", "foot_r" ],
+    "covers": [ "HEAD", "mouth", "EYES", "TORSO", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r" ],
     "storage": 4,
     "warmth": 30,
     "environmental_protection": 15,
