@@ -37,6 +37,7 @@
     "flags": [ "EATEN_COLD", "NUTRIENT_OVERRIDE" ],
     "spoils_in": "7 days 12 hours",
     "price": 110,
+    "weight": "263 g",
     "volume": "250 ml",
     "charges": 1,
     "calories": 15,
