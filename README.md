@@ -64,4 +64,4 @@ Youkai Disco https://github.com/Toltetix/cdda-youkai-mod
 
 # Links to other repository
 https://github.com/TheGoatGod/Goats-Mod-Compilation-redux
-Following my haitus, I used many of TheGoatGd's updates. The Goat also has a *lot* more mods in the pack, but few I've wanted to add to this pack. It is however useful for things like Ascension. Definitely give it a look.
+Following my haitus, I used many of TheGoatGod's updates. The Goat also has a *lot* more mods in the pack, but few I've wanted to add to this pack. It is however useful for things like Ascension. Definitely give it a look.
