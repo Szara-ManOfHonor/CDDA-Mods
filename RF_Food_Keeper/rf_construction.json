@@ -1,6 +1,7 @@
 [
   {
     "id": "Food_Keeper",
+	"group": "c_rf_food_keeper",
     "type": "construction",
     "description": "RF.A food keeper",
     "category": "FURN",
@@ -9,5 +10,10 @@
     "components": [ [ [ "rf_food_keeper", 1 ] ] ],
     "pre_special": "check_empty",
     "post_terrain": "f_rf_food_keeper"
+  },
+  {
+   "type": "construction_group",
+   "id": "c_rf_food_keeper",
+   "name": "Place RF.A Food Keeper"
   }
 ]
