@@ -4,7 +4,7 @@
         "name" : "superhero costume",
         "weight" : 5000,
         "color" : "yellow",
-        "covers" : ["LEGS", "TORSO", "ARMS", "HANDS"],
+        "covers" : ["LEGS", "TORSO", "ARMS", "hand_l", "hand_r"],
         "to_hit" : -3,
         "storage" : 0,
         "symbol" : "[",

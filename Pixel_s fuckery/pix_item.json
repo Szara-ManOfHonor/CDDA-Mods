@@ -44,7 +44,7 @@
     "material": [ "kevlar", "plastic" ],
     "symbol": "[",
     "color": "light_red",
-    "covers": [ "HEAD", "mouth", "EYES", "TORSO", "ARMS", "HANDS", "LEGS", "FEET" ],
+    "covers": [ "HEAD", "mouth", "EYES", "TORSO", "ARMS", "hand_l", "hand_r", "LEGS", "FEET" ],
     "coverage": 100,
     "encumbrance": 50,
     "warmth": 50,
