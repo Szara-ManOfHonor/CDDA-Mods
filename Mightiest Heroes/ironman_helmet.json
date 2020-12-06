@@ -9,7 +9,7 @@
         "color" : "red",
         "symbol" : "[",
         "material" : ["superalloy", "steel"],
-        "covers" : ["HEAD", "EYES", "mouth"],
+        "covers" : ["head", "EYES", "mouth"],
         "price" : 100000000,
         "volume" : 12,
         "to_hit" : -2,

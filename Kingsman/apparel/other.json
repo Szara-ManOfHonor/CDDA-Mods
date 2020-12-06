@@ -86,7 +86,7 @@
     "material": [ "leather" ],
     "symbol": "[",
     "color": "brown",
-    "covers": [ "HEAD" ],
+    "covers": [ "head" ],
     "coverage": 50,
     "encumbrance": 10,
     "warmth": 7,

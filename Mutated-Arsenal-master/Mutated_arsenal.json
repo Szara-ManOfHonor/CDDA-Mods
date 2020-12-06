@@ -38,7 +38,7 @@
     "material": [ "hardsteel", "steel" ],
     "symbol": "[",
     "color": "dark_gray",
-    "covers": [ "HEAD", "EYES", "mouth" ],
+    "covers": [ "head", "EYES", "mouth" ],
     "coverage": 100,
     "encumbrance": 60,
     "warmth": 60,

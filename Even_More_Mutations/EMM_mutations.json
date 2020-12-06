@@ -265,7 +265,7 @@
     "description": "You've grown a set of gills in your neck, allowing you to breathe underwater.  Slightly increases wet benefits.",
     "category": [ "CRAB", "FISH" ],
     "cancels": [ "GILLS_CEPH" ],
-    "wet_protection": [ { "part": "HEAD", "good": 1 } ]
+    "wet_protection": [ { "part": "head", "good": 1 } ]
   },
   {
     "type": "mutation",
@@ -290,7 +290,7 @@
     "category": [ "CRAB", "SPIDER" ],
     "changes_to": [ "CHITIN4", "CHITIN_FUR3" ],
     "wet_protection": [
-      { "part": "HEAD", "ignored": 4 },
+      { "part": "head", "ignored": 4 },
       { "part": "LEG_L", "ignored": 14 },
       { "part": "LEG_R", "ignored": 14 },
       { "part": "FOOT_L", "ignored": 4 },
@@ -303,7 +303,7 @@
     ],
     "encumbrance_always": [
       [ "TORSO", 10 ],
-      [ "HEAD", 10 ],
+      [ "head", 10 ],
       [ "ARM_L", 10 ],
       [ "ARM_R", 10 ],
       [ "HAND_L", 10 ],
@@ -313,7 +313,7 @@
       [ "FOOT_L", 10 ],
       [ "FOOT_R", 10 ]
     ],
-    "restricts_gear": [ "HEAD" ],
+    "restricts_gear": [ "head" ],
     "armor": [ { "parts": "ALL", "bash": 8, "cut": 8 } ]
   },
   {
@@ -329,7 +329,7 @@
     "category": [ "CRAB" ],
     "leads_to": [ "CRAB_CLAW" ],
     "wet_protection": [
-      { "part": "HEAD", "ignored": 8 },
+      { "part": "head", "ignored": 8 },
       { "part": "LEG_L", "ignored": 16 },
       { "part": "LEG_R", "ignored": 16 },
       { "part": "FOOT_L", "ignored": 6 },
@@ -342,7 +342,7 @@
     ],
     "encumbrance_always": [
       [ "TORSO", 40 ],
-      [ "HEAD", 40 ],
+      [ "head", 40 ],
       [ "ARM_L", 30 ],
       [ "ARM_R", 30 ],
       [ "HAND_L", 30 ],
@@ -353,7 +353,7 @@
       [ "mouth", 10 ],
       [ "FOOT_R", 30 ]
     ],
-    "restricts_gear": [ "HEAD" ],
+    "restricts_gear": [ "head" ],
     "armor": [ { "parts": "ALL", "bash": 11, "cut": 13, "stab": 3, "acid": 2 } ],
     "passive_mods": { "dex_mod": -3 }
   },
@@ -438,7 +438,7 @@
     "leads_to": [ "MUT_TOUGH" ],
     "category": [ "URSINE", "CATTLE", "CRAB" ],
     "passive_mods": { "str_mod": 4 },
-    "restricts_gear": [ "TORSO", "LEG_L", "LEG_R", "ARM_L", "ARM_R", "HAND_L", "HAND_R", "HEAD", "FOOT_L", "FOOT_R" ],
+    "restricts_gear": [ "TORSO", "LEG_L", "LEG_R", "ARM_L", "ARM_R", "HAND_L", "HAND_R", "head", "FOOT_L", "FOOT_R" ],
     "destroys_gear": true
   },
   {
@@ -514,7 +514,7 @@
     "passive_mods": { "str_mod": 4 },
     "hp_adjustment": -6,
     "fatigue_modifier": 0.15,
-    "restricts_gear": [ "TORSO", "LEG_L", "LEG_R", "ARM_L", "ARM_R", "HAND_L", "HAND_R", "HEAD", "FOOT_L", "FOOT_R" ],
+    "restricts_gear": [ "TORSO", "LEG_L", "LEG_R", "ARM_L", "ARM_R", "HAND_L", "HAND_R", "head", "FOOT_L", "FOOT_R" ],
     "destroys_gear": true
   },
   {
@@ -560,7 +560,7 @@
     "prereqs": [ "SKIN_ROUGH" ],
     "changes_to": [ "THICK_SCALES", "SLEEK_SCALES" ],
     "wet_protection": [
-      { "part": "HEAD", "ignored": 3 },
+      { "part": "head", "ignored": 3 },
       { "part": "LEG_L", "ignored": 10 },
       { "part": "LEG_R", "ignored": 10 },
       { "part": "FOOT_L", "ignored": 3 },
@@ -731,7 +731,7 @@
     "prereqs": [ "SCALES" ],
     "category": [ "FISH", "SNAKE" ],
     "wet_protection": [
-      { "part": "HEAD", "good": 7 },
+      { "part": "head", "good": 7 },
       { "part": "LEG_L", "good": 21 },
       { "part": "LEG_R", "good": 21 },
       { "part": "FOOT_L", "good": 6 },
@@ -1076,7 +1076,7 @@
     "prereqs": [ "LONG_NECK" ],
     "description": "You have a hood on your neck, like a cobra's. It looks striking, but makes you better at intimidating. Adds a slight head encumbrance.",
     "category": [ "SNAKE" ],
-    "encumbrance_always": [ [ "HEAD", 5 ] ],
+    "encumbrance_always": [ [ "head", 5 ] ],
     "social_modifiers": { "intimidate": 15 }
   },
   {

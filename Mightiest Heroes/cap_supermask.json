@@ -4,7 +4,7 @@
         "name" : "superhero mask",
         "weight" : 500,
         "color" : "blue",
-        "covers" : ["HEAD"],
+        "covers" : ["head"],
         "to_hit" : -3,
         "symbol" : "[",
         "description" : "A white and blue superhero mask. A white 'A' is on the front.",

@@ -30,7 +30,7 @@
     "material": [ "essence_bash_material" ],
     "symbol": "n",
     "color": "light_gray",
-    "covers": [ "HEAD" ],
+    "covers": [ "head" ],
     "coverage": 100,
     "encumbrance": 100,
     "warmth": 30,

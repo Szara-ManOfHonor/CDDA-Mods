@@ -45,7 +45,7 @@
     "material": [ "kevlar", "plastic", "cotton" ],
     "symbol": "[",
     "color": "white",
-    "covers": [ "HEAD", "mouth", "EYES" ],
+    "covers": [ "head", "mouth", "EYES" ],
     "coverage": 100,
     "encumbrance": 15,
     "warmth": 15,

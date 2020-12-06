@@ -4,7 +4,7 @@
         "name" : "superhero mask",
         "weight" : 500,
         "color" : "yellow",
-        "covers" : ["HEAD", "EYES"],
+        "covers" : ["head", "EYES"],
         "to_hit" : -3,
         "symbol" : "[",
         "description" : "A black and yellow superhero mask.",
