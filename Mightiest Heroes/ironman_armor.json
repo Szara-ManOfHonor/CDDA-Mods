@@ -9,7 +9,7 @@
         "color" : "red",
         "symbol" : "[",
         "material" : ["superalloy", "steel"],
-        "covers" : ["TORSO", "ARMS", "hand_l", "hand_r", "LEGS", "FEET"],
+        "covers" : ["TORSO", "arm_l", "arm_r", "hand_l", "hand_r", "LEGS", "FEET"],
         "price" : 300000000,
         "volume" : 52,
         "to_hit" : 1,

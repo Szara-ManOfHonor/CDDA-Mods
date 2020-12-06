@@ -140,7 +140,7 @@
     "type": "ARMOR",
     "category": "armor",
     "name": "Survivor Arm Guards",
-    "covers": [ "ARMS" ],
+    "covers": [ "arm_l", "arm_r" ],
     "weight": "1700 g",
     "volume": 12,
     "price": 150000,
