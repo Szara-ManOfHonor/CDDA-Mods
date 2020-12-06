@@ -1,6 +1,7 @@
 [
   {
     "id": "Make_a_moat_shallow",
+    "group": "make_a_moat_shallow",
     "type": "construction",
     "description": "Make a moat (shallow)",
     "category": "DIG",
@@ -13,6 +14,7 @@
   },
   {
     "id": "Fill_the_moat",
+	"group": "fill_the_moat",
     "type": "construction",
     "description": "Fill the moat",
     "category": "DIG",
@@ -24,6 +26,7 @@
   },
   {
     "id": "Fill_the_moat1",
+	"group": "fill_the_moat1",
     "type": "construction",
     "description": "Fill the moat",
     "category": "DIG",
@@ -35,6 +38,7 @@
   },
   {
     "id": "Peel_off_the_floor",
+	"group": "peel_off_the_floor",
     "type": "construction",
     "description": "Peel off the floor",
     "category": "DIG",
@@ -51,6 +55,7 @@
   },
   {
     "id": "Drill_holes_in_the_ceiling",
+    "group": "drill_holes_in_the_ceiling",
     "type": "construction",
     "description": "Drill holes in the ceiling",
     "category": "DIG",
