@@ -1,6 +1,7 @@
 [
   {
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "result": "bio_increased_bionics_space_mkI",
     "category": "CC_ELECTRONIC",
     "subcategory": "CSC_ELECTRONIC_CBMS",
@@ -24,6 +25,7 @@
   },
   {
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "result": "bio_increased_bionics_space_mkII",
     "category": "CC_ELECTRONIC",
     "subcategory": "CSC_ELECTRONIC_CBMS",
@@ -47,6 +49,7 @@
   },
   {
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "result": "bio_increased_bionics_space_mkIII",
     "category": "CC_ELECTRONIC",
     "subcategory": "CSC_ELECTRONIC_CBMS",
@@ -70,6 +73,7 @@
   },
   {
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "result": "bio_increased_bionics_space_mkIV",
     "category": "CC_ELECTRONIC",
     "subcategory": "CSC_ELECTRONIC_CBMS",
@@ -93,6 +97,7 @@
   },
   {
     "result": "bio_increased_bionics_space_mkI",
+    "activity_level": "LIGHT_EXERCISE",
     "type": "uncraft",
     "skill_used": "electronics",
     "difficulty": 7,
@@ -104,6 +109,7 @@
   },
   {
     "result": "bio_increased_bionics_space_mkII",
+    "activity_level": "LIGHT_EXERCISE",
     "type": "uncraft",
     "skill_used": "electronics",
     "difficulty": 7,
@@ -115,6 +121,7 @@
   },
   {
     "result": "bio_increased_bionics_space_mkIII",
+    "activity_level": "LIGHT_EXERCISE",
     "type": "uncraft",
     "skill_used": "electronics",
     "difficulty": 7,
@@ -126,6 +133,7 @@
   },
   {
     "result": "bio_increased_bionics_space_mkIV",
+    "activity_level": "LIGHT_EXERCISE",
     "type": "uncraft",
     "skill_used": "electronics",
     "difficulty": 7,
@@ -181,14 +189,14 @@
       [ "head", -6 ],
       [ "eyes", -1 ],
       [ "mouth", 0 ],
-      [ "ARM_L", -9 ],
-      [ "ARM_R", -9 ],
-      [ "HAND_L", -3 ],
-      [ "HAND_R", -3 ],
-      [ "LEG_L", -9 ],
-      [ "LEG_R", -9 ],
-      [ "FOOT_L", -1 ],
-      [ "FOOT_R", -1 ]
+      [ "arm_l", -9 ],
+      [ "arm_r", -9 ],
+      [ "hand_l", -3 ],
+      [ "hand_r", -3 ],
+      [ "leg_l", -9 ],
+      [ "leg_r", -9 ],
+      [ "foot_l", -1 ],
+      [ "foot_r", -1 ]
     ]
   },
   {
@@ -201,14 +209,14 @@
       [ "head", -12 ],
       [ "eyes", -2 ],
       [ "mouth", -1 ],
-      [ "ARM_L", -18 ],
-      [ "ARM_R", -18 ],
-      [ "HAND_L", -7 ],
-      [ "HAND_R", -7 ],
-      [ "LEG_L", -18 ],
-      [ "LEG_R", -18 ],
-      [ "FOOT_L", -3 ],
-      [ "FOOT_R", -3 ]
+      [ "arm_l", -18 ],
+      [ "arm_r", -18 ],
+      [ "hand_l", -7 ],
+      [ "hand_r", -7 ],
+      [ "leg_l", -18 ],
+      [ "leg_r", -18 ],
+      [ "foot_l", -3 ],
+      [ "foot_r", -3 ]
     ]
   },
   {
@@ -221,14 +229,14 @@
       [ "head", -18 ],
       [ "eyes", -3 ],
       [ "mouth", -2 ],
-      [ "ARM_L", -27 ],
-      [ "ARM_R", -27 ],
-      [ "HAND_L", -10 ],
-      [ "HAND_R", -10 ],
-      [ "LEG_L", -27 ],
-      [ "LEG_R", -27 ],
-      [ "FOOT_L", -5 ],
-      [ "FOOT_R", -5 ]
+      [ "arm_l", -27 ],
+      [ "arm_r", -27 ],
+      [ "hand_l", -10 ],
+      [ "hand_r", -10 ],
+      [ "leg_l", -27 ],
+      [ "leg_r", -27 ],
+      [ "foot_l", -5 ],
+      [ "foot_r", -5 ]
     ]
   },
   {
@@ -241,14 +249,14 @@
       [ "head", -24 ],
       [ "eyes", -4 ],
       [ "mouth", -3 ],
-      [ "ARM_L", -36 ],
-      [ "ARM_R", -36 ],
-      [ "HAND_L", -14 ],
-      [ "HAND_R", -14 ],
-      [ "LEG_L", -36 ],
-      [ "LEG_R", -36 ],
-      [ "FOOT_L", -7 ],
-      [ "FOOT_R", -7 ]
+      [ "arm_l", -36 ],
+      [ "arm_r", -36 ],
+      [ "hand_l", -14 ],
+      [ "hand_r", -14 ],
+      [ "leg_l", -36 ],
+      [ "leg_r", -36 ],
+      [ "foot_l", -7 ],
+      [ "foot_r", -7 ]
     ]
   },
   {
@@ -257,7 +265,7 @@
     "subtype": "distribution",
     "note": "High-tech bionics, handy for the harried researcher.  They get access to classified toys too.",
     "items": [
-      [ "bio_solar", 5 ],
+      [ "potato", 5 ],
       [ "bio_batteries", 20 ],
       [ "bio_metabolics", 15 ],
       [ "bio_ethanol", 5 ],
@@ -332,7 +340,7 @@
     "id": "bionics_mil",
     "items": [
       [ "bio_power_storage", 10 ],
-      [ "bio_solar", 10 ],
+      [ "potato", 10 ],
       [ "bio_batteries", 10 ],
       [ "bio_metabolics", 10 ],
       [ "bio_ethanol", 10 ],
@@ -401,7 +409,7 @@
     "note": "What the commandos get.",
     "items": [
       [ "bio_power_storage_mkII", 10 ],
-      [ "bio_solar", 15 ],
+      [ "potato", 15 ],
       [ "bio_batteries", 10 ],
       [ "bio_metabolics", 20 ],
       [ "bio_furnace", 15 ],

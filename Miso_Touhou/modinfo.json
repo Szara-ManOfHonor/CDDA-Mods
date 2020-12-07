@@ -2,10 +2,10 @@
   {
     "type": "MOD_INFO",
     "mod_type": "SUPPLEMENTAL",
-    "ident": "Touhou",
+    "id": "Touhou",
     "name": "Touhou",
-    "authors": [ "味噌煮込み茄子" ],
-    "maintainers": [ "味噌煮込み茄子" ],
+    "authors": [ "Miso stewed eggplant" ],
+    "maintainers": [ "Miso stewed eggplant" ],
     "dependencies": [ "Touyou" ],
     "description": "We add elements such as occupation, recipe, item which assumed Touhou Project motif."
   }
