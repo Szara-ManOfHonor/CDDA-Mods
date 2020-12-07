@@ -31,18 +31,18 @@
   },
   {
     "type": "construction_group",
-    "id": "c_plant_appricot_tree",
-    "name": "Plant Appricot Tree"
+    "id": "c_plant_apricot_tree",
+    "name": "Plant Apricot Tree"
   },
   {
     "type": "construction_group",
     "id": "c_take_apricot_cutting",
-    "name": "Take Appricot Tree Cutting"
+    "name": "Take Apricot Tree Cutting"
   },
   {
     "type": "construction_group",
     "id": "c_take_apricot_cutting_harvested",
-    "name": "Take Appricot Tree Cutting"
+    "name": "Take Apricot Tree Cutting"
   },
   {
     "type": "construction_group",
