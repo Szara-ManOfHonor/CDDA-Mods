@@ -16,7 +16,7 @@
     "color": "light_gray",
     "techniques": [ "WIDE", "BRUTAL", "WBLOCK_2" ],
     "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 1 ] ],
-    "flags": [ "DURABLE_MELEE", "SLICE" ]
+    "flags": [ "DURABLE_MELEE" ]
   },
   {
     "id": "scythe_war_perfected",
