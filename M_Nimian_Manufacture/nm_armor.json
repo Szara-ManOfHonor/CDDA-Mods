@@ -14,7 +14,7 @@
     "price": 37500,
     "cutting": 0,
     "phase": "solid",
-    "volume": "0 ml",
+    "volume": "3 ml",
     "to_hit": 1,
     "storage": 0,
     "warmth": 0,
@@ -26,7 +26,7 @@
     "initial_charges": 100,
     "charges_per_use": 1,
     "turns_per_charge": 0,
-    "ammo": "battery",
+    "ammo": [ "battery" ],
     "revert_to": "nm_eye_watch",
     "use_action": "WEATHER_TOOL",
     "flags": [ "WATCH", "WATERPROOF", "STURDY", "THERMOMETER", "SUPER_FANCY", "SKINTIGHT", "OVERSIZE", "HYGROMETER", "BAROMETER" ]
