@@ -483,7 +483,7 @@
     "environmental_protection": 30,
     "encumbrance": 5,
     "bashing": 5,
-    "flags": [ "WATERPROOF", "RAINPROOF", "STURDY", "OVERSIZE", "VARSIZE", "RAD_PROOF", "ACIDPROOF", "OUTER" ],
+    "flags": [ "WATERPROOF", "RAINPROOF", "STURDY", "OVERSIZE", "VARSIZE", "RAD_PROOF", "OUTER" ],
     "coverage": 100,
     "material_thickness": 2
   },
