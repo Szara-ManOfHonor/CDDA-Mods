@@ -56,7 +56,7 @@
     "points": 2,
     "description": "Since birth, your sole purpose in life has been the advancement of genetic science, willingly or not.  Once the cataclysm struck, you left the lab, and wandered aimlessly, ending up in a forest.",
     "start_name": "Forest",
-    "allowed_locs": [ "forest" ],
+    "allowed_locs": [ "sloc_forest" ],
     "professions": [ "unemployed", "mutant_patient", "mutant_volunteer", "broken_cyborg" ],
     "traits": [
       "ELFAEYES",
