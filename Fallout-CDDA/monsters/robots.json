@@ -1,14 +1,14 @@
 [
- {
+  {
     "id": "mon_protectron",
     "type": "MONSTER",
-    "name": "Protectron",
+    "name": { "str": "Protectron" },
     "description": "The sturdy Protectron model of robot was created before the great cataclysm, and served as a security automaton in both the private and business sectors. Multipurpose and modular. You can customize these things heavily.",
     "default_faction": "cop_bot",
     "species": [ "ROBOT" ],
     "diff": 12,
     "volume": "62500 ml",
-    "weight": 81500,
+    "weight": "81500 g",
     "hp": 80,
     "speed": 60,
     "material": [ "steel" ],
@@ -21,39 +21,29 @@
     "melee_dice_sides": 2,
     "melee_cut": 0,
     "dodge": 2,
-	"revert_to_itype": "bot_protectron_inactive",
+    "revert_to_itype": "bot_protectron_inactive",
     "armor_bash": 12,
     "armor_cut": 8,
     "vision_day": 50,
-	
-	"starting_ammo": { "battery": 1000 },
     "special_attacks": [
-	[ "PARROT", 0 ],
-      {
-        "type": "gun",
-        "cooldown": 2,
-        "gun_type": "laser_pistol_aep",
-        "ranges": [
-          [ 0, 12, "DEFAULT" ]
-        ]
-      }
+      [ "PARROT", 0 ],
+      { "type": "gun", "cooldown": 6, "gun_type": "mon_laser_pistol_aep", "ranges": [ [ 0, 12, "DEFAULT" ] ] }
     ],
     "path_settings": { "max_dist": 5 },
     "death_drops": { "groups": [ [ "robots", 4 ] ] },
     "death_function": [ "BROKEN" ],
     "flags": [ "SEES", "HEARS", "BASHES", "ELECTRONIC", "NO_BREATHE", "PRIORITIZE_TARGETS", "PATH_AVOID_DANGER_1" ]
   },
-  
   {
     "id": "mon_protectron_construction",
     "type": "MONSTER",
-    "name": "Construction Protectron",
+    "name": { "str": "Construction Protectron" },
     "description": "The sturdy Protectron model of robot was created before the great cataclysm, and served as a security automaton in both the private and business sectors. The construction model has a nailgun.",
     "default_faction": "cop_bot",
     "species": [ "ROBOT" ],
     "diff": 12,
     "volume": "62500 ml",
-    "weight": 81500,
+    "weight": "81500 g",
     "hp": 80,
     "speed": 60,
     "material": [ "steel" ],
@@ -66,14 +56,13 @@
     "melee_dice_sides": 2,
     "melee_cut": 0,
     "dodge": 2,
-	"revert_to_itype": "bot_protectron_construction_inactive",
+    "revert_to_itype": "bot_protectron_construction_inactive",
     "armor_bash": 12,
     "armor_cut": 8,
     "vision_day": 50,
-	
-	"starting_ammo": { "nail": 1000 },
+    "starting_ammo": { "nail": 1000 },
     "special_attacks": [
-	[ "PARROT", 0 ],
+      [ "PARROT", 0 ],
       {
         "type": "gun",
         "move_cost": 150,
@@ -89,17 +78,16 @@
     "death_function": [ "BROKEN" ],
     "flags": [ "SEES", "HEARS", "BASHES", "ELECTRONIC", "NO_BREATHE", "PRIORITIZE_TARGETS", "PATH_AVOID_DANGER_1" ]
   },
-  
   {
     "id": "mon_protectron_fire",
     "type": "MONSTER",
-    "name": "Fire Protectron",
+    "name": { "str": "Fire Protectron" },
     "description": "The sturdy Protectron model of robot was created before the great cataclysm, and served as a security automaton in both the private and business sectors. The construction model has a water cannon and axe.",
     "default_faction": "cop_bot",
     "species": [ "ROBOT" ],
     "diff": 12,
     "volume": "62500 ml",
-    "weight": 81500,
+    "weight": "81500 g",
     "hp": 180,
     "speed": 60,
     "material": [ "steel" ],
@@ -112,14 +100,13 @@
     "melee_dice_sides": 2,
     "melee_cut": 10,
     "dodge": 2,
-	"revert_to_itype": "bot_protectron_fire_inactive",
+    "revert_to_itype": "bot_protectron_fire_inactive",
     "armor_bash": 12,
     "armor_cut": 8,
     "vision_day": 50,
-	
-	"starting_ammo": { "water": 1000 },
+    "starting_ammo": { "water": 1000 },
     "special_attacks": [
-	[ "PARROT", 0 ],
+      [ "PARROT", 0 ],
       {
         "type": "gun",
         "move_cost": 100,
@@ -135,17 +122,16 @@
     "death_function": [ "BROKEN" ],
     "flags": [ "SEES", "HEARS", "BASHES", "FIREPROOF", "ELECTRONIC", "NO_BREATHE", "PRIORITIZE_TARGETS", "PATH_AVOID_DANGER_1" ]
   },
-  
   {
     "id": "mon_protectron_wattz",
     "type": "MONSTER",
-    "name": "Wattz Crier",
+    "name": { "str": "Wattz Crier" },
     "description": "The sturdy Protectron model of robot was created before the great cataclysm, and served as a security automaton in both the private and business sectors. Multipurpose and modular. You can customize these things heavily. This one was programmed as a Wattz crier, its lasers replaced.",
     "default_faction": "cop_bot",
     "species": [ "ROBOT" ],
     "diff": 12,
     "volume": "62500 ml",
-    "weight": 81500,
+    "weight": "81500 g",
     "hp": 80,
     "speed": 60,
     "material": [ "steel" ],
@@ -158,39 +144,26 @@
     "melee_dice_sides": 2,
     "melee_cut": 0,
     "dodge": 2,
-	"revert_to_itype": "bot_protectron_wattz_inactive",
+    "revert_to_itype": "bot_protectron_wattz_inactive",
     "armor_bash": 12,
     "armor_cut": 8,
     "vision_day": 50,
-	
-	"starting_ammo": { "battery": 1000 },
-    "special_attacks": [
-	[ "PARROT", 0 ],
-      {
-        "type": "gun",
-        "cooldown": 2,
-        "gun_type": "wattz_1000",
-        "ranges": [
-          [ 0, 12, "DEFAULT" ]
-        ]
-      }
-    ],
+    "special_attacks": [ [ "PARROT", 0 ], { "type": "gun", "cooldown": 2, "gun_type": "mon_wattz_1000", "ranges": [ [ 0, 12, "DEFAULT" ] ] } ],
     "path_settings": { "max_dist": 5 },
     "death_drops": { "groups": [ [ "robots", 4 ] ] },
     "death_function": [ "BROKEN" ],
     "flags": [ "SEES", "HEARS", "BASHES", "ELECTRONIC", "NO_BREATHE", "PRIORITIZE_TARGETS", "PATH_AVOID_DANGER_1" ]
   },
-  
   {
     "id": "mon_protectron_takahashi",
     "type": "MONSTER",
-    "name": "Chef Protectron",
+    "name": { "str": "Chef Protectron" },
     "description": "The sturdy Protectron model of robot was created before the great cataclysm, and served as a security automaton in both the private and business sectors. This one has a chef hat, and only speaks Japanese.",
     "default_faction": "cop_bot",
     "species": [ "ROBOT" ],
     "diff": 12,
     "volume": "62500 ml",
-    "weight": 81500,
+    "weight": "81500 g",
     "hp": 80,
     "speed": 60,
     "material": [ "steel" ],
@@ -203,39 +176,29 @@
     "melee_dice_sides": 2,
     "melee_cut": 0,
     "dodge": 2,
-	"revert_to_itype": "bot_protectron_takahashi_inactive",
+    "revert_to_itype": "bot_protectron_takahashi_inactive",
     "armor_bash": 12,
     "armor_cut": 8,
     "vision_day": 50,
-	
-	"starting_ammo": { "battery": 1000 },
     "special_attacks": [
-	[ "PARROT", 0 ],
-      {
-        "type": "gun",
-        "cooldown": 2,
-        "gun_type": "laser_pistol_aep",
-        "ranges": [
-          [ 0, 12, "DEFAULT" ]
-        ]
-      }
+      [ "PARROT", 0 ],
+      { "type": "gun", "cooldown": 6, "gun_type": "mon_laser_pistol_aep", "ranges": [ [ 0, 12, "DEFAULT" ] ] }
     ],
     "path_settings": { "max_dist": 5 },
     "death_drops": { "groups": [ [ "robots", 4 ] ] },
     "death_function": [ "BROKEN" ],
     "flags": [ "SEES", "HEARS", "BASHES", "ELECTRONIC", "NO_BREATHE", "PRIORITIZE_TARGETS", "PATH_AVOID_DANGER_1" ]
   },
-  
   {
     "id": "mon_protectron_subway",
     "type": "MONSTER",
-    "name": "Protectron Subway Steward",
+    "name": { "str": "Protectron Subway Steward" },
     "description": "The sturdy Protectron model of robot was created before the great cataclysm, and served as a security automaton in both the private and business sectors. Multipurpose and modular. This one is aggressively demanding a subway token.",
     "default_faction": "cop_bot",
     "species": [ "ROBOT" ],
     "diff": 12,
     "volume": "62500 ml",
-    "weight": 81500,
+    "weight": "81500 g",
     "hp": 80,
     "speed": 60,
     "material": [ "steel" ],
@@ -248,39 +211,29 @@
     "melee_dice_sides": 2,
     "melee_cut": 0,
     "dodge": 2,
-	"revert_to_itype": "bot_protectron_subway_inactive",
+    "revert_to_itype": "bot_protectron_subway_inactive",
     "armor_bash": 12,
     "armor_cut": 8,
     "vision_day": 50,
-	
-	"starting_ammo": { "battery": 1000 },
     "special_attacks": [
-	[ "PARROT", 0 ],
-      {
-        "type": "gun",
-        "cooldown": 2,
-        "gun_type": "laser_pistol_aep",
-        "ranges": [
-          [ 0, 12, "DEFAULT" ]
-        ]
-      }
+      [ "PARROT", 0 ],
+      { "type": "gun", "cooldown": 6, "gun_type": "mon_laser_pistol_aep", "ranges": [ [ 0, 12, "DEFAULT" ] ] }
     ],
     "path_settings": { "max_dist": 5 },
     "death_drops": { "groups": [ [ "robots", 4 ] ] },
     "death_function": [ "BROKEN" ],
     "flags": [ "SEES", "HEARS", "BASHES", "ELECTRONIC", "NO_BREATHE", "PRIORITIZE_TARGETS", "PATH_AVOID_DANGER_1" ]
   },
-  
   {
     "id": "mon_protectron_fisto",
     "type": "MONSTER",
-    "name": "Protectron?",
+    "name": { "str": "Protectron?" },
     "description": "The sturdy Protectron model of robot was created before the great cataclysm, and served as a security automaton in both the private and business sectors. This one speaks about ... ewwwwwwwwwwwwwwwwwwwwwww",
     "default_faction": "cop_bot",
     "species": [ "ROBOT" ],
     "diff": 12,
     "volume": "62500 ml",
-    "weight": 81500,
+    "weight": "81500 g",
     "hp": 80,
     "speed": 60,
     "material": [ "steel" ],
@@ -293,21 +246,145 @@
     "melee_dice_sides": 2,
     "melee_bash": 8,
     "dodge": 2,
-	"revert_to_itype": "bot_protectron_fisto_inactive",
+    "revert_to_itype": "bot_protectron_fisto_inactive",
     "armor_bash": 12,
     "armor_cut": 8,
     "vision_day": 50,
-	
-	"starting_ammo": { "battery": 1000 },
-    "special_attacks": [
-	[ "PARROT", 0 ]
-      
-    ],
+    "starting_ammo": { "battery": 1000 },
+    "special_attacks": [ [ "PARROT", 0 ] ],
     "path_settings": { "max_dist": 5 },
     "death_drops": { "groups": [ [ "robots", 4 ] ] },
     "death_function": [ "BROKEN" ],
     "flags": [ "SEES", "HEARS", "BASHES", "ELECTRONIC", "NO_BREATHE", "PRIORITIZE_TARGETS", "PATH_AVOID_DANGER_1" ]
+  },
+  {
+    "id": "mon_eyebot_enclave",
+    "type": "MONSTER",
+    "name": { "str": "Enclave Radio eyebot" },
+    "description": "A floating little round robot with no form of attacks. It plays a patriotic radio station, with new updates from President John Henry Eden.",
+    "default_faction": "cop_bot",
+    "species": [ "ROBOT" ],
+    "diff": 2,
+    "volume": "30000 ml",
+    "weight": "40750 g",
+    "hp": 20,
+    "speed": 120,
+    "material": [ "steel" ],
+    "symbol": "e",
+    "color": "light_gray",
+    "morale": 100,
+    "melee_cut": 0,
+    "dodge": 3,
+    "armor_bash": 8,
+    "armor_cut": 10,
+    "revert_to_itype": "bot_eyebot_enclave_inactive",
+    "special_attacks": [ [ "PARROT", 0 ] ],
+    "death_drops": { "groups": [ [ "robots", 4 ], [ "eyebot", 1 ] ] },
+    "death_function": [ "BROKEN" ],
+    "flags": [ "SEES", "FLIES", "ELECTRONIC", "NO_BREATHE", "NOHEAD", "PRIORITIZE_TARGETS" ]
+  },
+  {
+    "id": "mon_eyebot_minutemen",
+    "type": "MONSTER",
+    "name": { "str": "Radio Freedom eyebot" },
+    "description": "A dark blue painted eyebot, who plays a violin-filled radio station, with occasional news reports. You can't tell if theyre automated, or the minutemen really have a fortress somewhere.",
+    "default_faction": "cop_bot",
+    "species": [ "ROBOT" ],
+    "diff": 2,
+    "volume": "30000 ml",
+    "weight": "40750 g",
+    "hp": 20,
+    "speed": 120,
+    "material": [ "steel" ],
+    "symbol": "e",
+    "color": "blue",
+    "morale": 100,
+    "melee_cut": 0,
+    "dodge": 3,
+    "armor_bash": 8,
+    "armor_cut": 10,
+    "revert_to_itype": "bot_eyebot_minutemen_inactive",
+    "special_attacks": [ [ "PARROT", 0 ] ],
+    "death_drops": { "groups": [ [ "robots", 4 ], [ "eyebot", 1 ] ] },
+    "death_function": [ "BROKEN" ],
+    "flags": [ "SEES", "FLIES", "ELECTRONIC", "NO_BREATHE", "NOHEAD", "PRIORITIZE_TARGETS" ]
+  },
+  {
+    "id": "mon_eyebot_mrnewvegas",
+    "type": "MONSTER",
+    "name": { "str": "Radio New Vegas eyebot" },
+    "description": "An eyebot programmed to play a radio station from really far out west. It has a lot of country-ish songs, and songs you'd hear in the city of sin. The radio host has a charisma you just can't resist.",
+    "default_faction": "cop_bot",
+    "species": [ "ROBOT" ],
+    "diff": 2,
+    "volume": "30000 ml",
+    "weight": "40750 g",
+    "hp": 20,
+    "speed": 120,
+    "material": [ "steel" ],
+    "symbol": "e",
+    "color": "yellow",
+    "morale": 100,
+    "melee_cut": 0,
+    "dodge": 3,
+    "armor_bash": 8,
+    "armor_cut": 10,
+    "revert_to_itype": "bot_eyebot_mrnewvegas_inactive",
+    "special_attacks": [ [ "PARROT", 0 ] ],
+    "death_drops": { "groups": [ [ "robots", 4 ], [ "eyebot", 1 ] ] },
+    "death_function": [ "BROKEN" ],
+    "flags": [ "SEES", "FLIES", "ELECTRONIC", "NO_BREATHE", "NOHEAD", "PRIORITIZE_TARGETS" ]
+  },
+  {
+    "id": "mon_eyebot_gnr",
+    "type": "MONSTER",
+    "name": { "str": "Galaxy News Radio eyebot" },
+    "description": "An eyebot tuned to a radio station out of the ruins of DC. The station has a bombastic host who fills you with energy.",
+    "default_faction": "cop_bot",
+    "species": [ "ROBOT" ],
+    "diff": 2,
+    "volume": "30000 ml",
+    "weight": "40750 g",
+    "hp": 20,
+    "speed": 120,
+    "material": [ "steel" ],
+    "symbol": "e",
+    "color": "blue",
+    "morale": 100,
+    "melee_cut": 0,
+    "dodge": 3,
+    "armor_bash": 8,
+    "armor_cut": 10,
+    "revert_to_itype": "bot_eyebot_gnr_inactive",
+    "special_attacks": [ [ "PARROT", 0 ] ],
+    "death_drops": { "groups": [ [ "robots", 4 ], [ "eyebot", 1 ] ] },
+    "death_function": [ "BROKEN" ],
+    "flags": [ "SEES", "FLIES", "ELECTRONIC", "NO_BREATHE", "NOHEAD", "PRIORITIZE_TARGETS" ]
+  },
+  {
+    "id": "mon_eyebot_gnr_numbers",
+    "type": "MONSTER",
+    "name": { "str": "Galaxy News Radio eyebot?" },
+    "description": "An eyebot tuned to a radio station out of the ruins of DC. Is that Three Dog from GNR? No... He sounds too depressed...",
+    "default_faction": "cop_bot",
+    "species": [ "ROBOT" ],
+    "diff": 2,
+    "volume": "30000 ml",
+    "weight": "40750 g",
+    "hp": 20,
+    "speed": 120,
+    "material": [ "steel" ],
+    "symbol": "e",
+    "color": "blue",
+    "morale": 100,
+    "melee_cut": 0,
+    "dodge": 3,
+    "armor_bash": 8,
+    "armor_cut": 10,
+    "revert_to_itype": "bot_eyebot_gnr_inactive",
+    "special_attacks": [ [ "PARROT", 0 ] ],
+    "death_drops": { "groups": [ [ "robots", 4 ], [ "eyebot", 1 ] ] },
+    "death_function": [ "BROKEN" ],
+    "flags": [ "SEES", "FLIES", "ELECTRONIC", "NO_BREATHE", "NOHEAD", "PRIORITIZE_TARGETS" ]
   }
-
-
 ]

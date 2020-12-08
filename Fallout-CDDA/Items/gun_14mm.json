@@ -1,22 +1,21 @@
 [
- {
+  {
     "id": "14mmpistol",
     "type": "GUN",
     "reload_noise_volume": 10,
-    "name": "14mm Pistol",
-    "name_plural": "14mm Pistols",
+    "name": { "str": "14mm Pistol", "str_pl": "14mm Pistols" },
     "description": "A Sig-Sauer 14mm Auto Pistol. Large, singleshot handgun. Excellent craftsmanship",
-    "weight": 1800,
-    "volume": 3,
+    "weight": "1800 g",
+    "volume": "750 ml",
     "price": 87500,
     "to_hit": 0,
     "bashing": 12,
     "material": [ "steel", "plastic" ],
     "symbol": "(",
     "color": "black",
-    "ammo": "14mm",
+    "ammo": [ "14mm" ],
     "skill": "pistol",
-    "ranged_damage": 1,
+    "ranged_damage": { "damage_type": "stab", "amount": 1 },
     "dispersion": 280,
     "durability": 7,
     "valid_mod_locations": [
@@ -31,34 +30,56 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
-    "magazine_well": 1,
-    "magazines": [ [ "14mm", [ "14mmpistolmag" ] ] ]
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "250 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "14mmpistolmag" ]
+      }
+    ]
   },
-  
-  
-    {
+  {
     "id": "14mmsmg",
     "type": "GUN",
     "reload_noise_volume": 10,
-    "name": "14mm smg",
-    "description": "The TDI Vector is a submachine gun with a uniquely designed magazine that comes with the rear sights of the gun The magazine loads at the top due to such, much like the FN P90 and TDI vector.",
-    "weight": 2600,
-    "volume": 7,
+    "name": { "str": "14mm smg" },
+    "description": "An SMG calibered in 14mm, based off the build of an old TDI vector, and enhanced by the Gun Runners.",
+    "weight": "2600 g",
+    "volume": "1750 ml",
     "price": 310000,
     "to_hit": -2,
     "bashing": 9,
     "material": [ "steel", "plastic" ],
     "symbol": "(",
     "color": "dark_gray",
-    "ammo": "14mm",
+    "ammo": [ "14mm" ],
     "skill": "smg",
     "dispersion": 280,
     "durability": 7,
     "burst": 7,
-    "valid_mod_locations": [ [ "accessories", 3 ], [ "barrel", 1 ], [ "bore", 1 ], [ "grip", 1 ], [ "mechanism", 4 ], [ "muzzle", 1 ], [ "rail", 1 ], [ "stock", 1 ], [ "underbarrel", 1 ] ],
-    "magazine_well": 2,
-    "magazines": [
-      [ "14mm", [ "14mmsmgmag" ] ]
+    "valid_mod_locations": [
+      [ "accessories", 3 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "magazine_well": "500 ml",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "14mmsmgmag" ]
+      }
     ]
   }
 ]

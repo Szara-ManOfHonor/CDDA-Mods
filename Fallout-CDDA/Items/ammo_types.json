@@ -1,11 +1,5 @@
 [
   {
-    "id": "10mm",
-    "name": "10mm Auto",
-    "default": "10mm",
-    "type": "ammunition_type"
-  },
-  {
     "id": "5mm",
     "name": "5mm",
     "default": "5mm",
@@ -30,7 +24,7 @@
     "type": "ammunition_type"
   },
   {
-    "id": "25mm_grenade",
+    "id": "25mm",
     "name": "25mm grenade",
     "default": "25mm_frag",
     "type": "ammunition_type"
@@ -52,5 +46,23 @@
     "id": "bbrocket",
     "name": "Rockwell Bigbazooka Rocket",
     "default": "bbrocket"
+  },
+  {
+    "type": "ammunition_type",
+    "id": "105mm",
+    "name": "105mm shell",
+    "default": "105mm_heat"
+  },
+  {
+    "type": "ammunition_type",
+    "id": "140mm",
+    "name": "140mm shell",
+    "default": "140mm_heat"
+  },
+  {
+    "type": "ammunition_type",
+    "id": "70mm",
+    "name": "70mm",
+    "default": "70mm_hedp"
   }
 ]
