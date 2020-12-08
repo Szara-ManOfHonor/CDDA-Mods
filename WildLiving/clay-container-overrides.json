@@ -9,12 +9,18 @@
     "volume": "37500 ml",
     "price": 10000,
     "to_hit": -2,
-    "material": "clay",
+    "material": [ "clay" ],
     "symbol": ")",
     "color": "brown",
-    "contains": "37500 ml",
-    "seals": true,
-    "watertight": true,
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "rigid": true,
+        "watertight": true,
+        "max_contains_volume": "37 L",
+        "max_contains_weight": "40 kg"
+      }
+    ],
     "qualities": [ [ "BOIL", 2 ], [ "CONTAIN", 1 ] ]
   },
   {

@@ -2,7 +2,7 @@
   {
     "id": "flint_hand_drill",
     "type": "TOOL",
-    "name": "flint hand drill",
+    "name": { "str": "flint hand drill" },
     "description": "A primitive bulky manual drill with a flint flake for a drill bit.  Powered by a bow drill, it will tire you quickly.",
     "weight": "1500 g",
     "volume": "500 ml",
@@ -23,7 +23,7 @@
     "skill_used": "fabrication",
     "difficulty": 1,
     "skills_required": [ "survival", 2 ],
-    "time": "1 hour",
+    "time": 60000,
     "autolearn": true,
     "qualities": [ { "id": "HAMMER", "level": 1 }, { "id": "CUT", "LEVEL": 1 } ],
     "components": [
