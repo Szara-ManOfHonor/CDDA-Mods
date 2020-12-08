@@ -15,7 +15,7 @@ A bunch of mods have been removed from this repository because they are being up
 All credit for the original mods goes to their creators.
 
 # Current update status
-Updating is in progress, 6Dec2020. The mods seem to load, though there are many realtively harmless bugs still to squash. They're a work in progress. In the meantime I highly reccomend TheGoatGod's repository linked below.
+Updating is in progress, 6Dec2020. The mods seem to load, though there are many realtively harmless bugs still to squash. They're a work in progress. In the meantime I highly reccomend TheGoatGod's and Kenan's respective repository linked below.
 
 Check issues for the most important details. Testing in progress.
 
@@ -64,4 +64,4 @@ Youkai Disco https://github.com/Toltetix/cdda-youkai-mod
 
 # Links to other repository
 https://github.com/TheGoatGod/Goats-Mod-Compilation
-Following my haitus, I used many of TheGoatGod's updates. The Goat also has a *lot* more mods in the pack, but few I've wanted to add to this pack. It is however useful for things like Ascension. Definitely give it a look.
+https://github.com/Kenan2000/CDDA-Kenan-Modpack/tree/master/Kenan-Modpack
