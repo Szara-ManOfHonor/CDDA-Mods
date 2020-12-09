@@ -228,7 +228,8 @@
         "environmental_protection" : 1,
         "encumbrance" : 0,
         "bashing" : 0,
-        "flags" : ["WATER_FRIENDLY","LENS","SUN_GLASSES"],
+        "flags" : ["WATER_FRIENDLY","FRAGILE","SUN_GLASSES"],
+        "use_action": { "type": "firestarter", "moves": 1000, "moves_slow": 25000, "need_sunlight": true },
         "qualities" : [["GLARE", 1]],
         "coverage" : 75,
         "material_thickness" : 1
