@@ -901,10 +901,10 @@
     "subcategory": "CSC_ARMOR_STORAGE",
     "skill_used": "tailor",
     "difficulty": 2,
-    "time": 144000,
+    "time": 156000,
     "autolearn": true,
-    "using": [ [ "sewing_standard", 54 ] ],
-    "components": [ [ [ "rag", 72 ], [ "fur", 58 ], [ "tanned_pelt", 11 ], [ "leather", 43 ], [ "tanned_hide", 11 ] ] ]
+    "using": [ [ "tailoring_cotton_patchwork", 12 ], [ "fastener_large", 3 ] ],
+    "proficiencies": [ { "proficiency": "prof_closures" }, { "proficiency": "prof_closures_waterproofing" } ]
   },
   {
     "result": "tool_xlbelt",
