@@ -18,7 +18,15 @@
     "initial_charges": 100,
     "charges_per_use": 1,
     "turns_per_charge": 0,
-    "ammo": "gasoline",
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "airtight": true,
+        "ammo_restriction": { "gasoline": 100 },
+        "watertight": true
+      }
+    ],
     "use_action": [
         {
             "type": "transform",
@@ -33,7 +41,8 @@
             "type": "firestarter",
             "moves": 25
         }
-    ]
+    ],
+    "flags": [ "FIRESTARTER" ]
   },
 
 {
@@ -46,7 +55,7 @@
     "description": "This is a lighter in the casing of a large machinegun round, the flip top being the bullet.  It is lit.",
     "price": 5000,
     "material": "steel",
-    "flags": ["FIRE", "LIGHT_8", "FLAMING", "REFILLABLE_LIGHTER", "WATER_EXTINGUISH"],
+    "flags": [ "FIRE", "FIRESTARTER", "LIGHT_8", "FLAMING", "TRADER_AVOID", "WATER_EXTINGUISH" ]
     "weight": 120,
     "volume": 1,
     "bashing": 0,
@@ -56,7 +65,15 @@
     "initial_charges": 100,
     "charges_per_use": 0,
     "turns_per_charge": 10,
-    "ammo": "gasoline",
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "airtight": true,
+        "ammo_restriction": { "gasoline": 100 },
+        "watertight": true
+      }
+    ],
     "revert_to": "bullet_lighter",
     "use_action": [
         {
