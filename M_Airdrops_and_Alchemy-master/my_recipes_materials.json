@@ -25,20 +25,6 @@
   },
   {
     "type": "recipe",
-    "result": "duct_tape",
-    "id_suffix": "my_mod_extra",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_MATERIALS",
-    "skill_used": "fabrication",
-    "difficulty": 2,
-    "time": 1000,
-    "reversible": true,
-    "autolearn": true,
-    "tools": [ [ [ "superglue", -1 ] ] ],
-    "components": [ [ [ "rag", 1 ] ] ]
-  },
-  {
-    "type": "recipe",
     "result": "scrap",
     "id_suffix": "my_mod",
     "category": "CC_OTHER",
