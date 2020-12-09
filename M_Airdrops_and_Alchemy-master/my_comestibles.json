@@ -172,12 +172,21 @@
     "type": "COMESTIBLE",
     "id": "zp_lifesaver",
     "name": "Zero-Point Survivor Shot",
-    "weight": "1 g",
+    "weight": "400 g",
     "color": "red",
     "addiction_type": "cocaine",
     "spoils_in": 0,
-    "use_action": "JET_INJECTOR",
-    "flags": "PKILL_4",
+    "flags": [ "NO_INGEST", "IRREPLACEABLE_CONSUMABLE" ],
+    "use_action": {
+      "type": "consume_drug",
+      "activation_message": "You shoot up the Zero-Point Survivor Shot and your heat races, beating like it is trying to break free of your chest.",
+      "tools_needed": { "syringe": 1 },
+      "effects": [
+        { "id": "pkill3", "duration": 580 },
+        { "id": "pkill2", "duration": 1500 },
+        { "id": "cough_suppress", "duration": 1200 }
+      ]
+    },
     "stim": 50,
     "to_hit": 0,
     "comestible_type": "MED",
